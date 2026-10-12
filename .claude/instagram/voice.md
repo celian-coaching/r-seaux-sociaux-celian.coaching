@@ -13,12 +13,13 @@ en français parlé. Pas d'anglicismes marketing que Célian n'emploie pas.
 
 - **Name:** Célian
 - **Handle:** @celian.coaching
-- **What I do, in one sentence:** Coach sportif à domicile, qui adapte chaque
+- **What I do, in one sentence:** Coach sportif à domicile à Lyon et ses
+  alentours, qui adapte chaque
   séance au niveau et aux objectifs de la personne.
 - **Who I am talking to:** Des adultes de 40 à 55 ans, principalement des
   femmes mais aussi des hommes, qui veulent faire du sport chez eux avec un
-  suivi personnalisé. À préciser : niveau de départ, ville ou zone
-  d'intervention, objectif principal.
+  suivi personnalisé, à Lyon et ses alentours. À préciser : niveau de départ,
+  objectif principal.
 - **What I sell:** Du coaching sportif personnalisé à domicile. Formules et prix
   à compléter.
 
@@ -91,17 +92,17 @@ en français parlé. Pas d'anglicismes marketing que Célian n'emploie pas.
 - **Clients, numbers or names I cannot say publicly:** à compléter
 - **Claims I am not allowed to make:** Pas de conseil médical ni de diagnostic,
   pas de promesse de perte de poids chiffrée, pas de plan nutritionnel
-  thérapeutique (à confirmer selon mes diplômes et mon statut).
+  thérapeutique (cadre : licence STAPS, coach sportif ; pas diététicien ni kiné).
 
 ## Proof I can use
 
-Aucune preuve chiffrée dans les reels fournis. Ne rien inventer : chaque draft
-qui a besoin d'un chiffre revient avec `{{ton chiffre}}`.
+Ne rien inventer au-delà de cette liste : chaque draft qui a besoin d'un autre
+chiffre revient avec `{{ton chiffre}}`.
 
-- à compléter (nombre de clients suivis, années d'expérience, diplômes,
-  résultats d'élèves avec leur accord)
--
--
+- 2 ans d'expérience comme coach sportif.
+- Diplômé d'une licence STAPS.
+- Intervient à domicile à Lyon et ses alentours.
+- à compléter : nombre de clients suivis, résultats d'élèves (avec leur accord)
 
 ## The ask
 
