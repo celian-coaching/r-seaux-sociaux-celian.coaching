@@ -1,6 +1,7 @@
 # voice.md
 
-Profil de voix déduit de trois reels de Célian. Tout ce qui est marqué
+Profil de voix déduit de trois reels de Célian (reels 2 et 3 passés au « tu »,
+qui est désormais la règle). Tout ce qui est marqué
 « à compléter » n'apparaît pas dans ces textes : ne rien inventer à la place.
 
 **Langue : français.** Tous les scripts, légendes, commentaires et DM s'écrivent
@@ -11,12 +12,13 @@ en français parlé. Pas d'anglicismes marketing que Célian n'emploie pas.
 ## Who I am
 
 - **Name:** Célian
-- **Handle:** à compléter
+- **Handle:** @celian.coaching
 - **What I do, in one sentence:** Coach sportif à domicile, qui adapte chaque
   séance au niveau et aux objectifs de la personne.
-- **Who I am talking to:** Des particuliers qui veulent faire du sport chez eux
-  avec un suivi personnalisé. À préciser (âge, niveau de départ, ville ou zone
-  d'intervention, objectif principal).
+- **Who I am talking to:** Des adultes de 40 à 55 ans, principalement des
+  femmes mais aussi des hommes, qui veulent faire du sport chez eux avec un
+  suivi personnalisé. À préciser : niveau de départ, ville ou zone
+  d'intervention, objectif principal.
 - **What I sell:** Du coaching sportif personnalisé à domicile. Formules et prix
   à compléter.
 
@@ -27,11 +29,11 @@ en français parlé. Pas d'anglicismes marketing que Célian n'emploie pas.
      tes objectifs. C'est d'un échange entre nous que je te permets d'atteindre
      tes objectifs tout en prenant du plaisir à faire du sport. »
   2. « La nutrition est plus importante que la pratique sportive en elle-même.
-     La pratique permet d'entraîner vos muscles, mais la nutrition permet au
+     La pratique permet d'entraîner tes muscles, mais la nutrition permet au
      corps de mettre en place les efforts faits lors de la pratique. »
-  3. « Lorsque vous effectuez des mouvements du haut du corps, il faut tout le
+  3. « Lorsque tu effectues des mouvements du haut du corps, il faut tout le
      temps garder un gainage complet du buste afin d'éviter toute déformation de
-     votre colonne lors de l'exercice, et donc potentiellement de vous blesser. »
+     ta colonne lors de l'exercice, et donc potentiellement de te blesser. »
 - **On camera I am:** Calme, pédagogue et bienveillant. Je donne une info, puis
   la raison derrière. Pas de provocation, pas d'effet « choc ».
 - **Comment j'explique:** Une idée par reel, présentée par un lien de cause à
@@ -39,13 +41,12 @@ en français parlé. Pas d'anglicismes marketing que Célian n'emploie pas.
   Je donne toujours le « pourquoi », jamais une consigne sèche.
 - **Registre:** Oral et simple, avec des contractions parlées (« j'suis »,
   « tt le temps »), mais un vocabulaire technique juste quand c'est utile.
-- **Tutoiement ou vouvoiement:** Les deux apparaissent : « tu » pour parler de
-  mon offre (reel 1), « vous » pour les conseils (reels 2 et 3). À trancher :
-  garder un seul registre pour toute la page. Tant que ce n'est pas décidé,
-  « tu » pour la présentation et l'offre, « vous » pour le contenu conseil.
+- **Tutoiement:** Toujours « tu », partout : scripts, textes à l'écran,
+  légendes, réponses aux commentaires et DM. Jamais « vous », même pour les
+  conseils techniques.
 - **Words I actually use:** coach sportif à domicile, adapter, séances, niveau,
   objectifs, atteindre tes objectifs, échange entre nous, prendre du plaisir,
-  la pratique, entraîner vos muscles, nutrition, le corps, les efforts,
+  la pratique, entraîner tes muscles, nutrition, le corps, les efforts,
   mouvements du haut du corps, gainage complet du buste, colonne, déformation,
   éviter de se blesser, afin de, permet de.
 - **Words I would never say out loud:** Le jargon d'influenceur fitness
