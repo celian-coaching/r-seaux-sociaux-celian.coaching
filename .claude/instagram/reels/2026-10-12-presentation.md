@@ -40,13 +40,7 @@ Et prends enfin une minute pour toi.
 ```
 Coach sportif à domicile à Lyon : si t'as plus une minute pour toi, envoie-moi un message.
 
-Moi c'est Célian. 2 ans de coaching, une licence STAPS.
-
-Je viens chez toi, à Lyon et autour. Pas de salle, pas de trajet. Chaque séance est adaptée à ton niveau et à tes objectifs.
-
-Ce que je préfère dans ce métier, c'est le lien avec mes clients. Les voir progresser séance après séance, jusqu'au jour où ils atteignent enfin leur objectif.
-
-Que tu veuilles reprendre le sport ou juste prendre soin de toi, on en parle en message.
+Moi c'est Célian, licence STAPS. Je viens chez toi et j'adapte chaque séance à ton niveau, pour t'aider à reprendre le sport.
 
 #coachsportiflyon #coachadomicile #remiseenforme
 ```
