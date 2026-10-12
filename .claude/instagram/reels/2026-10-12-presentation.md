@@ -40,7 +40,7 @@ Et prends enfin une minute pour toi.
 ```
 Coach sportif à domicile à Lyon : si t'as plus une minute pour toi, envoie-moi un message.
 
-Ce que je préfère dans mon métier, c'est le lien avec mes clients. Les voir progresser séance après séance, jusqu'au jour où ils atteignent enfin leur objectif.
+Ce que je préfère ? Le lien avec mes clients, et les voir reprendre le sport séance après séance.
 
 #coachsportiflyon #coachadomicile #remiseenforme
 ```
