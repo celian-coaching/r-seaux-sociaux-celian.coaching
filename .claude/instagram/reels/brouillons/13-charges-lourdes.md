@@ -2,7 +2,7 @@
 
 Statut : brouillon, pas encore validé
 Accroche : #22 Contrarian Flip · 81,4 STRONG
-Durée : ~30 s à 150 mots/min
+Durée : 30,8 s à 150 mots/min
 
 ## Script
 
@@ -12,11 +12,12 @@ Pas pour tes os, après 45 ans.
 50 répétitions avec 1 kilo ? Ça fatigue.
 Mais ça construit peu.
 Tes muscles et tes os ont besoin de lourd.
-Lourd pour toi :
-en fin de série, il t'en reste 2 ou 3.
-Entre 6 et 12 répétitions.
-La technique d'abord : dos gainé, geste contrôlé.
-Et tu augmentes petit à petit.
+Lourd pour toi, ça veut dire quoi ?
+Une charge que tu soulèves 6 à 12 fois.
+Pas plus.
+Les dernières répétitions sont dures.
+Mais toujours propres : dos gainé, geste contrôlé.
+Quand ça devient facile, tu augmentes un peu.
 Envoie ça à une copine.
 Celle qui soulève encore des petits poids.
 ```
@@ -26,11 +27,11 @@ Celle qui soulève encore des petits poids.
 - 0:00  LES PETITS POIDS SUFFISENT PLUS
 - 0:02  APRÈS 45 ANS · TES OS
 - 0:05  50 RÉPÉTITIONS À 1 KG ?
-- 0:12  LOURD POUR TOI
-- 0:14  IL T'EN RESTE 2 OU 3
-- 0:18  6 À 12 RÉPÉTITIONS
-- 0:21  TECHNIQUE D'ABORD
-- 0:27  ENVOIE-LA À UNE COPINE
+- 0:12  LOURD POUR TOI = ?
+- 0:14  6 À 12 RÉPÉTITIONS MAX
+- 0:19  DOS GAINÉ · GESTE CONTRÔLÉ
+- 0:22  FACILE ? TU AUGMENTES
+- 0:26  ENVOIE-LA À UNE COPINE
 
 ## Tournage
 

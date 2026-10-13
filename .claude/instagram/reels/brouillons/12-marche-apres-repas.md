@@ -10,7 +10,7 @@ Durée : 28,4 s à 150 mots/min
 10 minutes de marche après manger.
 C'est tout.
 Après un repas, le sucre monte dans ton sang.
-Quand tu marches, tes muscles utilisent ce sucre.
+Quand tu marches, tes muscles absorbent davantage de sucre.
 Résultat : ton pic de glycémie est plus bas.
 Pas besoin de courir.
 Une marche tranquille suffit.
