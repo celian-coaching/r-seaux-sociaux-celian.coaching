@@ -1,6 +1,6 @@
 # Charges lourdes plutôt que séries interminables
 
-Statut : brouillon, pas encore validé
+Statut : validé le 2026-10-13
 Accroche : #22 Contrarian Flip · 81,4 STRONG
 Durée : 32,8 s à 150 mots/min
 

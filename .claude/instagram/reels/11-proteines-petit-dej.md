@@ -1,6 +1,6 @@
 # Protéines dès le petit-déjeuner
 
-Statut : brouillon, pas encore validé
+Statut : validé le 2026-10-13
 Accroche : #3 Nobody Tells You · 80,0 STRONG
 Durée : 28,0 s à 150 mots/min
 

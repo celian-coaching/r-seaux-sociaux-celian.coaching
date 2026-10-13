@@ -9,3 +9,8 @@
 - 2026-10-13 · reel · #10 If This, Then Watch · "Coincée 8 heures à ton bureau ?" · reels/08-posture-jour3-dos.md
 - 2026-10-13 · reel · #10 If This, Then Watch · "Coincée 8 heures à ton bureau ?" · reels/09-posture-jour4-gainage.md
 - 2026-10-13 · reel · #10 If This, Then Watch · "Coincée 8 heures à ton bureau ?" · reels/10-posture-jour5-hanches.md
+- 2026-10-13 · reel · #3 Nobody Tells You · "Personne te dit ça après 45 ans :" · reels/11-proteines-petit-dej.md
+- 2026-10-13 · reel · affirmation directe, sans formule nommée · "10 minutes de marche après manger." · reels/12-marche-apres-repas.md
+- 2026-10-13 · reel · #22 Contrarian Flip · "Les petits poids suffisent plus." · reels/13-charges-lourdes.md
+- 2026-10-13 · reel · #22 Contrarian Flip · "Le problème, c'est peut-être ta nuit." · reels/14-sommeil-faim.md
+- 2026-10-13 · reel · #20 Permission · "T'as pas besoin de « tonifier »." · reels/15-tonus-existe-pas.md

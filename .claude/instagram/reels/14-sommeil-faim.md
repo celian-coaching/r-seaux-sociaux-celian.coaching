@@ -1,6 +1,6 @@
 # Moins de 6 h de sommeil, plus de faim
 
-Statut : brouillon, pas encore validé
+Statut : validé le 2026-10-13
 Accroche : #22 Contrarian Flip · 81,4 STRONG
 Durée : 30,0 s à 150 mots/min
 

@@ -1,6 +1,6 @@
 # Le tonus n'existe pas
 
-Statut : brouillon, pas encore validé
+Statut : validé le 2026-10-13
 Accroche : #20 Permission · 77,8 STRONG
 Durée : 28,4 s à 150 mots/min
 

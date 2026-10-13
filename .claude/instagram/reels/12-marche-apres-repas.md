@@ -1,6 +1,6 @@
 # 10 minutes de marche après manger
 
-Statut : brouillon, pas encore validé
+Statut : validé le 2026-10-13
 Accroche : affirmation directe, sans formule nommée · 58,4 OK
 Durée : 28,8 s à 150 mots/min
 
