@@ -9,8 +9,13 @@ Dépôt de travail Instagram de Célian, coach sportif à domicile à Lyon.
 
 ## Façon de travailler avec Célian
 
-- Tout se passe dans le chat : quand il demande un script, l'afficher directement
-  dans la réponse (script, cartons à l'écran, plans). Pas de page web.
+- Tout se passe dans le chat : quand il demande un script (« envoie 13 »), l'afficher
+  directement dans la réponse. Pas de page web. Format validé par Célian :
+  1. un tableau Temps | Ce que tu dis | Carton à l'écran | Plan ;
+  2. le texte seul dans un bloc, à relire avant de filmer ;
+  3. la légende dans un bloc à copier (si elle existe, sinon proposer /ig-caption) ;
+  4. trois rappels avant de tourner (vertical + zones libres, sous-titres, accord
+     des personnes filmées), puis « Dis-moi quand il est tourné ».
 - Quand il dit qu'un reel est tourné ou posté, mettre à jour `suivi.md`
   (statut + date du jour), puis commit et push.
 - Toujours le tutoyer, en français.
