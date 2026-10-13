@@ -12,7 +12,7 @@ Statuts : à tourner → tourné → posté. Mis à jour par Claude quand Célia
 | 4 | Vrai ou faux 3/3 : il faut transpirer | à tourner | — | reels/04-vrai-faux-transpirer.md |
 | 5 | Le circuit du salon : 10 minutes, zéro matériel | à tourner | — | reels/05-circuit-du-salon.md |
 | 6 | Routine posture du bureau, jour 1/5 : nuque | à tourner | — | reels/06-posture-jour1-nuque.md |
-| 7 | Routine posture du bureau, jour 2/5 : epaules | à tourner | — | reels/07-posture-jour2-epaules.md |
+| 7 | Routine posture du bureau, jour 2/5 : épaules | à tourner | — | reels/07-posture-jour2-epaules.md |
 | 8 | Routine posture du bureau, jour 3/5 : dos | à tourner | — | reels/08-posture-jour3-dos.md |
 | 9 | Routine posture du bureau, jour 4/5 : gainage | à tourner | — | reels/09-posture-jour4-gainage.md |
 | 10 | Routine posture du bureau, jour 5/5 : hanches | à tourner | — | reels/10-posture-jour5-hanches.md |

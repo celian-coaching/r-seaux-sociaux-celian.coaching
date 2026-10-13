@@ -1,4 +1,4 @@
-# Routine posture du bureau, jour 2/5 : epaules
+# Routine posture du bureau, jour 2/5 : épaules
 
 Statut : validé le 2026-10-13
 Accroche : #10 If This, Then Watch · 76,4 STRONG (format de la série)
