@@ -1,7 +1,7 @@
 # Charges lourdes plutôt que séries interminables
 
 Statut : brouillon, pas encore validé
-Accroche : #2 Negative Command · 81,4 STRONG
+Accroche : #22 Contrarian Flip · 81,4 STRONG
 Durée : ~30 s à 150 mots/min
 
 ## Script

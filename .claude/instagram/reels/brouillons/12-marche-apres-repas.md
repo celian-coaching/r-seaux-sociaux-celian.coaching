@@ -1,7 +1,7 @@
 # 10 minutes de marche après manger
 
 Statut : brouillon, pas encore validé
-Accroche : #5 Time Collapse (« 10 minutes… C'est tout. ») · 58,4 OK
+Accroche : affirmation directe, sans formule nommée · 58,4 OK
 Durée : 28,4 s à 150 mots/min
 
 ## Script
