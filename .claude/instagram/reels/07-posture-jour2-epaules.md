@@ -1,6 +1,6 @@
-# Routine posture du bureau, jour 4/5 : gainage
+# Routine posture du bureau, jour 2/5 : epaules
 
-Statut : brouillon, pas encore validé
+Statut : validé le 2026-10-13
 Accroche : #10 If This, Then Watch · 76,4 STRONG (format de la série)
 Durée : ~26 s à 150 mots/min
 
@@ -9,13 +9,13 @@ Durée : ~26 s à 150 mots/min
 ```
 Coincée 8 heures à ton bureau ?
 Fais ça sans quitter ta chaise.
-Jour 4 sur 5 : ton gainage.
-Ta colonne a besoin de ton ventre pour tenir.
-Assise au bord de ta chaise, dos droit.
-Rentre le nombril, sans bloquer ta respiration.
-Tu tiens 20 secondes.
-3 fois.
-Demain, jour 5 : tes hanches.
+Jour 2 sur 5 : tes épaules.
+Au clavier, tes épaules s'enroulent vers l'avant.
+Assise droite, bras le long du corps.
+Serre les omoplates, vers l'arrière et vers le bas.
+5 secondes. Tu relâches.
+10 fois.
+Demain, jour 3 : ton dos.
 Envoie ça à une collègue.
 Coincée 8 heures à son bureau.
 ```
@@ -23,9 +23,9 @@ Coincée 8 heures à son bureau.
 ## Cartons à l'écran
 
 - 0:00  8H À TON BUREAU ?
-- 0:03  JOUR 4/5 · GAINAGE
-- 0:05  RENTRE LE NOMBRIL
-- 0:15  20 S · 3 FOIS
+- 0:03  JOUR 2/5 · ÉPAULES
+- 0:05  SERRE LES OMOPLATES
+- 0:15  5 S · 10 FOIS
 - 0:22  ENVOIE-LA À UNE COLLÈGUE
 
 ## Tournage

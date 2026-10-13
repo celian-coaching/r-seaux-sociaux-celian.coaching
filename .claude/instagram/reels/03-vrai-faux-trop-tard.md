@@ -1,6 +1,6 @@
 # Vrai ou faux 2/3 : après 45 ans c'est trop tard
 
-Statut : brouillon, pas encore validé
+Statut : validé le 2026-10-13
 Accroche : #22 Contrarian Flip · 50,6 OK
 Durée : 24,8 s à 150 mots/min
 

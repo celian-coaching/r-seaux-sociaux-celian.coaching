@@ -1,6 +1,6 @@
 # Vrai ou faux 1/3 : la muscu rend massive
 
-Statut : brouillon, pas encore validé
+Statut : validé le 2026-10-13
 Accroche : #22 Contrarian Flip (citation + « Faux. ») · 54,8 OK
 Durée : 27,2 s à 150 mots/min
 

@@ -1,1 +1,11 @@
 - 2026-10-12 · reel · #14 The Callout · "Plus une minute pour toi ?" · présentation du compte, 44,8 s · script : reels/2026-10-12-presentation.md
+- 2026-10-13 · reel · #12 The Objection · "« Je sais pas par où commencer. »" · reels/01-4-mouvements.md
+- 2026-10-13 · reel · #22 Contrarian Flip · "« La muscu, ça rend massive. »" · reels/02-vrai-faux-massive.md
+- 2026-10-13 · reel · #22 Contrarian Flip · "« Après 45 ans, c'est trop tard. »" · reels/03-vrai-faux-trop-tard.md
+- 2026-10-13 · reel · #22 Contrarian Flip · "« Si je transpire pas, ça marche pas. »" · reels/04-vrai-faux-transpirer.md
+- 2026-10-13 · reel · #20 Permission · "Pas besoin de salle. Juste 10 minutes." · reels/05-circuit-du-salon.md
+- 2026-10-13 · reel · #10 If This, Then Watch · "Coincée 8 heures à ton bureau ?" · reels/06-posture-jour1-nuque.md
+- 2026-10-13 · reel · #10 If This, Then Watch · "Coincée 8 heures à ton bureau ?" · reels/07-posture-jour2-epaules.md
+- 2026-10-13 · reel · #10 If This, Then Watch · "Coincée 8 heures à ton bureau ?" · reels/08-posture-jour3-dos.md
+- 2026-10-13 · reel · #10 If This, Then Watch · "Coincée 8 heures à ton bureau ?" · reels/09-posture-jour4-gainage.md
+- 2026-10-13 · reel · #10 If This, Then Watch · "Coincée 8 heures à ton bureau ?" · reels/10-posture-jour5-hanches.md

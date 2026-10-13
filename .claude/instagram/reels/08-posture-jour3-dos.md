@@ -1,6 +1,6 @@
 # Routine posture du bureau, jour 3/5 : dos
 
-Statut : brouillon, pas encore validé
+Statut : validé le 2026-10-13
 Accroche : #10 If This, Then Watch · 76,4 STRONG (format de la série)
 Durée : ~26 s à 150 mots/min
 

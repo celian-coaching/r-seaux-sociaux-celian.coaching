@@ -1,6 +1,6 @@
 # Par où commencer à 45 ans : 4 mouvements
 
-Statut : brouillon, pas encore validé
+Statut : validé le 2026-10-13
 Accroche : #12 The Objection · 80,8 STRONG (trad. anglaise)
 Durée : 45,6 s à 150 mots/min
 

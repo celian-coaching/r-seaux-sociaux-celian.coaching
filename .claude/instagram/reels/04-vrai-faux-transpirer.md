@@ -1,6 +1,6 @@
 # Vrai ou faux 3/3 : il faut transpirer
 
-Statut : brouillon, pas encore validé
+Statut : validé le 2026-10-13
 Accroche : #22 Contrarian Flip · 77,8 STRONG
 Durée : 28,8 s à 150 mots/min
 

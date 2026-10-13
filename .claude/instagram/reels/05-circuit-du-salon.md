@@ -1,6 +1,6 @@
 # Le circuit du salon : 10 minutes, zéro matériel
 
-Statut : brouillon, pas encore validé
+Statut : validé le 2026-10-13
 Accroche : #20 Permission · 75,1 STRONG
 Durée : 30,0 s à 150 mots/min
 
