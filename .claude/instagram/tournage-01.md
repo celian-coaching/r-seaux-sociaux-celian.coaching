@@ -1,84 +1,205 @@
-# Feuille de tournage n°1 : reels 0 à 4
+# Fiche de tournage n°1 : reels 0 à 4
 
-Une session, environ 1 h 30, pour 5 reels. On groupe par décor, pas par reel.
-Ordre : face caméra d'abord (voix fraîche, pas encore transpiré), exercices à la fin.
+À garder ouverte pendant le tournage. Tu suis les étapes dans l'ordre et tu coches.
+Pour chaque phrase : 1 s de silence, tu dis la phrase, 1 s de silence. Si tu butes, tu reprends la phrase entière.
 
-## Avant de commencer (10 min)
+## Avant de lancer
 
-- Téléphone en vertical, 4K ou 1080p, 30 i/s, objectif arrière (pas le selfie).
-- Trépied à hauteur des yeux. Micro-cravate si tu en as un, sinon pièce calme, fenêtres fermées.
-- Lumière : face à une fenêtre, jamais dos à elle. Lampes du plafond éteintes.
-- Fond rangé, sans rien de personnel. Garde le même fond pour les 3 Vrai/Faux.
-- Une seule tenue de sport pour tout : la série reste cohérente et le montage peut mélanger les prises.
-- Matériel : chaise sans accoudoirs, tapis, un pan de mur libre, gourde.
-- Zones libres : rien d'important dans le haut (15 %) ni le bas (20 %) du cadre, c'est là qu'Instagram met ses boutons.
+- [ ] Téléphone vertical, caméra arrière, trépied à hauteur des yeux
+- [ ] Face à la fenêtre, plafonnier éteint, fenêtres fermées (bruit)
+- [ ] Même tenue de sport pour toute la session
+- [ ] Rien d'important en haut ni en bas de l'image
+- [ ] Chaise sans accoudoirs, tapis, mur libre à portée
 
-Règle pour chaque phrase : 1 seconde de silence, tu dis la phrase, 1 seconde de silence.
-Si tu butes, tu reprends la phrase entière, pas la moitié. Le montage coupera.
+---
 
-## Décor A : face caméra, plan poitrine (35 min)
+## DÉCOR A : face caméra, cadré à la poitrine
 
-Tu restes au même endroit, tu enchaînes les 4 textes. Lis-les à voix haute une fois avant.
+### Étape 1 · Reel 4 « Transpirer » · 2 prises
 
-| Ordre | Reel | Quoi | Astuce |
-|---|---|---|---|
-| A1 | 4 · Transpirer | Texte complet, 2 prises | Le premier qu'on publie : c'est l'accroche la plus forte |
-| A2 | 2 · Massive | Texte complet, 2 prises | |
-| A3 | 3 · Trop tard | Texte complet, 2 prises | Court, c'est voulu, ne rallonge pas |
-| A4 | 0 · Présentation | Texte complet, 2 prises | Sourire sur « Moi c'est Célian » et sur « Cette satisfaction » |
-| A5 | 2, 3, 4 | Juste le « Faux. », 3 fois chacun | Ferme, regard caméra, petit temps avant. C'est le moment du reel |
+```
+« Si je transpire pas, ça marche pas. »
+Faux.
+Transpirer, c'est ton corps qui se refroidit.
+Ça dépend de la chaleur, de la pièce, de chacun.
+Pas de l'efficacité de ta séance.
+Ce qui compte, c'est un effort adapté à ton niveau.
+Et la régularité : 2 à 3 séances par semaine.
+Une séance sans transpirer peut être une très bonne séance.
+Envoie ça à une copine.
+Celle qui croit que ça marche pas.
+```
+- [ ] Prise 1   - [ ] Prise 2
 
-## Décor A bis : même endroit, plan serré (15 min)
+### Étape 2 · Reel 2 « Massive » · 2 prises
 
-Rapproche le trépied (visage et épaules). Redis les textes de A1 à A3 en entier, une prise chacun.
-Au montage on alterne large / serré à chaque carton : c'est ça qui donne le rythme, sans changer de lieu.
+```
+« La muscu, ça rend massive. »
+Faux.
+Prendre beaucoup de muscle, ça demande des années.
+Un entraînement très lourd, et une alimentation calculée pour.
+2 à 3 séances par semaine ?
+Ça fait pas ça.
+Ça te rend plus forte au quotidien.
+Après 40 ans, ton corps perd du muscle.
+Le renfo, c'est justement ce qui le garde.
+Envoie ça à une copine.
+Celle qui a peur de devenir massive.
+```
+- [ ] Prise 1   - [ ] Prise 2
 
-Bonus essais : pour 2, 3 et 4, tourne aussi une 2e version de l'accroche
-(ex. « On t'a dit que la muscu rendait massive ? »). On la publiera en « Essai » pour comparer.
+### Étape 3 · Reel 3 « Trop tard » · 2 prises
 
-## Décor B : exercices, de profil (25 min)
+```
+« Après 45 ans, c'est trop tard. »
+Faux.
+Ton muscle répond à l'entraînement à tout âge.
+À 45 ans, à 60, à 70 ans.
+Ce qui change, c'est le point de départ.
+Alors on adapte : ton niveau, ton rythme, tes objectifs.
+Et plus tu attends, plus ton corps perd du muscle.
+Envoie ça à une copine.
+Celle qui pense qu'il est trop tard.
+```
+- [ ] Prise 1   - [ ] Prise 2
 
-Trépied à hauteur de hanche, toi de profil, corps entier dans le cadre avec de la marge.
+### Étape 4 · Reel 0 « Présentation » · 2 prises
 
-| Ordre | Reel | Plan | Durée à filmer |
-|---|---|---|---|
-| B1 | 1 | Squat sur chaise, sans les mains, 10 répétitions | tout |
-| B2 | 1 | Pompes contre le mur, mains à hauteur d'épaules | tout |
-| B3 | 1 | Gainage sur les avant-bras | 20 s |
-| B4 | 1 | Gainage sur les genoux (la version facile) | 10 s |
-| B5 | 1 | Relevés de buste, épaules juste décollées, mains sans tirer la nuque | tout |
-| B6 | 1 | Face caméra : « Je sais pas par où commencer. » puis « Commence par ces 4 mouvements. » | 2 prises |
-| B7 | 1 | Face caméra : la fin, de « 3 tours » à « par où commencer » | 2 prises |
+Sourire sur « Moi c'est Célian » et sur « Cette satisfaction ».
 
-La voix des explications (« Tu t'assois, tu te relèves… ») : enregistre-la à part au calme,
-téléphone près de la bouche, puis on la pose sur les images. Plus propre que de parler en faisant l'exercice.
+```
+Plus une minute pour toi ?
+Mais t'as envie de prendre soin de toi ?
+Moi c'est Célian.
+Coach sportif à domicile, à Lyon et autour.
+Diplômé STAPS, ça fait 2 ans que je coache.
+C'est moi qui viens chez toi.
+Pas de salle, pas de trajet.
+J'adapte chaque séance à ton niveau et à tes objectifs.
+Ce que je préfère dans ce métier ?
+Le lien avec mes clients.
+Les voir progresser, séance après séance.
+Et le jour où ils atteignent enfin leur objectif...
+Cette satisfaction.
+Ils ont pas bossé pour rien.
+C'est ça que je veux vivre avec toi.
+Alors envoie-moi un message, on en parle.
+Et prends enfin une minute pour toi.
+```
+- [ ] Prise 1   - [ ] Prise 2
 
-## Décor C : plans de coupe pour la présentation (15 min)
+### Étape 5 · Les « Faux. » seuls · 3 fois chacun
 
-Ces images passent pendant que ta voix (A4) continue. 3 à 5 secondes chacune suffisent.
+Ferme, regard caméra, petit temps avant.
 
-| Ordre | Phrase du script | Plan |
-|---|---|---|
-| C1 | « C'est moi qui viens chez toi. » | Tu sonnes à une porte, sac de matériel à l'épaule |
-| C2 | « Pas de salle, pas de trajet. » | Tu poses le tapis et les élastiques dans un salon |
-| C3 | « J'adapte chaque séance… » | Tu montres un mouvement, de face |
-| C4 | « Le lien avec mes clients. » | Toi avec une cliente : explication, rire, check (seulement avec son accord) |
-| C5 | « Le jour où ils atteignent… » | Une cliente qui réussit un exercice, toi qui applaudis (accord aussi) |
+```
+(pour le 4)  « Si je transpire pas, ça marche pas. »  …  Faux.
+(pour le 2)  « La muscu, ça rend massive. »  …  Faux.
+(pour le 3)  « Après 45 ans, c'est trop tard. »  …  Faux.
+```
+- [ ] Reel 4 ×3   - [ ] Reel 2 ×3   - [ ] Reel 3 ×3
 
-Pas de cliente dispo ? On remplace C4 et C5 par toi face caméra, plan serré. Ça marche aussi.
+---
 
-## Avant de ranger (5 min)
+## DÉCOR A bis : même endroit, cadré serré (visage et épaules)
 
-- Regarde 2-3 prises de chaque décor sur le téléphone : son audible, rien de coupé en haut ni en bas.
-- Mets les fichiers dans un album « Tournage 01 ».
-- Dis-moi « tourné » : je mets à jour le suivi et je te fais la fiche de montage CapCut, reel par reel.
+Rapproche le trépied. Une prise de chaque, le texte est le même qu'aux étapes 1 à 3.
 
-## Ordre de publication conseillé
+### Étape 6 · Reel 4 « Transpirer », plan serré
+Texte de l'étape 1.
+- [ ] Prise
 
-1. Reel 0, présentation (pour que les nouveaux visiteurs sachent qui tu es)
-2. Reel 4, Vrai ou faux « transpirer »
-3. Reel 1, les 4 mouvements
-4. Reel 2, Vrai ou faux « massive »
-5. Reel 3, Vrai ou faux « trop tard »
+### Étape 7 · Reel 2 « Massive », plan serré
+Texte de l'étape 2.
+- [ ] Prise
 
-On alterne Vrai/Faux et exercices pour que le profil ne ressemble pas à une seule série.
+### Étape 8 · Reel 3 « Trop tard », plan serré
+Texte de l'étape 3.
+- [ ] Prise
+
+### Étape 9 · Bonus : 2e accroche pour les essais · 2 prises chacune
+
+```
+(reel 4)  On t'a dit qu'il fallait transpirer pour que ça marche ?
+(reel 2)  On t'a dit que la muscu rendait massive ?
+(reel 3)  On t'a dit qu'après 45 ans c'était trop tard ?
+```
+- [ ] Reel 4   - [ ] Reel 2   - [ ] Reel 3
+
+---
+
+## DÉCOR B : exercices, filmés de profil
+
+Trépied à hauteur de hanche, corps entier dans l'image avec de la marge. Tu ne parles pas pendant les exercices.
+
+### Étape 10 · Reel 1 : début, face caméra · 2 prises
+
+```
+« Je sais pas par où commencer. »
+Commence par ces 4 mouvements.
+```
+- [ ] Prise 1   - [ ] Prise 2
+
+### Étape 11 · Reel 1 : les mouvements, sans parler
+
+- [ ] Squat sur chaise, sans les mains, 10 fois
+- [ ] Pompes contre le mur, mains à hauteur d'épaules, 10 fois
+- [ ] Gainage sur les avant-bras, 20 s
+- [ ] Gainage sur les genoux, 10 s
+- [ ] Relevés de buste, épaules juste décollées, 10 fois
+
+### Étape 12 · Reel 1 : fin, face caméra · 2 prises
+
+```
+3 tours, 2 à 3 fois par semaine.
+Envoie cette vidéo à une copine.
+Celle qui sait pas par où commencer.
+```
+- [ ] Prise 1   - [ ] Prise 2
+
+### Étape 13 · Reel 1 : la voix des explications · au calme, téléphone près de la bouche
+
+Juste le son, l'image n'a pas d'importance. On le posera sur les mouvements.
+
+```
+Un : le squat sur chaise.
+Tu t'assois, tu te relèves. 10 fois, sans les mains.
+C'est le geste que tu fais tous les jours.
+Deux : les pompes contre le mur.
+10 fois. Mains à hauteur d'épaules, le corps droit.
+Le haut du corps, sans aller au sol.
+Trois : le gainage.
+20 secondes sur les avant-bras.
+Trop dur ? Sur les genoux.
+Ça protège ta colonne.
+Quatre : les relevés de buste, allongé.
+10 fois. Tu décolles juste les épaules.
+Sans tirer sur ta nuque.
+```
+- [ ] Prise 1   - [ ] Prise 2
+
+---
+
+## DÉCOR C : images pour la présentation (reel 0)
+
+Pas de texte à dire : ta voix de l'étape 4 passera par-dessus. 3 à 5 s par plan.
+
+### Étape 14 · Plans de coupe
+
+- [ ] Tu sonnes à une porte, sac à l'épaule (« C'est moi qui viens chez toi »)
+- [ ] Tu déroules le tapis dans un salon (« Pas de salle, pas de trajet »)
+- [ ] Tu montres un mouvement, de face (« J'adapte chaque séance »)
+- [ ] Toi avec une cliente : explication, rire, check (« Le lien avec mes clients ») · seulement avec son accord
+- [ ] Elle réussit un exercice, tu applaudis (« Le jour où ils atteignent… ») · accord aussi
+
+Pas de cliente disponible : refais « Le lien avec mes clients » jusqu'à « Cette satisfaction » face caméra, cadré serré.
+
+---
+
+## Avant de ranger
+
+- [ ] Regarde 2-3 prises par décor : son audible, rien de coupé
+- [ ] Tout dans un album « Tournage 01 »
+- [ ] Dis « tourné » à Claude : mise à jour du suivi + fiche de montage CapCut
+
+Ordre de publication : 0 Présentation → 4 Transpirer → 1 Quatre mouvements → 2 Massive → 3 Trop tard.
