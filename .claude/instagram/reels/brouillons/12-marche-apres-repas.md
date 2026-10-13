@@ -2,7 +2,7 @@
 
 Statut : brouillon, pas encore validé
 Accroche : affirmation directe, sans formule nommée · 58,4 OK
-Durée : 28,4 s à 150 mots/min
+Durée : 28,8 s à 150 mots/min
 
 ## Script
 

@@ -2,7 +2,7 @@
 
 Statut : brouillon, pas encore validé
 Accroche : #22 Contrarian Flip · 81,4 STRONG
-Durée : 30,8 s à 150 mots/min
+Durée : 32,8 s à 150 mots/min
 
 ## Script
 
