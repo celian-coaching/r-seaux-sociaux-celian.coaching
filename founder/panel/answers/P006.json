@@ -1,0 +1,13 @@
+{
+  "id": "P006",
+  "buys": true,
+  "purchases_first_month": 2,
+  "reason_code": "need",
+  "reason": "Les vidéos YouTube, je les ai déjà lancées trois fois et j'ai arrêté au bout d'une semaine. Avec quelqu'un qui vient chez moi à heure fixe je ne peux pas me défiler, et à 35 € la séance réelle c'est moins cher que mon resto du midi, donc je teste la découverte à 15 € et si ça accroche je prends l'abonnement.",
+  "objection": "Je ne connais pas ce coach, je ne vois que de l'Instagram : est-ce qu'il a déjà fait perdre 10 kg à des gens de mon âge, ou est-ce un jeune qui fait des reels ? Et une séance par semaine, je doute que ça suffise pour un vrai résultat visible.",
+  "would_change_my_mind": "",
+  "price_too_cheap": 30,
+  "price_cheap": 50,
+  "price_expensive": 90,
+  "price_too_expensive": 130
+}

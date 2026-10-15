@@ -1,0 +1,222 @@
+[
+ {
+  "id": "P001",
+  "name": "Noor",
+  "age": 44,
+  "segment": "Cadre",
+  "income": 53000,
+  "behaviour": "A déjà eu un coach",
+  "behaviour_how": "A déjà payé un coach, sait ce que ça vaut et ce qui l'a déçu.",
+  "objection": "Je n'ai pas la place chez moi pour faire du sport",
+  "habit": "tu pars au bureau vers 8h et tu rentres vers 19h"
+ },
+ {
+  "id": "P002",
+  "name": "Jasper",
+  "age": 49,
+  "segment": "Profession intermédiaire / employé qualifié",
+  "income": 33000,
+  "behaviour": "Reprise après une longue pause",
+  "behaviour_how": "N'a pas fait de sport depuis des années, a peur de se blesser ou d'être jugé.",
+  "objection": "Je ne comprends pas bien le crédit d'impôt, j'ai peur de devoir avancer l'argent",
+  "habit": "tu as pris quelques kilos depuis le Covid"
+ },
+ {
+  "id": "P003",
+  "name": "Hamza",
+  "age": 55,
+  "segment": "Cadre",
+  "income": 74000,
+  "behaviour": "Compare les prix",
+  "behaviour_how": "Regarde plusieurs coachs, Superprof et les salles avant de choisir.",
+  "objection": "Je n'ai pas la place chez moi pour faire du sport",
+  "habit": "tu as deux enfants ados à la maison"
+ },
+ {
+  "id": "P004",
+  "name": "Sol",
+  "age": 45,
+  "segment": "Cadre",
+  "income": 50000,
+  "behaviour": "Déjà abonné en salle, n'y va pas",
+  "behaviour_how": "Paie une salle à 30-40 €/mois depuis des mois sans y aller.",
+  "objection": "Je peux suivre un programme sur YouTube ou une appli",
+  "habit": "tu pars au bureau vers 8h et tu rentres vers 19h"
+ },
+ {
+  "id": "P005",
+  "name": "Andre",
+  "age": 55,
+  "segment": "Cadre",
+  "income": 70000,
+  "behaviour": "Déjà abonné en salle, n'y va pas",
+  "behaviour_how": "Paie une salle à 30-40 €/mois depuis des mois sans y aller.",
+  "objection": "Je n'ai pas la place chez moi pour faire du sport",
+  "habit": "tu marches le week-end mais tu ne fais rien en semaine"
+ },
+ {
+  "id": "P006",
+  "name": "Olivia",
+  "age": 42,
+  "segment": "Cadre supérieur / profession libérale / dirigeant",
+  "income": 136000,
+  "behaviour": "Objectif physique précis",
+  "behaviour_how": "Veut un résultat visible : perdre 10 kg, se muscler, un mariage ou des vacances en vue.",
+  "objection": "Je peux suivre un programme sur YouTube ou une appli",
+  "habit": "tu marches le week-end mais tu ne fais rien en semaine"
+ },
+ {
+  "id": "P007",
+  "name": "Priya",
+  "age": 41,
+  "segment": "Profession intermédiaire / employé qualifié",
+  "income": 36000,
+  "behaviour": "Manque de temps",
+  "behaviour_how": "Agenda chargé entre le travail et les enfants, veut que le sport vienne à lui.",
+  "objection": "Je ne connais pas ce coach, il est jeune et je ne sais pas s'il est sérieux",
+  "habit": "tu fais du télétravail deux jours par semaine"
+ },
+ {
+  "id": "P008",
+  "name": "Quinn",
+  "age": 40,
+  "segment": "Profession intermédiaire / employé qualifié",
+  "income": 42000,
+  "behaviour": "Objectif physique précis",
+  "behaviour_how": "Veut un résultat visible : perdre 10 kg, se muscler, un mariage ou des vacances en vue.",
+  "objection": "Je ne connais pas ce coach, il est jeune et je ne sais pas s'il est sérieux",
+  "habit": "tu marches le week-end mais tu ne fais rien en semaine"
+ },
+ {
+  "id": "P009",
+  "name": "Hana",
+  "age": 55,
+  "segment": "Profession intermédiaire / employé qualifié",
+  "income": 34000,
+  "behaviour": "A déjà eu un coach",
+  "behaviour_how": "A déjà payé un coach, sait ce que ça vaut et ce qui l'a déçu.",
+  "objection": "C'est cher même avec le crédit d'impôt",
+  "habit": "tu marches le week-end mais tu ne fais rien en semaine"
+ },
+ {
+  "id": "P010",
+  "name": "Seth",
+  "age": 40,
+  "segment": "Cadre supérieur / profession libérale / dirigeant",
+  "income": 81000,
+  "behaviour": "Reprise après une longue pause",
+  "behaviour_how": "N'a pas fait de sport depuis des années, a peur de se blesser ou d'être jugé.",
+  "objection": "C'est cher même avec le crédit d'impôt",
+  "habit": "tu pars au bureau vers 8h et tu rentres vers 19h"
+ },
+ {
+  "id": "P011",
+  "name": "Ethan",
+  "age": 48,
+  "segment": "Cadre supérieur / profession libérale / dirigeant",
+  "income": 127000,
+  "behaviour": "Manque de temps",
+  "behaviour_how": "Agenda chargé entre le travail et les enfants, veut que le sport vienne à lui.",
+  "objection": "Je ne comprends pas bien le crédit d'impôt, j'ai peur de devoir avancer l'argent",
+  "habit": "tu as pris quelques kilos depuis le Covid"
+ },
+ {
+  "id": "P012",
+  "name": "Omar",
+  "age": 53,
+  "segment": "Cadre",
+  "income": 50000,
+  "behaviour": "Déclic santé",
+  "behaviour_how": "Le médecin lui a parlé de son poids, de sa tension ou de son dos.",
+  "objection": "Je n'ai pas envie de m'engager plusieurs mois",
+  "habit": "tu pars au bureau vers 8h et tu rentres vers 19h"
+ },
+ {
+  "id": "P013",
+  "name": "Tomas",
+  "age": 43,
+  "segment": "Profession intermédiaire / employé qualifié",
+  "income": 36000,
+  "behaviour": "Manque de temps",
+  "behaviour_how": "Agenda chargé entre le travail et les enfants, veut que le sport vienne à lui.",
+  "objection": "Je ne suis pas sûr de tenir sur la durée",
+  "habit": "tu as mal au dos à force d'être assis"
+ },
+ {
+  "id": "P014",
+  "name": "Grace",
+  "age": 54,
+  "segment": "Profession intermédiaire / employé qualifié",
+  "income": 29000,
+  "behaviour": "Manque de temps",
+  "behaviour_how": "Agenda chargé entre le travail et les enfants, veut que le sport vienne à lui.",
+  "objection": "C'est cher même avec le crédit d'impôt",
+  "habit": "tu as pris quelques kilos depuis le Covid"
+ },
+ {
+  "id": "P015",
+  "name": "Raj",
+  "age": 47,
+  "segment": "Profession intermédiaire / employé qualifié",
+  "income": 32000,
+  "behaviour": "Compare les prix",
+  "behaviour_how": "Regarde plusieurs coachs, Superprof et les salles avant de choisir.",
+  "objection": "Je n'ai pas envie de m'engager plusieurs mois",
+  "habit": "tu fais du télétravail deux jours par semaine"
+ },
+ {
+  "id": "P016",
+  "name": "Adrian",
+  "age": 47,
+  "segment": "Cadre",
+  "income": 53000,
+  "behaviour": "Déclic santé",
+  "behaviour_how": "Le médecin lui a parlé de son poids, de sa tension ou de son dos.",
+  "objection": "Je ne suis pas sûr de tenir sur la durée",
+  "habit": "tu fais du télétravail deux jours par semaine"
+ },
+ {
+  "id": "P017",
+  "name": "Zoe",
+  "age": 41,
+  "segment": "Cadre",
+  "income": 43000,
+  "behaviour": "Compare les prix",
+  "behaviour_how": "Regarde plusieurs coachs, Superprof et les salles avant de choisir.",
+  "objection": "Je peux suivre un programme sur YouTube ou une appli",
+  "habit": "tu marches le week-end mais tu ne fais rien en semaine"
+ },
+ {
+  "id": "P018",
+  "name": "Luca",
+  "age": 47,
+  "segment": "Cadre supérieur / profession libérale / dirigeant",
+  "income": 80000,
+  "behaviour": "Reprise après une longue pause",
+  "behaviour_how": "N'a pas fait de sport depuis des années, a peur de se blesser ou d'être jugé.",
+  "objection": "Je ne suis pas sûr de tenir sur la durée",
+  "habit": "tu marches le week-end mais tu ne fais rien en semaine"
+ },
+ {
+  "id": "P019",
+  "name": "Victor",
+  "age": 41,
+  "segment": "Cadre",
+  "income": 57000,
+  "behaviour": "Déjà abonné en salle, n'y va pas",
+  "behaviour_how": "Paie une salle à 30-40 €/mois depuis des mois sans y aller.",
+  "objection": "Je n'ai pas la place chez moi pour faire du sport",
+  "habit": "tu as mal au dos à force d'être assis"
+ },
+ {
+  "id": "P020",
+  "name": "Dev",
+  "age": 54,
+  "segment": "Cadre",
+  "income": 67000,
+  "behaviour": "Déjà abonné en salle, n'y va pas",
+  "behaviour_how": "Paie une salle à 30-40 €/mois depuis des mois sans y aller.",
+  "objection": "J'ai peur d'avoir mal ou de me blesser",
+  "habit": "tu as deux enfants ados à la maison"
+ }
+]

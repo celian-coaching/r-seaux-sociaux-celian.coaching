@@ -1,0 +1,13 @@
+{
+  "id": "P017",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "Même à 35 € après crédit d'impôt, ça fait 126 € par mois pour quelque chose que je peux commencer gratuitement avec une appli ou YouTube. Avant de payer un coach, je vais comparer sur Superprof et voir si je tiens déjà deux séances par semaine toute seule.",
+  "objection": "Je ne suis pas sûre que ça vaille dix fois le prix d'un abonnement en salle ou d'une appli, et je ne connais pas ce coach, je n'ai vu qu'un compte Instagram.",
+  "would_change_my_mind": "Des avis vérifiables de clientes de mon âge à Lyon avec des résultats concrets, et la séance découverte offerte plutôt que payante pour tester sans risque.",
+  "price_too_cheap": 25,
+  "price_cheap": 40,
+  "price_expensive": 60,
+  "price_too_expensive": 80
+}

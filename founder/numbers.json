@@ -1,0 +1,20 @@
+{
+  "business": "Célian Coaching - séances individuelles à domicile, Lyon",
+  "unit": "séance",
+  "price": 60,
+  "variable": [
+    {"label": "Essence (aller-retour, donné par Célian)", "cost": 10},
+    {"label": "Cotisations URSSAF micro-entreprise (ESTIMATION ~25 % de 60 €, taux à vérifier)", "cost": 15}
+  ],
+  "fixed_monthly": [
+    {"label": "Frais fixes (donné par Célian)", "cost": 50}
+  ],
+  "startup": [
+    {"label": "Voiture + assurance (estimation de Célian)", "cost": 4500},
+    {"label": "Matériel", "cost": 30}
+  ],
+  "days_per_month": 21,
+  "capacity_per_day": 6,
+  "plan_per_day": 4,
+  "ramp_per_day": [0.5, 1, 1.5, 2, 2.5, 3, 3.3, 3.6, 3.8, 4, 4, 4]
+}

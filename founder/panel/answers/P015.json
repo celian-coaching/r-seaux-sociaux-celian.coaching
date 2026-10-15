@@ -1,0 +1,13 @@
+{
+  "id": "P015",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "price",
+  "reason": "La séance découverte à 15 € après crédit d'impôt, ça ne m'engage à rien, donc je la teste. Pour la suite je compare d'abord avec Superprof et ma salle, je ne signe rien tout de suite.",
+  "objection": "Même à moitié prix, une séance par semaine ça fait 126 € par mois, c'est beaucoup plus qu'une salle. Et je ne veux pas me retrouver coincé six mois si je décroche.",
+  "would_change_my_mind": "Un petit forfait de 4 ou 5 séances sans engagement, pour voir si je tiens le rythme avant de prendre l'abonnement.",
+  "price_too_cheap": 25,
+  "price_cheap": 40,
+  "price_expensive": 60,
+  "price_too_expensive": 80
+}

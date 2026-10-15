@@ -1,0 +1,13 @@
+{
+  "id": "P014",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "Le fait qu'il vienne à la maison, c'est exactement ce qu'il me faudrait avec mon emploi du temps. Mais 126 € par mois même après le crédit d'impôt, sur mon salaire, ça passe pas, et je vais pas faire la séance découverte à 15 € si je sais déjà que je pourrai pas suivre derrière.",
+  "objection": "C'est cher même avec le crédit d'impôt. Une séance par semaine à 35 €, ça fait vite un budget que j'ai pas, et je vois pas les kilos partir avec juste une heure par semaine.",
+  "would_change_my_mind": "Une formule moins chère, par exemple deux séances par mois avec le programme à faire seule entre les deux, ou une séance à partager avec une amie pour diviser le prix.",
+  "price_too_cheap": 25,
+  "price_cheap": 40,
+  "price_expensive": 55,
+  "price_too_expensive": 70
+}

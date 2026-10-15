@@ -1,0 +1,13 @@
+{
+  "id": "P008",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "J'ai un vrai objectif, perdre une dizaine de kilos, mais je ne vais pas faire entrer chez moi un coach que je ne connais pas juste parce que je l'ai vu passer sur Instagram. Même à 15 € la découverte, envoyer un message à un inconnu, ce n'est pas mon réflexe.",
+  "objection": "Je ne sais pas s'il est sérieux ni s'il a déjà fait perdre du poids à des gens de mon âge, il a l'air jeune et je n'ai aucune preuve que ça marche.",
+  "would_change_my_mind": "Voir des résultats concrets de clients de 40-50 ans à Lyon, avant/après et témoignages avec des vrais noms, ou qu'un collègue ou un ami me le recommande.",
+  "price_too_cheap": 25,
+  "price_cheap": 40,
+  "price_expensive": 60,
+  "price_too_expensive": 85
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P013",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "Qu'il vienne chez moi, c'est le seul format qui rentre entre le boulot et les gosses, et j'ai vraiment mal au dos. À 15 € la séance découverte je tente, mais je ne m'engage sur rien derrière tant que je n'ai pas vu si je tiens.",
+  "objection": "126 € par mois même après crédit d'impôt, c'est un vrai poste dans le budget de la famille, et je me connais : au bout de trois semaines je risque de lâcher et d'avoir payé pour rien.",
+  "would_change_my_mind": "",
+  "price_too_cheap": 25,
+  "price_cheap": 45,
+  "price_expensive": 65,
+  "price_too_expensive": 85
+}
