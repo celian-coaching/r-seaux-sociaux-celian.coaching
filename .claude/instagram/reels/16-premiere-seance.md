@@ -1,7 +1,7 @@
 # Un inconnu chez toi ? La première séance
 
 Statut : brouillon du 2026-10-15 (objection du panel founder-consumer)
-Accroche : #18 Cold Open Demo + objection, 81,4 STRONG (score sur la version anglaise, l'outil ne lit que l'anglais)
+Accroche : #12 The Objection, 81,4 STRONG (score sur la version anglaise, l'outil ne lit que l'anglais)
 Durée : 29,6 s à 150 mots/min
 
 ## Script
