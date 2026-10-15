@@ -3,11 +3,11 @@
   "buys": true,
   "purchases_first_month": 1,
   "reason_code": "convenience",
-  "reason": "Un coach qui vient chez moi le soir après 19h, c'est exactement ce qu'il me faut, je n'ai pas le temps d'aller en salle. 15 € la séance découverte, je ne prends pas de risque, je teste avant de m'engager sur les deux mois.",
-  "objection": "Le crédit d'impôt, je ne comprends toujours pas comment ça marche concrètement : qui fait la démarche, est-ce que je vais recevoir une facture à 246 € et devoir me débrouiller avec l'URSSAF ? Et une seule séance par semaine, je doute que ça suffise pour perdre mes kilos.",
+  "reason": "Qu'il vienne chez moi le soir après 19h avec le matériel, c'est exactement ce qu'il me faut avec mon agenda. La séance découverte à 15 € je la prends, mais je ne m'engage sur la formule Objectif qu'après avoir vu une vraie facture et compris le crédit d'impôt.",
+  "objection": "Le crédit d'impôt, je ne suis pas sûr de comprendre : si au final je dois avancer 488 € et attendre un an pour en récupérer la moitié, ça ne m'intéresse plus. Et 2 ans d'expérience, c'est un peu court pour un gars de 48 ans avec quelques kilos en trop.",
   "would_change_my_mind": "",
   "price_too_cheap": 25,
-  "price_cheap": 40,
+  "price_cheap": 45,
   "price_expensive": 70,
-  "price_too_expensive": 100
+  "price_too_expensive": 95
 }

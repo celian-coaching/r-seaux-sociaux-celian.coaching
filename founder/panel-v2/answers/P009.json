@@ -1,0 +1,13 @@
+{
+  "id": "P009",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "123 € par mois de ma poche pour une heure par semaine, sur mon salaire, ça reste trop pour moi. J'ai déjà payé un coach, j'ai vu qu'une fois qu'il n'est plus là j'arrête, alors je préfère continuer à marcher le week-end et éventuellement payer les 15 € de découverte pour voir.",
+  "objection": "C'est cher même avec le crédit d'impôt, et mon ancien coach m'a déçue : beaucoup d'argent pour un résultat qui n'a pas tenu une fois les séances finies. Un coach de 2 ans d'expérience, je ne sais pas s'il sait vraiment gérer les douleurs d'une femme de 55 ans.",
+  "would_change_my_mind": "Un tarif autour de 80-90 € par mois après crédit d'impôt, ou une séance tous les quinze jours avec le programme à faire seule, pour que ça rentre dans mon budget.",
+  "price_too_cheap": 20,
+  "price_cheap": 35,
+  "price_expensive": 50,
+  "price_too_expensive": 65
+}

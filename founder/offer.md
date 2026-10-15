@@ -105,3 +105,27 @@ Les objections qui restent :
 - une facture exemple, montrée dès la séance découverte.
 
 À côté, une offre « Objectif » pour ceux qui veulent un résultat physique : 2 séances par semaine, conseils de base sur l'alimentation (sans plan thérapeutique), mesures au départ et toutes les 4 semaines.
+
+## 7. Re-test de l'offre v3 (deux formules sans engagement)
+
+Pitch : founder/pitch.md (v2 gardée dans pitch-v2.md, panel v2 dans founder/panel-v2).
+
+| | v1 (prix seuls) | v2 (Reprise 8 sem., 2 mois) | v3 (2 formules, sans engagement) |
+|---|---|---|---|
+| Achètent | 8 sur 20 | 8 sur 20 | **9 sur 20** |
+| Fourchette acceptée | 30 à 75 € | 25 à 65 € | 25 à 65 € |
+
+- P006 (objectif de perte de poids) revient grâce à la formule « Objectif ». P001, P010 et P019, gagnés en v2, restent.
+- **Les 9 « oui » prennent tous la séance découverte d'abord, et aucun ne s'abonne directement.** C'est normal pour ce service : c'est la séance découverte qui fait signer. Elle doit montrer qu'on tient compte du dos et des douleurs, que la séance est adaptée au niveau, et présenter la facture exemple.
+- L'engagement n'est plus cité comme frein. Les séances déplaçables rassurent (P016, P018).
+- Ceux qui disent encore non :
+  - **La confiance** : jeune coach, 2 ans d'expérience (P003, P007, P008, P017). Seules des preuves réglent ça : témoignages, avant/après avec l'accord des clients, recommandations.
+  - **Le budget** (P002, P009, P014, P015). Ils demandent 2 séances par mois pour environ 60 € après crédit d'impôt, un duo ou un pack.
+  - **L'habitude d'une salle payée mais jamais utilisée** (P004, P005).
+  - **Les horaires** (P013).
+- L'écart de 8 à 9 sur 20 clients simulés est faible et peut venir du hasard. Ce qui compte, ce sont les objections qui ont disparu.
+
+Ajouté dans la grille v3 (documents/Grille_Tarifaire_Coaching_v3.docx), à domicile :
+- **Essentiel**, 2 séances par mois : 126 €/mois, soit 63 € après crédit d'impôt. Cette formule n'a pas été testée sur le panel. Elle répond à la demande répétée des petits budgets.
+- **Reprise en douceur** à la place de l'abonnement 1×/semaine, **Objectif** à la place de l'abonnement 2×/semaine.
+- Des notes sous le tableau : parc, créneaux, contenu de chaque formule, garantie, séance déplaçable 24h avant, facture exemple.

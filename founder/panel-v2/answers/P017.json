@@ -1,0 +1,13 @@
+{
+  "id": "P017",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "123 € par mois pour une séance par semaine, c'est pas rien quand je sais que je peux faire un programme YouTube gratuitement ou prendre une salle à 30 € par mois. Je vais d'abord comparer avec Superprof et les salles avant de m'engager sur deux mois.",
+  "objection": "Une seule séance par semaine, est-ce que ça vaut vraiment ce prix comparé à une appli ou une salle ? Et deux ans d'expérience, c'est un coach encore jeune.",
+  "would_change_my_mind": "Si la séance découverte à 15 € me montre clairement une différence avec ce que je ferais seule, ou si le prix par séance tombait autour de 20 € après crédit d'impôt.",
+  "price_too_cheap": 20,
+  "price_cheap": 35,
+  "price_expensive": 50,
+  "price_too_expensive": 65
+}

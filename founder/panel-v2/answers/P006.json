@@ -1,0 +1,13 @@
+{
+  "id": "P006",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "need",
+  "reason": "Moi je veux perdre 10 kg et voir une vraie différence avant l'été, pas une reprise en douceur pour éviter de me blesser. Une séance par semaine et des tests de forme, ça ne me promet pas le résultat que je cherche, et pour du doux je peux suivre une appli.",
+  "objection": "Une heure par semaine, ça me paraît trop peu pour transformer mon physique, et l'offre parle de douleurs et de prudence, pas de kilos ni de silhouette. Je ne vois pas ce que ça m'apporte de plus qu'un programme YouTube.",
+  "would_change_my_mind": "Une formule orientée résultat visible (perte de poids, 2 séances par semaine, suivi alimentaire, photos ou mesures avant/après) avec des exemples de clients de mon âge qui ont vraiment changé.",
+  "price_too_cheap": 25,
+  "price_cheap": 40,
+  "price_expensive": 75,
+  "price_too_expensive": 100
+}

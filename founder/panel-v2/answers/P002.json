@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Ça me parle, la reprise en douceur sans être jugé, mais 246 € par mois c'est beaucoup pour moi et je ne suis pas sûr de piger ce truc d'avance immédiate. Tant que je ne suis pas certain de ne payer que 123 €, je ne m'engage pas.",
+  "objection": "J'ai peur qu'on me prélève les 246 € et que le crédit d'impôt ne revienne que l'année prochaine, ou que je ne sois pas éligible. Et 123 € par mois, même comme ça, ça pèse dans mon budget.",
+  "would_change_my_mind": "Qu'il m'explique clairement, par écrit, que je ne paierai jamais plus de 123 € de ma poche, avec un exemple de facture, et que je puisse d'abord faire la séance découverte à 15 € pour voir si je tiens le coup.",
+  "price_too_cheap": 15,
+  "price_cheap": 25,
+  "price_expensive": 45,
+  "price_too_expensive": 65
+}

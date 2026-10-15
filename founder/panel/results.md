@@ -1,6 +1,6 @@
 # Buyer panel: Célian Coaching : coach sportif individuel à domicile (et en salle partenaire) à Lyon
 
-**8 buy · 12 pass** (40% buy) out of 20 simulated buyers. Seed 321923, so the same cards can be dealt again.
+**9 buy · 11 pass** (45% buy) out of 20 simulated buyers. Seed 321923, so the same cards can be dealt again.
 
 These are simulated buyers, not customers. Use this to find objections and weak spots, then confirm the big ones with real people before you spend.
 
@@ -8,7 +8,7 @@ These are simulated buyers, not customers. Use this to find objections and weak 
 
 | group | buyers | buy rate |
 | --- | ---: | ---: |
-| Cadre supérieur / profession libérale / dirigeant | 4 | 75%  (thin) |
+| Cadre supérieur / profession libérale / dirigeant | 4 | 100%  (thin) |
 | Cadre | 9 | 56% |
 | Profession intermédiaire / employé qualifié | 7 | 0%  (thin) |
 
@@ -20,49 +20,46 @@ These are simulated buyers, not customers. Use this to find objections and weak 
 | Reprise après une longue pause | 3 | 67%  (thin) |
 | A déjà eu un coach | 2 | 50%  (thin) |
 | Déjà abonné en salle, n'y va pas | 4 | 50%  (thin) |
+| Objectif physique précis | 2 | 50%  (thin) |
 | Manque de temps | 4 | 25%  (thin) |
 | Compare les prix | 3 | 0%  (thin) |
-| Objectif physique précis | 2 | 0%  (thin) |
 
 ## By income
 
 | group | buyers | buy rate |
 | --- | ---: | ---: |
+| $67,000 and up | 7 | 71%  (thin) |
 | $42,000 to $67,000 | 7 | 57%  (thin) |
-| $67,000 and up | 7 | 57%  (thin) |
 | under $42,000 | 6 | 0%  (thin) |
 
 ## Why they pass
 
 | reason | buyers | in their words |
 | --- | ---: | --- |
-| price | 5 | "Le crédit d'impôt aide, mais je ne m'engage pas sur 2 mois avant d'avoir comparé avec d'autres coachs sur Superprof et l'abonnement de la salle à côté. Et faire du sport dans le salon devant mes deux ados, ça ne me tente pas trop." (P003) · "123 € par mois de ma poche pour une heure par semaine, sur mon salaire, ça reste trop pour moi. J'ai déjà payé un coach, j'ai vu qu'une fois qu'il n'est plus là j'arrête, alors je préfère continuer à marcher le week-end et éventuellement payer les 15 € de découverte pour voir." (P009) |
-| trust | 2 | "Ça me parle, la reprise en douceur sans être jugé, mais 246 € par mois c'est beaucoup pour moi et je ne suis pas sûr de piger ce truc d'avance immédiate. Tant que je ne suis pas certain de ne payer que 123 €, je ne m'engage pas." (P002) · "Le format chez moi, une heure par semaine, ça colle à mon agenda, mais je ne connais pas ce coach : deux ans d'expérience, réservation par DM Instagram, je ne vais pas m'engager sur 246 € par mois sur cette base. Au mieux je teste la séance découverte à 15 €, mais je ne signe pas les 8 semaines tout de suite." (P007) |
-| habit | 2 | "Je paie déjà une salle où je ne vais jamais, alors rajouter 123 € par mois en plus, ça me paraît beaucoup pour quelque chose que je pourrais faire avec une appli. Je rentre à 19h crevé, je ne suis pas sûr de tenir même avec quelqu'un qui vient chez moi." (P004) · "Je paie déjà une salle à 35 € par mois où je ne mets pas les pieds, alors rajouter 123 € par mois pour un truc que je risque aussi de lâcher, non. Le coup du parc et des 2 m² règle mon problème de place, mais le vrai problème c'est moi en semaine." (P005) |
-| need | 2 | "Moi je veux perdre 10 kg et voir une vraie différence avant l'été, pas une reprise en douceur pour éviter de me blesser. Une séance par semaine et des tests de forme, ça ne me promet pas le résultat que je cherche, et pour du doux je peux suivre une appli." (P006) · "Moi je veux perdre 10 kg et voir la différence dans le miroir, pas une « reprise en douceur » avec des petits tests. Une séance par semaine, ça ne me semble pas suffisant pour un vrai résultat, et je ne connais pas ce coach, il a l'air jeune." (P008) |
-| other | 1 | "Deux mois d'un coup, même à 123 € par mois, c'est un engagement que je ne veux pas prendre sans avoir comparé. Sur Superprof je trouve des coachs à la séance, et une salle me coûte 30 € par mois sans contrat long." (P015) |
+| price | 6 | "L'idée d'un coach qui vient chez moi, sans regard des autres à la salle, ça me parle vraiment. Mais 126 € par mois tous les mois avec mon salaire, c'est une vraie dépense, et je ne suis pas sûr de tenir sur la durée." (P002) · "Le coup des 2 m² et du parc règle mon problème de place, mais 63 € la séance avant crédit d'impôt, je veux d'abord comparer avec Superprof et la salle d'à côté. Cette semaine je regarde, je ne réserve pas." (P003) |
+| habit | 3 | "Je paie déjà 35 € par mois une salle où je ne mets plus les pieds, alors rajouter 126 € par mois pour un truc de plus, j'ai peur de refaire exactement la même erreur. Et le soir à 19h, en rentrant du bureau, je me connais : je me dirai que YouTube fera l'affaire." (P004) · "Je paie déjà une salle depuis des mois sans y mettre les pieds, alors rajouter 126 € par mois pour un truc de plus, je me connais, je ne le fais pas sur un coup de tête. Et chez moi, honnêtement, je ne vois pas où on se mettrait." (P005) |
+| trust | 2 | "Le fait qu'il vienne chez moi, ça me parle vraiment avec mon agenda. Mais je ne le connais pas, je l'ai vu passer sur Instagram, il a l'air jeune, et je ne vais pas faire entrer un inconnu chez moi ni sortir 126 € par mois sur la base d'un post." (P007) · "J'ai un vrai objectif, perdre une dizaine de kilos, mais je ne vais pas mettre 244 € par mois chez un coach dont je n'ai jamais vu un seul résultat client. Même la séance à 15 €, je ne la réserve pas tant que je ne sais pas s'il est sérieux." (P008) |
 
 ## Why they buy
 
 | reason | buyers | in their words |
 | --- | ---: | --- |
-| convenience | 4 | "Mon vrai frein c'était la place chez moi, et 2 m² sans sauts avec le matériel apporté, ça le règle. À 15 € la séance découverte un samedi matin, je teste, mais je ne m'engage sur les 2 mois que si la première séance me convainc." (P001) · "Un coach qui vient chez moi le soir après 19h, c'est exactement ce qu'il me faut, je n'ai pas le temps d'aller en salle. 15 € la séance découverte, je ne prends pas de risque, je teste avant de m'engager sur les deux mois." (P011) |
-| need | 4 | "Chez moi, sans personne qui me regarde et avec quelqu'un qui fait attention à mes douleurs, c'est exactement ce qui me manque pour reprendre. Je ne m'engage pas tout de suite sur 2 mois, mais la séance découverte à 15 € je la prends, ça ne coûte rien d'essayer." (P010) · "Mon médecin m'a mis la pression sur la tension et le dos, et une séance découverte à 15 € sans engagement, chez moi après 19h, je peux difficilement trouver une excuse pour ne pas essayer. Par contre je ne signe pas les 2 mois tant que je n'ai pas vu comment il gère mon dos." (P012) |
+| need | 7 | "Les programmes YouTube, je les ai déjà lancés et je lâche au bout de deux semaines ; à 15 € la séance découverte chez moi un soir après 19h, je teste sans risque. Mais je ne signe pas tout de suite pour la formule Objectif, je veux d'abord voir s'il me fait vraiment transpirer." (P006) · "Je sais que je dois m'y remettre et l'idée d'un coach qui vient chez moi après 19h, en douceur et sans salle où je me sens jugé, ça me parle. À 15 € la séance découverte je teste, mais je ne signe pas le mois tout de suite." (P010) |
+| convenience | 2 | "S'il vient avec le matériel et que 2 m² ou le parc suffisent, mon excuse du manque de place tombe, et 15 € la séance découverte c'est rien. Mais je teste juste une fois, je ne signe pas le mois tout de suite." (P001) · "Qu'il vienne chez moi le soir après 19h avec le matériel, c'est exactement ce qu'il me faut avec mon agenda. La séance découverte à 15 € je la prends, mais je ne m'engage sur la formule Objectif qu'après avoir vu une vraie facture et compris le crédit d'impôt." (P011) |
 
 ## What would flip a no
 
-- Qu'il m'explique clairement, par écrit, que je ne paierai jamais plus de 123 € de ma poche, avec un exemple de facture, et que je puisse d'abord faire la séance découverte à 15 € pour voir si je tiens le coup.
-- Une séance découverte au parc qui me prouve que c'est adapté à mon âge et à mes douleurs, avec un prix par séance clairement en dessous des autres coachs que j'ai regardés.
-- Résilier ma salle et faire la séance découverte à 15 € : si je vois que le fait qu'il vienne chez moi me fait vraiment bouger, je pourrais remplacer l'abonnement salle par ça.
-- Si je résilie la salle d'abord et que la séance découverte à 15 € me montre que quelqu'un qui vient chez moi me fait vraiment bouger, je pourrais tenter les 8 semaines.
-- Une formule orientée résultat visible (perte de poids, 2 séances par semaine, suivi alimentaire, photos ou mesures avant/après) avec des exemples de clients de mon âge qui ont vraiment changé.
-- Des avis ou témoignages de clients de mon âge à Lyon, et une séance découverte où je sens qu'il s'adapte vraiment à moi.
-- Une offre clairement tournée perte de poids / transformation, avec des avant-après de vrais clients de mon âge à Lyon. Là, je ferais au moins la séance découverte à 15 €.
-- Un tarif autour de 80-90 € par mois après crédit d'impôt, ou une séance tous les quinze jours avec le programme à faire seule, pour que ça rentre dans mon budget.
-- Une séance découverte à 15 € qui me soulage le dos tout de suite, avec un prix autour de 80-90 € par mois après crédit d'impôt.
-- Un prix autour de 80 € par mois après crédit d'impôt, ou des séances à deux avec une amie pour partager le coût.
-- Pouvoir payer à la séance ou au mois sans engagement après la séance découverte. La découverte à 15 € je pourrais la tenter, mais pas signer pour 8 semaines dans la foulée.
-- Si la séance découverte à 15 € me montre clairement une différence avec ce que je ferais seule, ou si le prix par séance tombait autour de 20 € après crédit d'impôt.
+- Faire la séance découverte à 15 € et voir noir sur blanc, sur ma propre facture, que je ne paie vraiment que la moitié, sans me faire mal ni me sentir ridicule.
+- Voir qu'il est au même prix ou moins cher que les coachs Superprof une fois le crédit d'impôt déduit, avec des avis de clients de mon âge.
+- Résilier d'abord ma salle pour que ce ne soit pas un abonnement en plus, et faire la séance découverte à 15 € pour voir si le fait que quelqu'un sonne chez moi me fait vraiment bouger.
+- Une séance découverte le samedi matin au parc près de chez moi, pour voir si ça me donne vraiment envie, avant de résilier la salle pour mettre l'argent là-dedans.
+- Une recommandation d'une amie ou d'une collègue qui l'a eu comme coach, ou des avis vérifiables de clientes de mon âge à Lyon. Là je ferais la séance découverte à 15 €.
+- Voir des avant/après ou des témoignages de clients de 40-50 ans à Lyon qui ont perdu du poids avec lui, avec les chiffres.
+- Une formule à deux séances par mois autour de 60 € pour moi, ou une petite séance à plusieurs avec des gens de mon âge pour diviser le prix.
+- Que mon médecin ou un collègue qui l'a fait me dise que ça a vraiment réglé son mal de dos ; là je ferais au moins la séance découverte à 15 €.
+- Une formule à 2 séances par mois autour de 60 € pour moi, ou une séance à partager avec une amie pour diviser le prix.
+- Pouvoir acheter des séances à l'unité ou un carnet de 5 séances, sans formule mensuelle, autour de 40 € la séance avant crédit d'impôt.
+- Des avis ou des résultats concrets de femmes de mon âge à Lyon, et un tarif par séance proche de ce que je trouve sur Superprof.
 
 Buyers say they would buy **1.0 times** in the first month on average.
 

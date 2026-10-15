@@ -1,0 +1,13 @@
+{
+  "id": "P010",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Chez moi, sans personne qui me regarde et avec quelqu'un qui fait attention à mes douleurs, c'est exactement ce qui me manque pour reprendre. Je ne m'engage pas tout de suite sur 2 mois, mais la séance découverte à 15 € je la prends, ça ne coûte rien d'essayer.",
+  "objection": "246 € par mois pour une séance par semaine, ça reste cher, même si je ne paie que la moitié. Et je rentre à 19h crevé : est-ce que je vais vraiment tenir le lundi soir pendant 8 semaines ?",
+  "would_change_my_mind": "",
+  "price_too_cheap": 25,
+  "price_cheap": 40,
+  "price_expensive": 60,
+  "price_too_expensive": 80
+}

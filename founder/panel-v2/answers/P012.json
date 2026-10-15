@@ -1,0 +1,13 @@
+{
+  "id": "P012",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Mon médecin m'a mis la pression sur la tension et le dos, et une séance découverte à 15 € sans engagement, chez moi après 19h, je peux difficilement trouver une excuse pour ne pas essayer. Par contre je ne signe pas les 2 mois tant que je n'ai pas vu comment il gère mon dos.",
+  "objection": "Je n'ai pas envie de m'engager deux mois d'un coup, et 246 € par mois ça reste cher si au bout de trois séances je décroche ou que mon dos coince. Et 2 ans d'expérience, je me demande s'il sait vraiment gérer un quinquagénaire avec des douleurs.",
+  "would_change_my_mind": "Pouvoir payer à la séance ou au mois sans engagement après la découverte, ou qu'il travaille en lien avec mon médecin ou un kiné sur mon dos.",
+  "price_too_cheap": 20,
+  "price_cheap": 35,
+  "price_expensive": 55,
+  "price_too_expensive": 75
+}

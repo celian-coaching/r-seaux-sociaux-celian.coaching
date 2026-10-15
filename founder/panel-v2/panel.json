@@ -1,0 +1,95 @@
+{
+ "n": 20,
+ "seed": 321923,
+ "customer": {
+  "business": "Célian Coaching : coach sportif individuel à domicile (et en salle partenaire) à Lyon",
+  "target": "Actifs de 40 à 55 ans, Lyon et banlieue lyonnaise, qui veulent se remettre en forme, perdre du poids ou transformer leur physique",
+  "where": "Lyon et banlieue (Villeurbanne, Caluire, Écully, Tassin, Bron, Vénissieux, Oullins...)",
+  "age": [
+   40,
+   55
+  ],
+  "segments": [
+   {
+    "name": "Profession intermédiaire / employé qualifié",
+    "share": 0.35,
+    "income": [
+     28000,
+     42000
+    ]
+   },
+   {
+    "name": "Cadre",
+    "share": 0.45,
+    "income": [
+     42000,
+     75000
+    ]
+   },
+   {
+    "name": "Cadre supérieur / profession libérale / dirigeant",
+    "share": 0.2,
+    "income": [
+     75000,
+     150000
+    ]
+   }
+  ],
+  "behaviours": [
+   {
+    "name": "Manque de temps",
+    "share": 0.22,
+    "how": "Agenda chargé entre le travail et les enfants, veut que le sport vienne à lui."
+   },
+   {
+    "name": "Déjà abonné en salle, n'y va pas",
+    "share": 0.18,
+    "how": "Paie une salle à 30-40 €/mois depuis des mois sans y aller."
+   },
+   {
+    "name": "Compare les prix",
+    "share": 0.15,
+    "how": "Regarde plusieurs coachs, Superprof et les salles avant de choisir."
+   },
+   {
+    "name": "Reprise après une longue pause",
+    "share": 0.15,
+    "how": "N'a pas fait de sport depuis des années, a peur de se blesser ou d'être jugé."
+   },
+   {
+    "name": "Déclic santé",
+    "share": 0.12,
+    "how": "Le médecin lui a parlé de son poids, de sa tension ou de son dos."
+   },
+   {
+    "name": "Objectif physique précis",
+    "share": 0.1,
+    "how": "Veut un résultat visible : perdre 10 kg, se muscler, un mariage ou des vacances en vue."
+   },
+   {
+    "name": "A déjà eu un coach",
+    "share": 0.08,
+    "how": "A déjà payé un coach, sait ce que ça vaut et ce qui l'a déçu."
+   }
+  ],
+  "objections": [
+   "C'est cher même avec le crédit d'impôt",
+   "Je ne suis pas sûr de tenir sur la durée",
+   "Je ne connais pas ce coach, il est jeune et je ne sais pas s'il est sérieux",
+   "Je n'ai pas la place chez moi pour faire du sport",
+   "Je ne comprends pas bien le crédit d'impôt, j'ai peur de devoir avancer l'argent",
+   "Je n'ai pas envie de m'engager plusieurs mois",
+   "Je peux suivre un programme sur YouTube ou une appli",
+   "J'ai peur d'avoir mal ou de me blesser"
+  ],
+  "habits": [
+   "tu pars au bureau vers 8h et tu rentres vers 19h",
+   "tu fais du télétravail deux jours par semaine",
+   "tu as deux enfants ados à la maison",
+   "tu as pris quelques kilos depuis le Covid",
+   "tu as mal au dos à force d'être assis",
+   "tu marches le week-end mais tu ne fais rien en semaine"
+  ]
+ },
+ "pitch": "« Reprise en douceur, 8 semaines » avec Célian, coach sportif (licence STAPS, 2 ans de coaching), à Lyon et en banlieue.\nUne séance d'une heure par semaine, chez toi ou au parc d'à côté. Il apporte le matériel ; 2 m² suffisent, et pas de sauts si tu es en appartement. Créneaux possibles le lundi, mercredi et vendredi soir après 19h, et le samedi matin.\nPour qui reprend après des années : on commence doucement, chaque séance est adaptée à ton niveau et à tes douleurs, afin d'éviter de te blesser.\nInclus : un bilan de forme au départ et en semaine 8 (tests simples mesurés), un programme de 2 × 15 minutes à faire seul entre les séances, sans matériel, et un suivi par message chaque semaine.\nGarantie : si tu as fait tes 8 séances et que tes tests n'ont pas progressé au bilan de la semaine 8, le mois suivant est offert.\nPrix : 246 €/mois pendant 2 mois. Avec l'avance immédiate de crédit d'impôt (service à la personne), tu ne paies que 123 €/mois, sans rien avancer. Séance découverte avant de t'inscrire : 30 €, soit 15 € pour toi, sans engagement.\nRéservation par message Instagram (@celian.coaching).\n(Pour les quatre réponses de prix : donnez le prix d'UNE séance d'une heure à domicile, en euros, AVANT crédit d'impôt.)"
+}

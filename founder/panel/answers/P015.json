@@ -2,12 +2,12 @@
   "id": "P015",
   "buys": false,
   "purchases_first_month": 0,
-  "reason_code": "other",
-  "reason": "Deux mois d'un coup, même à 123 € par mois, c'est un engagement que je ne veux pas prendre sans avoir comparé. Sur Superprof je trouve des coachs à la séance, et une salle me coûte 30 € par mois sans contrat long.",
-  "objection": "Je n'ai pas envie de m'engager plusieurs mois, surtout avec quelqu'un qui n'a que 2 ans d'expérience. Si au bout de trois séances ça ne me plaît pas, j'ai payé pour rien.",
-  "would_change_my_mind": "Pouvoir payer à la séance ou au mois sans engagement après la séance découverte. La découverte à 15 € je pourrais la tenter, mais pas signer pour 8 semaines dans la foulée.",
+  "reason_code": "price",
+  "reason": "Même avec le crédit d'impôt, 126 € par mois pour une séance par semaine, c'est plus que trois mois de salle pour moi. Sans engagement c'est bien, mais je vais d'abord comparer avec Superprof et une salle avec coach avant de me décider.",
+  "objection": "Payer au mois, même sans engagement, ça ressemble quand même à un abonnement, et à 63 € la séance avant crédit d'impôt je trouve ça cher pour quelqu'un qui n'a que deux ans d'expérience.",
+  "would_change_my_mind": "Pouvoir acheter des séances à l'unité ou un carnet de 5 séances, sans formule mensuelle, autour de 40 € la séance avant crédit d'impôt.",
   "price_too_cheap": 20,
   "price_cheap": 35,
   "price_expensive": 50,
-  "price_too_expensive": 65
+  "price_too_expensive": 70
 }

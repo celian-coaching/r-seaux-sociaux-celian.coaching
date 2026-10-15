@@ -2,12 +2,12 @@
   "id": "P008",
   "buys": false,
   "purchases_first_month": 0,
-  "reason_code": "need",
-  "reason": "Moi je veux perdre 10 kg et voir la différence dans le miroir, pas une « reprise en douceur » avec des petits tests. Une séance par semaine, ça ne me semble pas suffisant pour un vrai résultat, et je ne connais pas ce coach, il a l'air jeune.",
-  "objection": "Une heure par semaine plus 2 fois 15 minutes seul, je ne vois pas comment je perds du poids avec ça. Et la garantie porte sur des tests, pas sur les kilos, donc elle ne me rassure pas sur ce qui compte pour moi.",
-  "would_change_my_mind": "Une offre clairement tournée perte de poids / transformation, avec des avant-après de vrais clients de mon âge à Lyon. Là, je ferais au moins la séance découverte à 15 €.",
-  "price_too_cheap": 25,
-  "price_cheap": 40,
-  "price_expensive": 60,
-  "price_too_expensive": 80
+  "reason_code": "trust",
+  "reason": "J'ai un vrai objectif, perdre une dizaine de kilos, mais je ne vais pas mettre 244 € par mois chez un coach dont je n'ai jamais vu un seul résultat client. Même la séance à 15 €, je ne la réserve pas tant que je ne sais pas s'il est sérieux.",
+  "objection": "Il est jeune, deux ans d'expérience, et je ne vois aucune preuve qu'il a déjà fait perdre du poids à quelqu'un de mon âge. La licence STAPS, ça ne me dit pas s'il obtient des résultats.",
+  "would_change_my_mind": "Voir des avant/après ou des témoignages de clients de 40-50 ans à Lyon qui ont perdu du poids avec lui, avec les chiffres.",
+  "price_too_cheap": 20,
+  "price_cheap": 35,
+  "price_expensive": 50,
+  "price_too_expensive": 70
 }

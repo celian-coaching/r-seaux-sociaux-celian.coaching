@@ -1,0 +1,13 @@
+{
+  "id": "P003",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "Le crédit d'impôt aide, mais je ne m'engage pas sur 2 mois avant d'avoir comparé avec d'autres coachs sur Superprof et l'abonnement de la salle à côté. Et faire du sport dans le salon devant mes deux ados, ça ne me tente pas trop.",
+  "objection": "Je n'ai pas vraiment la place chez moi avec les enfants autour, et un coach avec 2 ans d'expérience à ce prix, je veux voir ce que font les autres avant.",
+  "would_change_my_mind": "Une séance découverte au parc qui me prouve que c'est adapté à mon âge et à mes douleurs, avec un prix par séance clairement en dessous des autres coachs que j'ai regardés.",
+  "price_too_cheap": 20,
+  "price_cheap": 35,
+  "price_expensive": 55,
+  "price_too_expensive": 75
+}
