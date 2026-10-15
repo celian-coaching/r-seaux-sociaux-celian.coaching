@@ -27,3 +27,19 @@ Stories à la une prévues : Qui suis-je, Séances, Tarifs, Avis.
 Nom « Célian ⚡ Coach à domicile Lyon » 11/12 · Bio ligne 1 10/12 · Bio reste 7/8 ·
 Lien / contact 5/8 (DM « GO » + bouton WhatsApp : deux portes). Le reste est inchangé.
 Prochains points : publier et épingler les reels 0 et 1, créer les stories à la une.
+
+## Lien de réservation ajouté (2026-10-15)
+
+Bio actuelle (132 caractères) :
+
+```
+💪 Remise en forme après 40 ans, sans salle
+🏠 Je viens chez toi, à Lyon et autour
+🎓 Coach diplômé STAPS
+📅 Réserve ta 1re séance ici 👇
+```
+
+Lien externe : https://calendly.com/celiandecamps15/30min (titre « Réserver une séance »).
+Séance payante de 30 min. Le DM « GO » sort de la bio : une seule porte, le lien.
+Le bouton WhatsApp reste pour ceux qui préfèrent écrire.
+Lien / contact : 5/8 → 7/8 estimé (lien cliquable + bio qui y renvoie).
