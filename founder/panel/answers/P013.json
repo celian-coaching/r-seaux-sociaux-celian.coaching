@@ -1,13 +1,13 @@
 {
   "id": "P013",
-  "buys": true,
-  "purchases_first_month": 1,
-  "reason_code": "convenience",
-  "reason": "Qu'il vienne chez moi, c'est le seul format qui rentre entre le boulot et les gosses, et j'ai vraiment mal au dos. À 15 € la séance découverte je tente, mais je ne m'engage sur rien derrière tant que je n'ai pas vu si je tiens.",
-  "objection": "126 € par mois même après crédit d'impôt, c'est un vrai poste dans le budget de la famille, et je me connais : au bout de trois semaines je risque de lâcher et d'avoir payé pour rien.",
-  "would_change_my_mind": "",
-  "price_too_cheap": 25,
-  "price_cheap": 45,
-  "price_expensive": 65,
-  "price_too_expensive": 85
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "price",
+  "reason": "Le coach qui vient chez moi le soir après 19h, avec mon dos, ça me parle vraiment. Mais 123 € par mois en plus avec les enfants, c'est trop pour un truc que je ne suis pas sûr de tenir.",
+  "objection": "Je me connais : je vais faire trois semaines, puis le boulot et les gamins reprennent le dessus, et j'aurai payé deux mois pour rien. Et je ne sais pas si ça va vraiment soulager mon dos.",
+  "would_change_my_mind": "Une séance découverte à 15 € qui me soulage le dos tout de suite, avec un prix autour de 80-90 € par mois après crédit d'impôt.",
+  "price_too_cheap": 20,
+  "price_cheap": 35,
+  "price_expensive": 50,
+  "price_too_expensive": 70
 }

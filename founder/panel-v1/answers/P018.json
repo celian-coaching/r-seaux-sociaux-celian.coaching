@@ -1,0 +1,13 @@
+{
+  "id": "P018",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "À 15 € la séance découverte chez moi, sans salle ni regard des autres, je peux tester sans risque. Mais je m'arrête là pour l'instant : je ne m'engage pas sur un abonnement tant que je ne sais pas si je vais tenir.",
+  "objection": "Je ne suis pas sûr de tenir sur la durée, et j'ai peur de me blesser en reprenant après des années sans rien faire. 126 € par mois, c'est jeté par la fenêtre si j'abandonne au bout de trois semaines.",
+  "would_change_my_mind": "Qu'après la séance découverte il me montre un plan de reprise progressif adapté à quelqu'un qui n'a rien fait depuis des années, avec des résultats concrets d'autres quadras qui ont tenu.",
+  "price_too_cheap": 25,
+  "price_cheap": 45,
+  "price_expensive": 70,
+  "price_too_expensive": 95
+}

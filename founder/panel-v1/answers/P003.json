@@ -1,0 +1,13 @@
+{
+  "id": "P003",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "convenience",
+  "reason": "Chez moi avec deux ados il n'y a pas un coin libre pour bouger, je ne vois pas où il installerait son matériel. Et avant de signer quoi que ce soit je compare avec Superprof et la salle à côté, donc ce n'est pas cette semaine que je réserve.",
+  "objection": "Je n'ai pas la place chez moi pour faire du sport, et je ne sais pas s'il peut faire la séance dehors ou dans un parc.",
+  "would_change_my_mind": "Qu'il me montre qu'une séance se fait dans 2 m² de salon ou au parc en bas de chez moi, et je testerais la séance découverte à 15 €.",
+  "price_too_cheap": 25,
+  "price_cheap": 40,
+  "price_expensive": 65,
+  "price_too_expensive": 85
+}

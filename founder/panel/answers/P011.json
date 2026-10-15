@@ -1,13 +1,13 @@
 {
   "id": "P011",
   "buys": true,
-  "purchases_first_month": 2,
+  "purchases_first_month": 1,
   "reason_code": "convenience",
-  "reason": "Le coach qui vient chez moi avec le matériel, c'est exactement ce qu'il me faut avec mon agenda, et une séance découverte à 15 € ne me coûte rien d'essayer. Si ça accroche, je prends l'abonnement hebdo, 126 € par mois ça passe largement.",
-  "objection": "Je ne suis pas sûr de comprendre comment marche l'avance immédiate en pratique : si au final je dois avancer 252 € et attendre un an le remboursement, ça m'agace. Et réserver par DM Instagram, ça fait un peu amateur pour moi.",
+  "reason": "Un coach qui vient chez moi le soir après 19h, c'est exactement ce qu'il me faut, je n'ai pas le temps d'aller en salle. 15 € la séance découverte, je ne prends pas de risque, je teste avant de m'engager sur les deux mois.",
+  "objection": "Le crédit d'impôt, je ne comprends toujours pas comment ça marche concrètement : qui fait la démarche, est-ce que je vais recevoir une facture à 246 € et devoir me débrouiller avec l'URSSAF ? Et une seule séance par semaine, je doute que ça suffise pour perdre mes kilos.",
   "would_change_my_mind": "",
-  "price_too_cheap": 30,
-  "price_cheap": 50,
-  "price_expensive": 85,
-  "price_too_expensive": 120
+  "price_too_cheap": 25,
+  "price_cheap": 40,
+  "price_expensive": 70,
+  "price_too_expensive": 100
 }

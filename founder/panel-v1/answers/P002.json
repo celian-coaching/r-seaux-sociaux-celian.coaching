@@ -1,0 +1,13 @@
+{
+  "id": "P002",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "L'idée qu'il vienne chez moi me rassure, personne pour me juger, mais je ne connais pas ce gars et je ne vais pas envoyer un message Instagram à un inconnu pour me lancer. Et 35 € la séance chaque semaine, même après l'aide, ça pèse sur mon budget.",
+  "objection": "Cette histoire d'avance immédiate, je n'y comprends rien : j'ai peur qu'au final on me prélève 70 € et que je doive attendre le remboursement des impôts. Et j'ai peur de me faire mal au dos ou au genou après des années sans rien faire.",
+  "would_change_my_mind": "Qu'un collègue ou un proche l'ait testé et me dise que ça s'est bien passé, avec une explication claire, noir sur blanc, que je ne paie vraiment que 15 € pour la première séance sans rien avancer.",
+  "price_too_cheap": 25,
+  "price_cheap": 40,
+  "price_expensive": 60,
+  "price_too_expensive": 80
+}

@@ -2,12 +2,12 @@
   "id": "P020",
   "buys": true,
   "purchases_first_month": 1,
-  "reason_code": "need",
-  "reason": "Je paie une salle depuis des mois sans y mettre les pieds, donc seul ça ne marche pas. À 15 € la séance découverte, je veux bien essayer une fois pour voir si quelqu'un qui vient chez moi me fait vraiment bouger, mais je ne m'engage sur rien avant.",
-  "objection": "J'ai 54 ans, je n'ai rien fait depuis longtemps et j'ai peur de me faire mal au dos ou aux genoux. Et 126 € par mois en plus de la salle que je paie déjà, pour un coach dont je ne sais rien, ça fait beaucoup.",
-  "would_change_my_mind": "",
+  "reason_code": "convenience",
+  "reason": "Je paie déjà une salle où je ne mets jamais les pieds, donc le problème c'est pas l'argent, c'est que je n'y vais pas. Quelqu'un qui vient chez moi le samedi matin et qui commence doucement, ça je peux le tenter, mais je commence par la séance découverte à 15 € avant de m'engager sur deux mois.",
+  "objection": "J'ai peur de me faire mal au dos ou aux genoux en reprenant, et 2 ans d'expérience c'est un peu jeune pour quelqu'un de mon âge avec mes douleurs. Et faire du sport dans le salon avec mes deux ados qui regardent, bof.",
+  "would_change_my_mind": "Si la séance découverte se passe mal, par exemple s'il me pousse trop fort ou ne tient pas compte de mes douleurs, je ne signe pas les 8 semaines.",
   "price_too_cheap": 25,
-  "price_cheap": 45,
-  "price_expensive": 70,
+  "price_cheap": 40,
+  "price_expensive": 65,
   "price_too_expensive": 90
 }

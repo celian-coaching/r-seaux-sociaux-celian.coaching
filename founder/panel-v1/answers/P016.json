@@ -1,0 +1,13 @@
+{
+  "id": "P016",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Mon médecin m'a mis la pression sur la tension et le poids, et seul je ne m'y mets jamais. À 15 € la séance découverte, je tente au moins une fois, surtout un jour de télétravail où il vient chez moi.",
+  "objection": "Je me connais : je démarre motivé et j'abandonne au bout de trois semaines. Payer 126 € par mois pour finir par annuler des séances, ça me freine pour m'engager après la découverte.",
+  "would_change_my_mind": "Pour passer à l'abonnement : voir des résultats concrets chez des gens de mon âge avec le même genre de souci de santé, et pouvoir arrêter sans perdre d'argent.",
+  "price_too_cheap": 25,
+  "price_cheap": 45,
+  "price_expensive": 70,
+  "price_too_expensive": 100
+}

@@ -1,0 +1,13 @@
+{
+  "id": "P019",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "convenience",
+  "reason": "J'ai un appart où il n'y a pas la place de bouger un tapis, alors un coach qui débarque avec son matériel, je ne vois pas où on le met. Et je paie déjà une salle où je ne vais pas, je ne vais pas rajouter un truc de plus avant d'avoir résilié ça.",
+  "objection": "Pas la place chez moi, et la peur de payer encore pour rien comme avec ma salle.",
+  "would_change_my_mind": "Voir concrètement qu'une séance tient dans 2 m² de salon ou peut se faire dehors, avec un travail ciblé sur le mal de dos ; là je testerais la séance découverte à 15 €.",
+  "price_too_cheap": 25,
+  "price_cheap": 40,
+  "price_expensive": 60,
+  "price_too_expensive": 85
+}

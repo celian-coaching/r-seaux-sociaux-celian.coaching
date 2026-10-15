@@ -1,13 +1,13 @@
 {
   "id": "P001",
-  "buys": false,
-  "purchases_first_month": 0,
+  "buys": true,
+  "purchases_first_month": 1,
   "reason_code": "convenience",
-  "reason": "Mon appart est petit, je ne vois pas où on ferait une heure de sport avec du matériel, et en semaine je rentre à 19h crevé. J'ai déjà payé un coach qui m'a laissé tomber au bout de deux mois, je ne repars pas sur un abonnement sur un simple post Instagram.",
-  "objection": "Je n'ai pas la place chez moi, et rien ne me dit que ça marche dans 15 m² de salon ou qu'on peut faire la séance dehors.",
-  "would_change_my_mind": "Qu'il me montre que la séance tient dans un petit salon ou se fait au parc d'à côté, avec des créneaux le soir après 19h ou le samedi matin.",
+  "reason": "Mon vrai frein c'était la place chez moi, et 2 m² sans sauts avec le matériel apporté, ça le règle. À 15 € la séance découverte un samedi matin, je teste, mais je ne m'engage sur les 2 mois que si la première séance me convainc.",
+  "objection": "Mon ancien coach aussi promettait du sur-mesure, et au bout de trois semaines c'était toujours la même séance. Deux ans d'expérience, c'est jeune, et en semaine après 19h je rentre crevée du bureau, j'ai peur de lâcher.",
+  "would_change_my_mind": "",
   "price_too_cheap": 25,
-  "price_cheap": 45,
-  "price_expensive": 70,
-  "price_too_expensive": 90
+  "price_cheap": 40,
+  "price_expensive": 65,
+  "price_too_expensive": 85
 }

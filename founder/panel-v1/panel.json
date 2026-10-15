@@ -1,0 +1,95 @@
+{
+ "n": 20,
+ "seed": 321923,
+ "customer": {
+  "business": "Célian Coaching : coach sportif individuel à domicile (et en salle partenaire) à Lyon",
+  "target": "Actifs de 40 à 55 ans, Lyon et banlieue lyonnaise, qui veulent se remettre en forme, perdre du poids ou transformer leur physique",
+  "where": "Lyon et banlieue (Villeurbanne, Caluire, Écully, Tassin, Bron, Vénissieux, Oullins...)",
+  "age": [
+   40,
+   55
+  ],
+  "segments": [
+   {
+    "name": "Profession intermédiaire / employé qualifié",
+    "share": 0.35,
+    "income": [
+     28000,
+     42000
+    ]
+   },
+   {
+    "name": "Cadre",
+    "share": 0.45,
+    "income": [
+     42000,
+     75000
+    ]
+   },
+   {
+    "name": "Cadre supérieur / profession libérale / dirigeant",
+    "share": 0.2,
+    "income": [
+     75000,
+     150000
+    ]
+   }
+  ],
+  "behaviours": [
+   {
+    "name": "Manque de temps",
+    "share": 0.22,
+    "how": "Agenda chargé entre le travail et les enfants, veut que le sport vienne à lui."
+   },
+   {
+    "name": "Déjà abonné en salle, n'y va pas",
+    "share": 0.18,
+    "how": "Paie une salle à 30-40 €/mois depuis des mois sans y aller."
+   },
+   {
+    "name": "Compare les prix",
+    "share": 0.15,
+    "how": "Regarde plusieurs coachs, Superprof et les salles avant de choisir."
+   },
+   {
+    "name": "Reprise après une longue pause",
+    "share": 0.15,
+    "how": "N'a pas fait de sport depuis des années, a peur de se blesser ou d'être jugé."
+   },
+   {
+    "name": "Déclic santé",
+    "share": 0.12,
+    "how": "Le médecin lui a parlé de son poids, de sa tension ou de son dos."
+   },
+   {
+    "name": "Objectif physique précis",
+    "share": 0.1,
+    "how": "Veut un résultat visible : perdre 10 kg, se muscler, un mariage ou des vacances en vue."
+   },
+   {
+    "name": "A déjà eu un coach",
+    "share": 0.08,
+    "how": "A déjà payé un coach, sait ce que ça vaut et ce qui l'a déçu."
+   }
+  ],
+  "objections": [
+   "C'est cher même avec le crédit d'impôt",
+   "Je ne suis pas sûr de tenir sur la durée",
+   "Je ne connais pas ce coach, il est jeune et je ne sais pas s'il est sérieux",
+   "Je n'ai pas la place chez moi pour faire du sport",
+   "Je ne comprends pas bien le crédit d'impôt, j'ai peur de devoir avancer l'argent",
+   "Je n'ai pas envie de m'engager plusieurs mois",
+   "Je peux suivre un programme sur YouTube ou une appli",
+   "J'ai peur d'avoir mal ou de me blesser"
+  ],
+  "habits": [
+   "tu pars au bureau vers 8h et tu rentres vers 19h",
+   "tu fais du télétravail deux jours par semaine",
+   "tu as deux enfants ados à la maison",
+   "tu as pris quelques kilos depuis le Covid",
+   "tu as mal au dos à force d'être assis",
+   "tu marches le week-end mais tu ne fais rien en semaine"
+  ]
+ },
+ "pitch": "Célian, coach sportif, vient chez vous à Lyon et en banlieue avec le matériel, pour des séances individuelles d'une heure : remise en forme, perte de poids ou transformation physique.\nPrix à domicile : 70 € la séance, 640 € les 10 séances (64 €/séance), ou un abonnement d'une séance par semaine à 252 €/mois sans engagement (234 €/mois avec un engagement de 6 mois). Les abonnements comprennent un programme personnalisé et un suivi entre les séances.\nComme c'est un service à la personne, l'État prend en charge 50 % immédiatement avec l'avance immédiate de crédit d'impôt : vous ne payez que la moitié (35 € la séance, 126 €/mois l'abonnement), sans avancer l'argent.\nPremière séance découverte : 30 €, soit 15 € après crédit d'impôt.\nContact et réservation par message Instagram (@celian.coaching).\n(Pour les quatre réponses de prix : donnez le prix d'UNE séance d'une heure à domicile, en euros, AVANT crédit d'impôt.)"
+}

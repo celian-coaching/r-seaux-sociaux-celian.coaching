@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "habit",
-  "reason": "Je paie déjà 35 € par mois une salle où je ne mets jamais les pieds, alors rajouter un coach par-dessus, c'est encore un abonnement que je risque de payer pour rien. Et je me dis toujours que je peux m'y mettre seul avec une appli ou YouTube.",
-  "objection": "Je rentre à 19h crevé : est-ce que je vais vraiment tenir une séance par semaine, ou est-ce que je vais annuler comme je sèche la salle ? 126 € par mois, même après crédit d'impôt, ça reste beaucoup pour un truc que je n'ai jamais réussi à tenir.",
-  "would_change_my_mind": "Si je résilie enfin ma salle et que la séance découverte à 15 € peut se faire le soir après 19h30 ou le samedi matin chez moi, je pourrais tester une fois.",
-  "price_too_cheap": 25,
-  "price_cheap": 40,
-  "price_expensive": 60,
-  "price_too_expensive": 85
+  "reason": "Je paie déjà une salle où je ne vais jamais, alors rajouter 123 € par mois en plus, ça me paraît beaucoup pour quelque chose que je pourrais faire avec une appli. Je rentre à 19h crevé, je ne suis pas sûr de tenir même avec quelqu'un qui vient chez moi.",
+  "objection": "Payer encore un truc de plus alors que je ne vais déjà pas à la salle que je paie, et me dire que YouTube fait pareil gratuitement.",
+  "would_change_my_mind": "Résilier ma salle et faire la séance découverte à 15 € : si je vois que le fait qu'il vienne chez moi me fait vraiment bouger, je pourrais remplacer l'abonnement salle par ça.",
+  "price_too_cheap": 20,
+  "price_cheap": 35,
+  "price_expensive": 50,
+  "price_too_expensive": 70
 }

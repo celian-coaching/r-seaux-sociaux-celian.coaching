@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "trust",
-  "reason": "Le fait qu'il vienne à la maison, ça me plaît vraiment, avec mon agenda. Mais faire entrer chez moi un coach jeune que je ne connais pas, juste parce que je l'ai vu sur Instagram, non, pas sans avoir de garanties. Et même à moitié prix, 126 € par mois, c'est une vraie somme pour notre budget.",
-  "objection": "Je ne sais pas s'il est sérieux ni s'il a l'habitude de gens comme moi, 41 ans, deux enfants, pas sportive depuis des années. Réserver par message Instagram, ça ne me rassure pas.",
-  "would_change_my_mind": "Des avis de vrais clients de mon âge à Lyon, avec un avant/après, ou une collègue ou une amie qui l'a testé et me le recommande. Là je ferais la séance découverte à 15 €.",
-  "price_too_cheap": 25,
-  "price_cheap": 40,
-  "price_expensive": 60,
-  "price_too_expensive": 80
+  "reason": "Le format chez moi, une heure par semaine, ça colle à mon agenda, mais je ne connais pas ce coach : deux ans d'expérience, réservation par DM Instagram, je ne vais pas m'engager sur 246 € par mois sur cette base. Au mieux je teste la séance découverte à 15 €, mais je ne signe pas les 8 semaines tout de suite.",
+  "objection": "Il est jeune, je ne sais pas s'il est sérieux ni s'il sait gérer quelqu'un de 41 ans qui n'a pas fait de sport depuis des années, et je ne vois aucun avis de clients qui me ressemblent.",
+  "would_change_my_mind": "Des avis ou témoignages de clients de mon âge à Lyon, et une séance découverte où je sens qu'il s'adapte vraiment à moi.",
+  "price_too_cheap": 20,
+  "price_cheap": 35,
+  "price_expensive": 50,
+  "price_too_expensive": 70
 }
