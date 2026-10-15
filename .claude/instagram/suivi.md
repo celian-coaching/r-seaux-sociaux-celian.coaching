@@ -21,3 +21,6 @@ Statuts : à tourner → tourné → posté. Mis à jour par Claude quand Célia
 | 13 | Charges lourdes plutôt que séries interminables | à tourner | — | reels/13-charges-lourdes.md |
 | 14 | Moins de 6 h de sommeil, plus de faim | à tourner | — | reels/14-sommeil-faim.md |
 | 15 | Le tonus n'existe pas | à tourner | — | reels/15-tonus-existe-pas.md |
+| 16 | Un inconnu chez toi ? La première séance | à tourner | — | reels/16-premiere-seance.md |
+| 17 | Pas de place chez toi ? 2 m² suffisent | à tourner | — | reels/17-deux-metres-carres.md |
+| 18 | Ta séance coûte 70 €, tu en paies 35 | à tourner | — | reels/18-credit-impot.md |
