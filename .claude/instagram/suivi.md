@@ -5,7 +5,7 @@ Statuts : à tourner → tourné → posté. Mis à jour par Claude quand Célia
 
 | N° | Reel | Statut | Date | Fichier |
 |---|---|---|---|---|
-| 0 | Reel de présentation (2026-10-12) | à tourner | — | reels/2026-10-12-presentation.md |
+| 0 | Reel de présentation (2026-10-12) | tourné | 2026-10-20 | reels/2026-10-12-presentation.md |
 | 1 | Par où commencer à 45 ans : 4 mouvements | à tourner | — | reels/01-4-mouvements.md |
 | 2 | Vrai ou faux 1/3 : la muscu rend massive | à tourner | — | reels/02-vrai-faux-massive.md |
 | 3 | Vrai ou faux 2/3 : après 45 ans c'est trop tard | à tourner | — | reels/03-vrai-faux-trop-tard.md |
