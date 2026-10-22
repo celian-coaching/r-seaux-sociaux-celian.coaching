@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "habit",
-  "reason": "Je paie déjà 35 € par mois une salle où je ne mets plus les pieds, alors rajouter 126 € par mois pour un truc de plus, j'ai peur de refaire exactement la même erreur. Et le soir à 19h, en rentrant du bureau, je me connais : je me dirai que YouTube fera l'affaire.",
-  "objection": "Je ne suis pas sûr que le problème soit l'endroit ou le coach : c'est peut-être juste moi, et je vais payer pour me sentir coupable une deuxième fois.",
-  "would_change_my_mind": "Résilier d'abord ma salle pour que ce ne soit pas un abonnement en plus, et faire la séance découverte à 15 € pour voir si le fait que quelqu'un sonne chez moi me fait vraiment bouger.",
-  "price_too_cheap": 20,
-  "price_cheap": 35,
-  "price_expensive": 55,
-  "price_too_expensive": 80
+  "reason": "Je paie déjà 35 € par mois une salle où je ne mets pas les pieds, alors rajouter 126 € par mois pour du sport, j'ai du mal à me le justifier. Avant ça, je me dis que je peux essayer un programme YouTube le soir en rentrant.",
+  "objection": "J'ai peur de payer encore un truc que je vais lâcher au bout de trois semaines, comme la salle. Et en rentrant à 19h, je ne suis pas sûr d'avoir l'énergie de faire une séance à 19h30 trois soirs par semaine.",
+  "would_change_my_mind": "Si je résiliais d'abord ma salle et que la séance découverte à 15 € me montrait que le fait d'avoir quelqu'un qui vient chez moi me fait vraiment bouger, là où l'abonnement ne marche pas.",
+  "price_too_cheap": 10,
+  "price_cheap": 20,
+  "price_expensive": 35,
+  "price_too_expensive": 50
 }

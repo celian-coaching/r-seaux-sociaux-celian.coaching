@@ -3,11 +3,11 @@
   "buys": true,
   "purchases_first_month": 1,
   "reason_code": "need",
-  "reason": "Je sais que je dois m'y remettre et l'idée d'un coach qui vient chez moi après 19h, en douceur et sans salle où je me sens jugé, ça me parle. À 15 € la séance découverte je teste, mais je ne signe pas le mois tout de suite.",
-  "objection": "126 € par mois pour une séance par semaine, même après le crédit d'impôt ça reste cher, et j'ai peur de lâcher au bout de trois semaines et d'avoir payé pour rien.",
-  "would_change_my_mind": "Que la séance découverte me prouve qu'il sait gérer mon dos et mon niveau zéro sans me casser, et que je sente que je peux arrêter quand je veux sans me faire relancer.",
-  "price_too_cheap": 25,
-  "price_cheap": 40,
-  "price_expensive": 60,
-  "price_too_expensive": 85
+  "reason": "Je sais que je dois m'y remettre et l'idée de le faire chez moi, sans le regard des autres en salle, avec quelqu'un qui fait attention à mes douleurs, ça me rassure. Les créneaux après 19h collent à mes horaires, donc je prends la séance découverte à 15 €, mais je ne m'engage pas sur un mois tout de suite.",
+  "objection": "126 € par mois pour une séance par semaine, ça reste plus de 30 € l'heure après crédit d'impôt, et je ne suis pas sûr de tenir sur la durée. J'ai peur de payer deux mois et de lâcher.",
+  "would_change_my_mind": "Que la séance découverte me montre vraiment que je peux reprendre sans me faire mal, et que la garantie du mois offert soit écrite noir sur blanc ; là je signerais pour la Reprise en douceur.",
+  "price_too_cheap": 12,
+  "price_cheap": 20,
+  "price_expensive": 30,
+  "price_too_expensive": 45
 }

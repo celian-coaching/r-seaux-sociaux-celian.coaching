@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "price",
-  "reason": "Le coup des 2 m² et du parc règle mon problème de place, mais 63 € la séance avant crédit d'impôt, je veux d'abord comparer avec Superprof et la salle d'à côté. Cette semaine je regarde, je ne réserve pas.",
-  "objection": "Payer plus de 60 € de l'heure à un coach de 2 ans d'expérience alors que je trouve sûrement moins cher ailleurs, et je ne suis pas sûr de tenir la régularité avec les ados à la maison.",
-  "would_change_my_mind": "Voir qu'il est au même prix ou moins cher que les coachs Superprof une fois le crédit d'impôt déduit, avec des avis de clients de mon âge.",
-  "price_too_cheap": 20,
-  "price_cheap": 35,
-  "price_expensive": 55,
-  "price_too_expensive": 75
+  "reason": "Même après le crédit d'impôt, ça me fait environ 60 € la séance. J'ai vu des coachs sur Superprof bien moins chers et la salle me coûte 40 € par mois, alors je ne vais pas sauter le pas sur un post Instagram.",
+  "objection": "Avec deux ados à la maison, je n'ai pas vraiment la place, et le parc le soir après 19h en hiver, très peu pour moi. Au final je paie cher pour faire mes séances dans un coin du salon.",
+  "would_change_my_mind": "Un prix autour de 35-40 € la séance après crédit d'impôt, ou une séance découverte gratuite pour voir si ça tient vraiment dans 2 m² chez moi.",
+  "price_too_cheap": 15,
+  "price_cheap": 25,
+  "price_expensive": 40,
+  "price_too_expensive": 55
 }

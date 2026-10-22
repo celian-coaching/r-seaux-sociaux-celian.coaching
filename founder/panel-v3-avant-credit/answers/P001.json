@@ -1,0 +1,13 @@
+{
+  "id": "P001",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "S'il vient avec le matériel et que 2 m² ou le parc suffisent, mon excuse du manque de place tombe, et 15 € la séance découverte c'est rien. Mais je teste juste une fois, je ne signe pas le mois tout de suite.",
+  "objection": "Mon ancien coach était motivé les premières semaines puis faisait toujours la même séance. Avec 2 ans d'expérience, j'ai peur qu'il ne soit pas assez solide pour me faire vraiment progresser, et rentrer à 19h pour faire une séance juste après, je ne suis pas sûre de tenir.",
+  "would_change_my_mind": "Voir des avant/après ou des avis de clients de mon âge à Lyon qui ont tenu plusieurs mois avec lui.",
+  "price_too_cheap": 25,
+  "price_cheap": 40,
+  "price_expensive": 60,
+  "price_too_expensive": 85
+}

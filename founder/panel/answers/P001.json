@@ -3,11 +3,11 @@
   "buys": true,
   "purchases_first_month": 1,
   "reason_code": "convenience",
-  "reason": "S'il vient avec le matériel et que 2 m² ou le parc suffisent, mon excuse du manque de place tombe, et 15 € la séance découverte c'est rien. Mais je teste juste une fois, je ne signe pas le mois tout de suite.",
-  "objection": "Mon ancien coach était motivé les premières semaines puis faisait toujours la même séance. Avec 2 ans d'expérience, j'ai peur qu'il ne soit pas assez solide pour me faire vraiment progresser, et rentrer à 19h pour faire une séance juste après, je ne suis pas sûre de tenir.",
-  "would_change_my_mind": "Voir des avant/après ou des avis de clients de mon âge à Lyon qui ont tenu plusieurs mois avec lui.",
-  "price_too_cheap": 25,
-  "price_cheap": 40,
-  "price_expensive": 60,
-  "price_too_expensive": 85
+  "reason": "Je rentre à 19h, donc un coach qui vient chez moi après 19h avec son matériel et qui se contente de 2 m², c'est le seul format que je tiendrais. À 15 € la séance découverte je teste, mais je ne m'engage pas sur le mois avant d'avoir vu ce qu'il vaut.",
+  "objection": "Mon ancien coach m'a vendu du sur-mesure et m'a fait faire la même routine générique pendant des mois. Et 2 ans d'expérience, c'est jeune : j'ai peur de payer pour quelqu'un qui récite un programme, dans un salon trop petit pour bouger vraiment.",
+  "would_change_my_mind": "Que la séance découverte se passe vraiment chez moi, dans mon espace, avec un vrai bilan et un plan précis pour moi, pas une séance type.",
+  "price_too_cheap": 15,
+  "price_cheap": 25,
+  "price_expensive": 40,
+  "price_too_expensive": 55
 }

@@ -1,0 +1,13 @@
+{
+  "id": "P013",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "habit",
+  "reason": "Mon dos me fait mal et j'aime l'idée que le coach vienne à la maison, mais je me connais : je lâche au bout de trois semaines, et 126 € par mois pour un truc que j'arrête, c'est de l'argent pris sur le budget des enfants. Et le soir après 19h, c'est le dîner et les devoirs chez moi.",
+  "objection": "Je ne suis pas sûr de tenir sur la durée, et le samedi matin c'est le seul moment où je souffle en famille.",
+  "would_change_my_mind": "Que mon médecin ou un collègue qui l'a fait me dise que ça a vraiment réglé son mal de dos ; là je ferais au moins la séance découverte à 15 €.",
+  "price_too_cheap": 20,
+  "price_cheap": 35,
+  "price_expensive": 50,
+  "price_too_expensive": 70
+}

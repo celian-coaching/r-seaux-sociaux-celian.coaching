@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "price",
-  "reason": "126 € par mois pour une séance par semaine, même après le crédit d'impôt, c'est beaucoup pour moi alors que je peux commencer avec une appli ou YouTube gratuitement. Je vais d'abord comparer avec Superprof et une salle avant de me décider.",
-  "objection": "Je ne suis pas sûre que ça vaille dix fois le prix d'un abonnement en salle, et rien ne me prouve qu'un coach avec 2 ans d'expérience fera mieux qu'un programme que je suis seule.",
-  "would_change_my_mind": "Des avis ou des résultats concrets de femmes de mon âge à Lyon, et un tarif par séance proche de ce que je trouve sur Superprof.",
-  "price_too_cheap": 20,
-  "price_cheap": 30,
-  "price_expensive": 45,
-  "price_too_expensive": 60
+  "reason": "126 € par mois pour une séance par semaine, ça fait plus de 30 € l'heure même après le crédit d'impôt, alors qu'une appli ou YouTube me coûte presque rien. Je marche déjà le week-end, je ne suis pas sûre d'avoir besoin d'un coach pour reprendre.",
+  "objection": "Je ne sais pas si je tiendrai sur la durée, et payer chaque mois pour quelqu'un qui n'a que 2 ans d'expérience alors que je peux comparer avec Superprof et les salles, ça me fait hésiter.",
+  "would_change_my_mind": "Voir des avis ou des résultats concrets de clientes de mon âge, et un tarif qui revienne autour de 20-25 € la séance après crédit d'impôt.",
+  "price_too_cheap": 10,
+  "price_cheap": 18,
+  "price_expensive": 28,
+  "price_too_expensive": 40
 }

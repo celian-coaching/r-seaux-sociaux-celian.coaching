@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "price",
-  "reason": "126 € par mois pour une seule séance par semaine, même avec le crédit d'impôt, c'est trop pour mon budget. J'ai déjà payé un coach, j'ai arrêté au bout de quelques mois et j'ai eu l'impression d'avoir jeté l'argent.",
-  "objection": "Je sais que je vais lâcher au bout de deux mois comme la dernière fois, et 126 € par mois c'est une grosse ligne pour moi. Et 2 ans d'expérience, c'est jeune.",
-  "would_change_my_mind": "Une formule à deux séances par mois autour de 60 € pour moi, ou une petite séance à plusieurs avec des gens de mon âge pour diviser le prix.",
-  "price_too_cheap": 20,
-  "price_cheap": 35,
-  "price_expensive": 50,
-  "price_too_expensive": 60
+  "reason": "126 € par mois pour une séance par semaine, ça reste trop pour mon budget, même avec le crédit d'impôt. J'ai déjà payé un coach, ça m'a motivée tant que je payais, puis j'ai arrêté et j'étais revenue au point de départ.",
+  "objection": "C'est cher même avec le crédit d'impôt, et je sais par expérience que dès que j'arrête de payer, j'arrête tout.",
+  "would_change_my_mind": "Une séance toutes les deux semaines autour de 60 € par mois, avec le programme de 15 min à faire seule entre les deux.",
+  "price_too_cheap": 10,
+  "price_cheap": 18,
+  "price_expensive": 25,
+  "price_too_expensive": 35
 }

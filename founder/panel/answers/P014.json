@@ -3,11 +3,11 @@
   "buys": false,
   "purchases_first_month": 0,
   "reason_code": "price",
-  "reason": "J'aime l'idée qu'il vienne chez moi, c'est exactement ce qu'il me faudrait avec mon agenda. Mais 126 € par mois pour une seule séance par semaine, avec ce que je gagne et les enfants, je ne peux pas le sortir tous les mois.",
-  "objection": "C'est cher même avec le crédit d'impôt : 126 € par mois, c'est presque une course de la semaine, et je ne suis pas sûre de tenir sur la durée.",
-  "would_change_my_mind": "Une formule à 2 séances par mois autour de 60 € pour moi, ou une séance à partager avec une amie pour diviser le prix.",
-  "price_too_cheap": 20,
-  "price_cheap": 35,
-  "price_expensive": 50,
-  "price_too_expensive": 70
+  "reason": "Venir chez moi le soir après 19h, c'est exactement ce qu'il me faudrait, mais 126 € par mois avec mon salaire et les enfants, ça ne passe pas. Même divisé par deux, ça reste plus de 30 € la séance.",
+  "objection": "C'est cher même avec le crédit d'impôt, et je ne suis pas sûre de tenir dans la durée avec mon agenda, donc j'ai peur de payer pour rien.",
+  "would_change_my_mind": "Une formule à deux séances par mois autour de 60 € pour moi, ou pouvoir partager la séance avec une amie pour diviser le prix.",
+  "price_too_cheap": 8,
+  "price_cheap": 15,
+  "price_expensive": 22,
+  "price_too_expensive": 30
 }

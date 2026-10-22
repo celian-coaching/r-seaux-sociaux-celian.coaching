@@ -1,13 +1,13 @@
 {
   "id": "P018",
   "buys": true,
-  "purchases_first_month": 1,
+  "purchases_first_month": 2,
   "reason_code": "need",
-  "reason": "Je sais que je dois m'y remettre et le fait qu'il vienne chez moi, sans salle ni regards, ça enlève une vraie excuse. Pour 15 € je tente la séance découverte, mais je ne m'abonne pas tout de suite.",
-  "objection": "Je me connais : les trois premières semaines ça va, puis le boulot reprend le dessus et j'arrête. Et 2 ans d'expérience, pour un dos de 47 ans qui n'a rien fait depuis des années, je veux voir s'il sait vraiment adapter.",
+  "reason": "La séance découverte à 15 € ne me coûte presque rien et la formule douce répond pile à ma peur de me blesser ; chez moi, sans regard des autres, le vendredi soir, je peux le caser. Je prendrais la découverte puis un mois de Reprise en douceur pour voir, pas plus.",
+  "objection": "Je me connais : les trois premières semaines ça va, puis le boulot reprend le dessus et j'annule. Les 2 x 15 min entre les séances, je ne suis pas sûr de les faire, et payer 126 € par mois pour une séance que je décale tout le temps, ça m'agacerait.",
   "would_change_my_mind": "",
-  "price_too_cheap": 25,
-  "price_cheap": 40,
-  "price_expensive": 65,
-  "price_too_expensive": 90
+  "price_too_cheap": 12,
+  "price_cheap": 22,
+  "price_expensive": 38,
+  "price_too_expensive": 55
 }

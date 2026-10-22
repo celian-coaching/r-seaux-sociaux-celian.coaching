@@ -109,3 +109,39 @@ Séance découverte à 15 € après crédit d'impôt, **déduite du premier moi
 1. « 126 €/mois après crédit d'impôt, c'est trop sur mon salaire » (P009, P014). Ils demandent environ 2 séances par mois pour 60 €, ce qui est exactement Essentiel.
 2. « Je compare avec Superprof, je veux payer à la séance, environ 40 € » (P015, P017). La réponse : le prix après crédit d'impôt (31,50 €) et le pack 5.
 3. « Je ne crois pas au "sans rien avancer" » (P002, P011). La réponse : la facture exemple.
+
+---
+
+# Analyse après crédit d'impôt (22/10/2026)
+
+Même panel (20 clients simulés, seed 321923), même offre v3. Seule la question de prix change : cette fois, les clients donnent **le prix qu'ils paient vraiment, après crédit d'impôt** (founder/panel). Le panel précédent, avec les prix avant crédit, est gardé dans founder/panel-v3-avant-credit. Courbe : founder/pricing-curve-apres-credit.md.
+
+## Fourchette acceptée (prix payé par le client)
+
+- **15 € à 40 € la séance.** Une séance est une « bonne affaire » vers 20 € et devient « chère » vers 35 € (médianes). Le point d'équilibre (autant de « bonne affaire » que de « cher ») est à 25 €.
+- En prix avant crédit d'impôt, ça correspond à **30 à 80 €**. Quand on leur demande le prix avant crédit, les mêmes clients refusent au-delà de 65 €. **Le prix annoncé après crédit d'impôt est mieux accepté** : il faut toujours le mettre en avant.
+- Achètent : 14 sur 20, contre 9 sur 20 au panel précédent. La seule différence est la façon de poser la question de prix. Ce chiffre surtout est à prendre avec prudence, c'est un maximum.
+
+## La grille proposée, vue par le client
+
+| Formule | Sans engagement | 6 mois | Combien la trouvent « chère » | « Trop chère » |
+|---|---:|---:|---:|---:|
+| Essentiel / Reprise | 31,50 € | 29,25 € | 8 sur 20 | 1 sur 20 |
+| Objectif | 30 € | 27,75 € | 8 sur 20 (à 30 €), 3 sur 20 (à 27,75 €) | 1 sur 20 (à 30 €), 0 (à 27,75 €) |
+| 3×/semaine | 28,50 € | 26,25 € | 5 sur 20 (à 28,50 €), 2 sur 20 (à 26,25 €) | 0 |
+
+- Tout est dans la fourchette, entre le point d'équilibre (25 €) et la limite (40 €).
+- **Le seuil psychologique est 30 €.** De 30 € à 31,50 €, le nombre de clients qui trouvent ça cher ne bouge pas (8 sur 20). Il tombe à 5 sur 20 sous 30 € (28,50 €).
+- **La marge ne change pas** : Célian touche le prix plein (moitié client, moitié URSSAF). Les marges calculées plus haut restent valables : 37 € par séance à 63 €, 33 € à 57 €.
+
+## Ce qu'on en conclut
+
+1. Garder la grille proposée.
+2. Si on veut tester une baisse, **tester Reprise à 57 € (28,50 € pour le client) plutôt qu'à 60 € (30 €)**. À 60 €, le client reste au seuil des 30 € : on perd de la marge sans réduire le nombre de clients qui trouvent ça cher. Le test : 63 € contre 57 €, en comptant les séances découverte qui deviennent un abonnement.
+3. Sur la fiche, dans les reels et en message, **annoncer le prix payé après crédit d'impôt en premier** (« 31,50 € la séance chez toi »), et le prix avant crédit en second.
+
+## Objections de prix (panel après crédit d'impôt)
+
+1. « 126 €/mois, c'est trop avec les enfants » (P014, P009, P002). Ils veulent 2 séances par mois pour environ 60 €, ce qui est exactement l'Essentiel.
+2. « Plus de 30 € la séance, alors que YouTube et la salle… » (P015, P017). Ils voudraient environ 20 €.
+3. « Je veux voir la facture exemple pour être sûr de ne payer que la moitié » (P011, P002).

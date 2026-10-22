@@ -1,0 +1,13 @@
+{
+  "id": "P007",
+  "buys": false,
+  "purchases_first_month": 0,
+  "reason_code": "trust",
+  "reason": "Le fait qu'il vienne chez moi, ça me parle vraiment avec mon agenda. Mais je ne le connais pas, je l'ai vu passer sur Instagram, il a l'air jeune, et je ne vais pas faire entrer un inconnu chez moi ni sortir 126 € par mois sur la base d'un post.",
+  "objection": "Est-ce qu'il est sérieux et fiable ? Deux ans de coaching, c'est peu, et je n'ai aucun avis de quelqu'un que je connais. Et le soir après 19h avec les enfants, je ne suis pas sûre de tenir sur la durée.",
+  "would_change_my_mind": "Une recommandation d'une amie ou d'une collègue qui l'a eu comme coach, ou des avis vérifiables de clientes de mon âge à Lyon. Là je ferais la séance découverte à 15 €.",
+  "price_too_cheap": 20,
+  "price_cheap": 35,
+  "price_expensive": 55,
+  "price_too_expensive": 75
+}

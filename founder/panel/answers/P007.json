@@ -1,13 +1,13 @@
 {
   "id": "P007",
-  "buys": false,
-  "purchases_first_month": 0,
-  "reason_code": "trust",
-  "reason": "Le fait qu'il vienne chez moi, ça me parle vraiment avec mon agenda. Mais je ne le connais pas, je l'ai vu passer sur Instagram, il a l'air jeune, et je ne vais pas faire entrer un inconnu chez moi ni sortir 126 € par mois sur la base d'un post.",
-  "objection": "Est-ce qu'il est sérieux et fiable ? Deux ans de coaching, c'est peu, et je n'ai aucun avis de quelqu'un que je connais. Et le soir après 19h avec les enfants, je ne suis pas sûre de tenir sur la durée.",
-  "would_change_my_mind": "Une recommandation d'une amie ou d'une collègue qui l'a eu comme coach, ou des avis vérifiables de clientes de mon âge à Lyon. Là je ferais la séance découverte à 15 €.",
-  "price_too_cheap": 20,
-  "price_cheap": 35,
-  "price_expensive": 55,
-  "price_too_expensive": 75
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "Qu'il vienne chez moi après 19h, quand les enfants sont couchés ou presque, c'est la seule façon que je fasse du sport. Je prends la séance découverte à 15 €, ça ne coûte presque rien pour voir s'il est sérieux, mais je ne m'engage pas sur un mois tout de suite.",
+  "objection": "Je ne le connais pas, il est jeune, deux ans d'expérience c'est peu, et faire entrer quelqu'un chez moi que je n'ai jamais vu, ça me freine. Et 126 € par mois, même avec le crédit d'impôt, ça pèse dans mon budget avec les enfants.",
+  "would_change_my_mind": "Des avis de vrais clients de mon âge dans le coin de Lyon, avec des résultats concrets, avant la séance découverte.",
+  "price_too_cheap": 10,
+  "price_cheap": 18,
+  "price_expensive": 30,
+  "price_too_expensive": 40
 }

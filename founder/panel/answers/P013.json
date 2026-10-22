@@ -1,13 +1,13 @@
 {
   "id": "P013",
-  "buys": false,
-  "purchases_first_month": 0,
-  "reason_code": "habit",
-  "reason": "Mon dos me fait mal et j'aime l'idée que le coach vienne à la maison, mais je me connais : je lâche au bout de trois semaines, et 126 € par mois pour un truc que j'arrête, c'est de l'argent pris sur le budget des enfants. Et le soir après 19h, c'est le dîner et les devoirs chez moi.",
-  "objection": "Je ne suis pas sûr de tenir sur la durée, et le samedi matin c'est le seul moment où je souffle en famille.",
-  "would_change_my_mind": "Que mon médecin ou un collègue qui l'a fait me dise que ça a vraiment réglé son mal de dos ; là je ferais au moins la séance découverte à 15 €.",
-  "price_too_cheap": 20,
-  "price_cheap": 35,
-  "price_expensive": 50,
-  "price_too_expensive": 70
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "convenience",
+  "reason": "Le seul truc qui peut marcher pour moi, c'est que le sport vienne à la maison, et j'ai vraiment mal au dos. À 15 € la séance découverte je tente, mais je ne signe pas le mois tout de suite.",
+  "objection": "126 € par mois ça pèse avec les enfants, et je me connais : au bout de trois semaines je risque de lâcher, surtout les soirs après 19h quand il faut gérer les devoirs et le dîner.",
+  "would_change_my_mind": "Que la séance découverte me soulage vraiment le dos ou me montre un plan clair que je peux tenir, et un vrai retour d'autres pères de famille du coin qui ont tenu plusieurs mois.",
+  "price_too_cheap": 10,
+  "price_cheap": 20,
+  "price_expensive": 32,
+  "price_too_expensive": 45
 }

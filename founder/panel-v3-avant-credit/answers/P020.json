@@ -1,0 +1,13 @@
+{
+  "id": "P020",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Je paie une salle depuis des mois pour rien, et la vraie raison c'est que j'ai peur de me faire mal tout seul. Une séance découverte à 15 € chez moi avec quelqu'un qui adapte à mes douleurs, je peux tester ça, mais je ne m'engage pas sur 126 €/mois avant d'avoir vu.",
+  "objection": "Est-ce que je vais vraiment tenir, et 126 € par mois en plus de la salle que je n'utilise pas, ça commence à faire beaucoup pour quelqu'un qui n'a pas fait de sport depuis longtemps. Et un coach de 2 ans d'expérience, est-ce qu'il sait gérer un dos de 54 ans ?",
+  "would_change_my_mind": "",
+  "price_too_cheap": 25,
+  "price_cheap": 40,
+  "price_expensive": 60,
+  "price_too_expensive": 85
+}

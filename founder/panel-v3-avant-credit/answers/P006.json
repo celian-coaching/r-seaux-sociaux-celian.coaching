@@ -1,0 +1,13 @@
+{
+  "id": "P006",
+  "buys": true,
+  "purchases_first_month": 1,
+  "reason_code": "need",
+  "reason": "Les programmes YouTube, je les ai déjà lancés et je lâche au bout de deux semaines ; à 15 € la séance découverte chez moi un soir après 19h, je teste sans risque. Mais je ne signe pas tout de suite pour la formule Objectif, je veux d'abord voir s'il me fait vraiment transpirer.",
+  "objection": "Deux ans de coaching seulement, et le pack Objectif ne donne que des « conseils de base » sur l'alimentation alors que pour perdre 10 kg c'est là que tout se joue. Je ne veux pas payer 244 € par mois pour quelqu'un qui me compte des répétitions.",
+  "would_change_my_mind": "Des avant/après de clients de mon âge avec des chiffres réels (kilos perdus en 3 mois) et un vrai suivi nutrition dans la formule Objectif ; là je prendrais l'abonnement dès la première séance.",
+  "price_too_cheap": 25,
+  "price_cheap": 40,
+  "price_expensive": 65,
+  "price_too_expensive": 90
+}
