@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Carrousel 4 mouvements</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&display=swap">
+<style>
+  :root {
+    --citron: #e0ff20;
+    --menthe: #00dba0;
+    --orange: #e46d29;
+    --noir: #141414;
+    --clair: #f4f4f0;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #444; font-family: Inter, sans-serif; }
+  section {
+    width: 1080px; height: 1350px; position: relative; overflow: hidden;
+    padding: 120px; display: flex; flex-direction: column;
+    page-break-after: always;
+  }
+  h1, h2, .num, .pill, .bar { font-family: Oswald, sans-serif; text-transform: uppercase; }
+  .handle {
+    position: absolute; left: 120px; bottom: 64px;
+    font-size: 32px; font-weight: 600; opacity: .8;
+  }
+  .count {
+    position: absolute; right: 120px; top: 56px;
+    font-family: Oswald, sans-serif; font-size: 34px; font-weight: 600;
+  }
+
+  /* fonds */
+  .sombre { background: var(--noir); color: var(--clair); }
+  .sombre .count { color: var(--menthe); }
+  .sombre h2 { color: var(--citron); }
+  .citron { background: var(--citron); color: var(--noir); }
+  .menthe { background: var(--menthe); color: var(--noir); }
+  .orange { background: var(--orange); color: var(--noir); }
+
+  /* 1 couverture */
+  .cover { justify-content: center; }
+  .cover h1 { font-size: 150px; line-height: 1.04; font-weight: 700; letter-spacing: -1px; }
+  .cover h1 .bloc { display: inline-block; margin-top: 14px; background: var(--noir); color: var(--citron); padding: 4px 22px 10px; }
+  .cover p { font-size: 50px; font-weight: 600; margin-top: 56px; line-height: 1.25; }
+  .cover .fleche {
+    margin-top: 64px; display: inline-flex; align-items: center; gap: 20px;
+    font-family: Oswald, sans-serif; font-size: 40px; font-weight: 600; text-transform: uppercase;
+  }
+  .cover .fleche span {
+    width: 84px; height: 84px; border-radius: 50%; background: var(--noir); color: var(--citron);
+    display: grid; place-items: center; font-size: 48px;
+  }
+
+  /* 2 l'enjeu */
+  .enjeu { justify-content: center; }
+  .enjeu h2 { font-size: 150px; line-height: 1; font-weight: 700; }
+  .enjeu .trait { width: 160px; height: 14px; background: var(--menthe); margin: 64px 0; }
+  .enjeu p { font-size: 54px; line-height: 1.3; font-weight: 500; }
+  .enjeu p strong { color: var(--menthe); font-weight: 700; }
+
+  /* 3 à 6 mouvements */
+  .mvt .tete { display: flex; align-items: flex-start; gap: 36px; margin-top: 10px; }
+  .mvt .num { font-size: 210px; line-height: .8; font-weight: 700; color: var(--orange); }
+  .mvt h2 { font-size: 92px; line-height: 1; font-weight: 700; padding-top: 4px; }
+  .mvt .illu {
+    margin-top: 56px; height: 540px; border-radius: 36px; background: #222;
+    display: grid; place-items: center; position: relative;
+  }
+  .mvt .illu svg { width: 800px; height: 500px; }
+  .mvt .pill {
+    position: absolute; top: 28px; right: 28px; background: var(--menthe); color: var(--noir);
+    font-size: 44px; font-weight: 700; padding: 6px 26px; border-radius: 999px;
+  }
+  .mvt p { margin-top: 56px; font-size: 48px; line-height: 1.32; }
+  .mvt p strong { color: var(--citron); font-weight: 700; }
+
+  /* 7 récap */
+  .recap h2 { font-size: 112px; line-height: 1; font-weight: 700; }
+  .recap ol { list-style: none; margin-top: 64px; display: flex; flex-direction: column; gap: 30px; }
+  .recap li { display: flex; align-items: center; gap: 30px; font-size: 50px; font-weight: 600; }
+  .recap li .rond {
+    flex: none; width: 84px; height: 84px; border-radius: 50%; background: var(--noir); color: var(--menthe);
+    display: grid; place-items: center; font-family: Oswald, sans-serif; font-size: 48px; font-weight: 700;
+  }
+  .recap li em { font-style: normal; margin-left: auto; font-family: Oswald, sans-serif; font-weight: 700; }
+  .recap .bar {
+    margin-top: auto; margin-bottom: 40px; background: var(--noir); color: var(--citron);
+    font-size: 54px; font-weight: 700; text-align: center; padding: 30px 20px; border-radius: 24px;
+  }
+
+  /* 8 appel à l'action */
+  .cta { justify-content: center; align-items: flex-start; }
+  .cta svg { width: 190px; height: 240px; margin-bottom: 60px; }
+  .cta h2 { font-size: 124px; white-space: nowrap; line-height: 1; font-weight: 700; }
+  .cta p { font-size: 58px; font-weight: 600; margin-top: 40px; line-height: 1.25; }
+
+  /* illustrations */
+  .sol { stroke: #555; stroke-width: 8; stroke-linecap: round; }
+  .meuble { stroke: #8a8a8a; stroke-width: 14; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+  .corps { stroke: var(--menthe); stroke-width: 24; stroke-linecap: round; stroke-linejoin: round; fill: none; }
+  .tetec { fill: var(--menthe); }
+  .fleche-mvt { stroke: var(--citron); stroke-width: 8; fill: none; stroke-linecap: round; stroke-dasharray: 2 18; }
+  .pointe { fill: var(--citron); }
+</style>
+</head>
+<body>
+
+<!-- 1 COUVERTURE -->
+<section class="citron cover">
+  <span class="count">1/8</span>
+  <h1>Par où<br>commencer<br><span class="bloc">à 45 ans ?</span></h1>
+  <p>4 mouvements, chez toi,<br>sans matériel.</p>
+  <div class="fleche"><span>→</span>Fais glisser</div>
+  <span class="handle">@celian.coaching</span>
+</section>
+
+<!-- 2 L'ENJEU -->
+<section class="sombre enjeu">
+  <span class="count">2/8</span>
+  <h2>Pas besoin<br>de salle</h2>
+  <div class="trait"></div>
+  <p>Ni de programme compliqué.<br>Ces <strong>4 gestes</strong> font travailler<br><strong>tout ton corps.</strong></p>
+  <span class="handle">@celian.coaching</span>
+</section>
+
+<!-- 3 SQUAT SUR CHAISE -->
+<section class="sombre mvt">
+  <span class="count">3/8</span>
+  <div class="tete"><span class="num">1</span><h2>Le squat<br>sur chaise</h2></div>
+  <div class="illu">
+    <span class="pill">10×</span>
+    <svg viewBox="0 0 600 420" aria-hidden="true">
+      <line class="sol" x1="60" y1="384" x2="560" y2="384"/>
+      <path class="meuble" d="M340 384 V272 H452 M452 384 V140"/>
+      <path class="corps" d="M200 378 L232 374 L240 282 L330 262 L285 152"/>
+      <path class="corps" d="M285 160 L190 178"/>
+      <circle class="tetec" cx="268" cy="104" r="34"/>
+      <path class="fleche-mvt" d="M372 230 Q 400 170 372 110"/>
+      <path class="pointe" d="M356 118 L376 90 L390 122 Z"/>
+    </svg>
+  </div>
+  <p>Tu t'assois, tu te relèves. <strong>10 fois, sans les mains.</strong> C'est le geste que tu fais tous les jours.</p>
+  <span class="handle">@celian.coaching</span>
+</section>
+
+<!-- 4 POMPES CONTRE LE MUR -->
+<section class="sombre mvt">
+  <span class="count">4/8</span>
+  <div class="tete"><span class="num">2</span><h2>Les pompes<br>contre le mur</h2></div>
+  <div class="illu">
+    <span class="pill">10×</span>
+    <svg viewBox="0 0 600 420" aria-hidden="true">
+      <line class="sol" x1="60" y1="384" x2="560" y2="384"/>
+      <line class="meuble" x1="490" y1="40" x2="490" y2="384"/>
+      <path class="corps" d="M196 378 L172 370 L398 152"/>
+      <path class="corps" d="M398 152 L440 198 L476 152"/>
+      <circle class="tetec" cx="430" cy="114" r="32"/>
+      <path class="fleche-mvt" d="M300 120 Q 340 80 380 74"/>
+      <path class="pointe" d="M376 58 L406 72 L378 90 Z"/>
+    </svg>
+  </div>
+  <p>Mains à hauteur d'épaules, <strong>le corps droit.</strong> Le haut du corps, sans aller au sol.</p>
+  <span class="handle">@celian.coaching</span>
+</section>
+
+<!-- 5 GAINAGE -->
+<section class="sombre mvt">
+  <span class="count">5/8</span>
+  <div class="tete"><span class="num">3</span><h2>Le<br>gainage</h2></div>
+  <div class="illu">
+    <span class="pill">20 s</span>
+    <svg viewBox="0 0 600 420" aria-hidden="true">
+      <line class="sol" x1="40" y1="384" x2="560" y2="384"/>
+      <path class="corps" d="M84 376 L104 362 L420 300"/>
+      <path class="corps" d="M420 300 L420 372 L500 372"/>
+      <circle class="tetec" cx="474" cy="282" r="32"/>
+      <line x1="104" y1="300" x2="420" y2="238" stroke="#e0ff20" stroke-width="8" stroke-linecap="round" stroke-dasharray="2 18"/>
+    </svg>
+  </div>
+  <p>20 secondes sur les avant-bras. Trop dur ? Sur les genoux. <strong>Ça protège ta colonne.</strong></p>
+  <span class="handle">@celian.coaching</span>
+</section>
+
+<!-- 6 RELEVÉS DE BUSTE -->
+<section class="sombre mvt">
+  <span class="count">6/8</span>
+  <div class="tete"><span class="num">4</span><h2>Les relevés<br>de buste</h2></div>
+  <div class="illu">
+    <span class="pill">10×</span>
+    <svg viewBox="0 0 600 420" aria-hidden="true">
+      <line class="sol" x1="40" y1="384" x2="560" y2="384"/>
+      <path class="corps" d="M176 322 L300 362 L404 268 L470 368 L502 374"/>
+      <path class="corps" d="M184 318 L296 292"/>
+      <circle class="tetec" cx="136" cy="300" r="32"/>
+      <path class="fleche-mvt" d="M100 230 Q 130 180 190 168"/>
+      <path class="pointe" d="M184 152 L214 166 L186 184 Z"/>
+    </svg>
+  </div>
+  <p>10 fois, allongé. Tu décolles <strong>juste les épaules,</strong> sans tirer sur ta nuque.</p>
+  <span class="handle">@celian.coaching</span>
+</section>
+
+<!-- 7 RÉCAP -->
+<section class="menthe recap">
+  <span class="count">7/8</span>
+  <h2>Ta séance<br>en un écran</h2>
+  <ol>
+    <li><span class="rond">1</span>Squat sur chaise<em>10×</em></li>
+    <li><span class="rond">2</span>Pompes au mur<em>10×</em></li>
+    <li><span class="rond">3</span>Gainage<em>20 s</em></li>
+    <li><span class="rond">4</span>Relevés de buste<em>10×</em></li>
+  </ol>
+  <div class="bar">3 tours · 2 à 3 fois par semaine</div>
+  <span class="handle">@celian.coaching</span>
+</section>
+
+<!-- 8 APPEL À L'ACTION -->
+<section class="orange cta">
+  <span class="count">8/8</span>
+  <svg viewBox="0 0 190 240" aria-hidden="true">
+    <path d="M14 14 H176 V226 L95 168 L14 226 Z" fill="none" stroke="#141414" stroke-width="20" stroke-linejoin="round"/>
+  </svg>
+  <h2>Enregistre-la</h2>
+  <p>Pour ta prochaine séance.</p>
+  <span class="handle">@celian.coaching</span>
+</section>
+
+</body>
+</html>

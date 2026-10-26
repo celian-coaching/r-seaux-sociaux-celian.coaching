@@ -21,3 +21,9 @@ Statuts : à tourner → tourné → posté. Mis à jour par Claude quand Célia
 | 13 | Charges lourdes plutôt que séries interminables | à tourner | — | reels/13-charges-lourdes.md |
 | 14 | Moins de 6 h de sommeil, plus de faim | à tourner | — | reels/14-sommeil-faim.md |
 | 15 | Le tonus n'existe pas | à tourner | — | reels/15-tonus-existe-pas.md |
+
+## Carrousels
+
+| N° | Carrousel | Statut | Date | Dossier |
+|---|---|---|---|---|
+| C1 | Par où commencer à 45 ans : 4 mouvements | images faites, à poster | 2026-10-26 | carrousels/01-4-mouvements/ |
