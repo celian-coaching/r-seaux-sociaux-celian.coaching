@@ -17,7 +17,7 @@ titres en jaune citron. Pas d'orange sur jaune ni sur vert (trop peu de contrast
 
 ## Style des carrousels (validé le 2026-10-26)
 
-Inspiration : les infographies de @supertrainers, avec nos couleurs.
+Inspiration : les infographies de @supertrainers, avec nos couleurs (exemples dans `inspirations/`).
 
 - Fond papier clair `#f6f4ec`, bande de papier déchiré en haut (menthe ou citron).
 - Titre en Oswald noir, un mot dans un encadré de couleur légèrement penché.
