@@ -14,4 +14,4 @@
 - 2026-10-13 · reel · #22 Contrarian Flip · "Les petits poids suffisent plus." · reels/13-charges-lourdes.md
 - 2026-10-13 · reel · #22 Contrarian Flip · "Le problème, c'est peut-être ta nuit." · reels/14-sommeil-faim.md
 - 2026-10-13 · reel · #20 Permission · "T'as pas besoin de « tonifier »." · reels/15-tonus-existe-pas.md
-- 2026-10-26 · carrousel · 8 slides · "Par où commencer à 45 ans ?" · carrousels/01-4-mouvements/
+- 2026-10-26 · carrousel · 8 slides · "Par où commencer facilement ?" · carrousels/01-4-mouvements/

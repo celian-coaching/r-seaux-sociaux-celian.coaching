@@ -26,4 +26,4 @@ Statuts : à tourner → tourné → posté. Mis à jour par Claude quand Célia
 
 | N° | Carrousel | Statut | Date | Dossier |
 |---|---|---|---|---|
-| C1 | Par où commencer à 45 ans : 4 mouvements | images faites, à poster | 2026-10-26 | carrousels/01-4-mouvements/ |
+| C1 | Par où commencer facilement : 4 mouvements | images faites, à poster | 2026-10-26 | carrousels/01-4-mouvements/ |
