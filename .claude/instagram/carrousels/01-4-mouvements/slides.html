@@ -197,22 +197,22 @@ function bras(a, ombre) {
        + `<circle cx="${a.main[0]}" cy="${a.main[1]}" r="12" fill="${peau}"/>`
        + seg(a.epaule, lerp(a.epaule, a.coude, .5), 30, ombre ? C.hautO : C.haut);
 }
-function tete(t, dir) {
+function tete(t, dir, angle = 0) {
   const [x, y] = t;
-  return `<circle cx="${x - dir * 5}" cy="${y - 3}" r="32" fill="${C.cheveux}"/>`
+  return `<g transform="rotate(${angle} ${x} ${y})"><circle cx="${x - dir * 5}" cy="${y - 3}" r="32" fill="${C.cheveux}"/>`
        + `<circle cx="${x - dir * 30}" cy="${y - 16}" r="14" fill="${C.cheveux}"/>`
        + `<circle cx="${x + dir * 3}" cy="${y + 4}" r="28" fill="${C.peau}"/>`
        + `<path d="M${x - dir * 30} ${y - 4} Q ${x - dir * 6} ${y - 40} ${x + dir * 30} ${y - 6} Q ${x + dir * 6} ${y - 22} ${x - dir * 30} ${y - 4} Z" fill="${C.cheveux}"/>`
        + `<circle cx="${x - dir * 6}" cy="${y + 6}" r="6" fill="${C.peauO}"/>`
        + `<circle cx="${x + dir * 17}" cy="${y + 2}" r="3.6" fill="#141414"/>`
-       + `<path d="M${x + dir * 12} ${y + 17} q ${dir * 7} 4 ${dir * 13} -1" stroke="#a5654a" stroke-width="3" fill="none" stroke-linecap="round"/>`;
+       + `<path d="M${x + dir * 12} ${y + 17} q ${dir * 7} 4 ${dir * 13} -1" stroke="#a5654a" stroke-width="3" fill="none" stroke-linecap="round"/></g>`;
 }
 function personne(p) {
   return jambe(p.jambeLoin, true) + bras(p.brasLoin, true)
        + seg(p.cou, lerp(p.cou, p.tete, .6), 18, C.peau)
        + seg(p.hanche, p.epaule, 62, C.haut)
        + seg(p.hanche, lerp(p.hanche, p.epaule, .18), 62, C.bas)
-       + jambe(p.jambe, false) + bras(p.bras, false) + tete(p.tete, p.dir);
+       + jambe(p.jambe, false) + bras(p.bras, false) + tete(p.tete, p.dir, p.angle);
 }
 // texte manuscrit (une ou deux lignes) + flèche courbe
 function note(x, y, lignes, de, vers, ctrl, ancre = 'start') {
@@ -273,7 +273,7 @@ const POSES = {
     box: '10 170 570 240',
     decor: () => ombreSol(30, 570) + tapis(80, 470),
     p: {
-      dir: 1, hanche: [222, 276], epaule: [398, 268], cou: [420, 260], tete: [452, 236],
+      dir: 1, angle: 60, hanche: [222, 276], epaule: [398, 268], cou: [418, 266], tete: [448, 268],
       jambe: { hanche: [222, 276], genou: [138, 270], cheville: [54, 262], pied: [28, 250] },
       jambeLoin: { hanche: [228, 284], genou: [228, 392], cheville: [134, 396], pied: [112, 388] },
       bras: { epaule: [398, 276], coude: [400, 336], main: [404, 392] },
@@ -281,8 +281,8 @@ const POSES = {
     },
     notes: () => note(250, 110, ['Dos plat'], [300, 122], [310, 232], [330, 170])
       + note(20, 110, ['Bras et jambe', 'opposés'], [80, 160], [70, 240], [50, 200])
-      + note(590, 130, ['Regard au sol'], [530, 146], [478, 236], [520, 210], 'end')
-      + note(300, 360, ['Bassin immobile'], [310, 340], [240, 300], [270, 330]),
+      + note(590, 130, ['Regard au sol'], [530, 146], [470, 300], [560, 250], 'end')
+      + note(20, 350, ['Bassin immobile'], [180, 322], [212, 302], [205, 320]),
   },
 };
 
