@@ -270,7 +270,7 @@ function personne(p) {
 
 // squelette aux proportions fixes : on donne le bassin, l'angle du buste,
 // et où vont mains et chevilles ; coudes et genoux se placent tout seuls.
-const L = { tronc: 130, cou: 44, bras: 70, avantBras: 62, cuisse: 100, tibia: 95, pied: 36 };
+const L = { tronc: 130, cou: 44, bras: 64, avantBras: 56, cuisse: 106, tibia: 95, pied: 36 };
 const vec = (deg, l) => [Math.cos(deg * Math.PI / 180) * l, Math.sin(deg * Math.PI / 180) * l];
 function ik(a, cible, l1, l2, pli) {
   const d = Math.min(Math.hypot(cible[0] - a[0], cible[1] - a[1]), l1 + l2 - .5);
@@ -336,11 +336,11 @@ const POSES = {
   gainage: {
     decor: () => ombreSol(50, 550) + tapis(40, 560),
     s: {
-      dir: 1, hanche: [288, 330], tronc: -8, regard: 4,
-      jambe: { cheville: [100, 362], pied: 112, pli: 1 },
-      jambeLoin: { cheville: [96, 358], pied: 112, pli: 1 },
-      bras: { main: [486, 384], pli: 1 },
-      brasLoin: { main: [474, 380], pli: 1 },
+      dir: 1, hanche: [288, 338], tronc: -8, regard: 4,
+      jambe: { cheville: [30, 374], pied: 112, pli: 1 },
+      jambeLoin: { cheville: [24, 370], pied: 112, pli: 1 },
+      bras: { main: [480, 388], pli: 1 },
+      brasLoin: { main: [468, 384], pli: 1 },
     },
     notes: () => note(30, 180, ['Bassin aligné'], [120, 194], [282, 300], [220, 200])
       + note(290, 120, ['Ventre serré'], [350, 132], [350, 320], [410, 220])
@@ -349,9 +349,9 @@ const POSES = {
   birddog: {
     decor: () => ombreSol(40, 570) + tapis(130, 470),
     s: {
-      dir: 1, hanche: [270, 264], tronc: -3, regard: 10, nuque: 6,
+      dir: 1, hanche: [272, 277], tronc: -5, regard: 10, nuque: 6,
       jambe: { cheville: [60, 266], pied: 92, pli: 1 },
-      jambeLoin: { cheville: [178, 362], pied: 100, pli: -1 },
+      jambeLoin: { cheville: [174, 386], pied: 181, pli: -1 },
       bras: { main: [404, 420], pli: 1 },
       brasLoin: { main: [560, 246], pli: 1 },
     },
