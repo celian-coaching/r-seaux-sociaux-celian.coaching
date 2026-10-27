@@ -22,7 +22,10 @@ Inspiration : les infographies de @supertrainers, avec nos couleurs (exemples da
 - Fond papier clair `#f6f4ec`, bande de papier déchiré en haut (menthe ou citron).
 - Titre en Oswald noir, un mot dans un encadré de couleur légèrement penché.
 - Personnage dessiné à plat, membres effilés et silhouette de profil (t-shirt menthe,
-  legging foncé, baskets orange à semelle blanche, queue de cheval),
+  legging foncé, baskets orange à semelle blanche avec lacets, visage de profil
+  avec nez et menton, queue de cheval),
   annotations manuscrites (police Caveat) avec des flèches vers le geste.
 - Le dessin et les annotations sont générés par `carrousels/01-4-mouvements/slides.html`
-  (fonctions `personne()`, `tronc()`, `cap()` + poses) : réutiliser ce fichier comme base.
+  (fonctions `personne()`, `tronc()`, `chaussure()`, `tete()` ; chaque pose se
+  décrit par le bassin, l'angle du buste et la place des mains et des chevilles,
+  `squelette()` garde les mêmes longueurs de membres partout) : réutiliser ce fichier comme base.
