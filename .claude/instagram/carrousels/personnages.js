@@ -250,5 +250,114 @@ function cadrer(svg, marge = 8) {
   svg.setAttribute('viewBox', `${b.x - marge} ${b.y - marge} ${b.width + 2 * marge} ${b.height + 2 * marge}`);
 }
 
-window.Perso = { dessiner, cadrer, squelette, POSES, TYPES, PEAUX, HAUTS };
+
+// ---------------------------------------------------------------------------
+// Mannequin anatomique, de face ou de dos, pour montrer les muscles travaillés.
+//   Perso.anatomie({ type: 'homme' | 'femme', peau, vue: 'face' | 'dos',
+//                    muscles: { quadriceps: 1, fessiers: 1, ischios: .5 } })
+// renvoie le dessin dans un repère 0 0 200 440 (pieds à y = 430).
+// Intensité de 0 à 1 : 1 = muscle principal, .5 = muscle qui aide.
+// Noms : Perso.MUSCLES.face et Perso.MUSCLES.dos.
+
+const ACCENT = '#e46d29', ACCENT_O = '#b8521a';
+
+// moitié droite (x >= 100) des formes ; l'autre moitié est le miroir
+const SILHOUETTE = {
+  homme: { epaule: 152, aisselle: 145, taille: 131, hanche: 139, cuisse: 22, bras: 1 },
+  femme: { epaule: 143, aisselle: 137, taille: 124, hanche: 145, cuisse: 23, bras: .88 },
+};
+const MUSCLES_FACE = {
+  deltoides:  [[138, 92], [151, 99], [156, 117], [150, 131], [143, 116], [136, 101]],
+  pectoraux:  [[104, 97], [130, 94], [142, 104], [141, 121], [124, 128], [104, 124]],
+  biceps:     [[148, 122], [156, 130], [159, 158], [155, 175], [150, 160], [147, 136]],
+  avantbras:  [[153, 191], [161, 197], [164, 225], [161, 240], [156, 222]],
+  abdominaux: [[103, 134], [115, 133], [116, 196], [113, 220], [103, 224]],
+  obliques:   [[120, 138], [135, 150], [132, 188], [125, 204], [119, 178]],
+  quadriceps: [[116, 256], [132, 248], [141, 266], [138, 306], [128, 324], [118, 318], [113, 290]],
+  adducteurs: [[104, 266], [112, 262], [114, 292], [108, 284]],
+  mollets:    [[128, 344], [134, 358], [131, 388], [126, 370]],
+  tibial:     [[119, 345], [125, 348], [124, 392], [119, 396]],
+};
+const MUSCLES_DOS = {
+  trapezes:   [[100, 64], [112, 71], [130, 86], [140, 93], [120, 99], [106, 124], [100, 140]],
+  deltoides:  MUSCLES_FACE.deltoides,
+  triceps:    [[146, 118], [154, 126], [157, 168], [151, 178], [146, 150]],
+  dorsaux:    [[104, 134], [121, 104], [143, 118], [140, 150], [125, 184], [106, 196]],
+  avantbras:  MUSCLES_FACE.avantbras,
+  lombaires:  [[101, 196], [112, 190], [114, 214], [101, 222]],
+  fessiers:   [[101, 226], [125, 218], [140, 232], [139, 258], [121, 271], [101, 265]],
+  ischios:    [[112, 278], [134, 270], [138, 312], [128, 328], [116, 318]],
+  mollets:    [[114, 342], [128, 339], [135, 362], [129, 390], [120, 392], [114, 368]],
+};
+// abdominaux : la tablette, case par case
+const ABDOS = [[103, 134, 12, 18], [103, 156, 12, 19], [103, 179, 11, 18], [103, 201, 9, 20]];
+
+function anatomie(o = {}) {
+  const C = couleurs({ type: o.type || 'homme', peau: o.peau }), S = SILHOUETTE[o.type === 'femme' ? 'femme' : 'homme'];
+  const dos = o.vue === 'dos', M = o.muscles || {}, femme = o.type === 'femme';
+  const sym = pts => pts.concat(pts.slice().reverse().map(([x, y]) => [200 - x, y]));
+  const miroir = s => s + `<g transform="translate(200 0) scale(-1 1)">${s}</g>`;
+
+  // corps
+  const tronc = sym([[113, 76], [128, 86], [S.epaule - 6, 92], [S.epaule, 104], [S.aisselle, 124], [S.aisselle - 6, 150],
+                     [S.taille, 182], [S.hanche - 5, 206], [S.hanche, 228], [S.hanche - 8, 254], [126, 262], [104, 266]]).reverse();
+  const k = S.bras;
+  const membres = cap([S.epaule - 5, 106], [S.epaule + 4, 182], 13 * k, 10 * k, C.peau)
+    + cap([S.epaule + 4, 182], [S.epaule + 9, 250], 10.5 * k, 7 * k, C.peau)
+    + `<ellipse cx="${S.epaule + 11}" cy="266" rx="${8 * k}" ry="14" fill="${C.peau}"/>`
+    + cap([S.hanche - 17, 242], [121, 334], S.cuisse, 12.5, C.peau)
+    + cap([121, 334], [118, 410], 12.5, 7, C.peau)
+    + `<ellipse cx="${dos ? 122 : 125}" cy="362" rx="10.5" ry="27" fill="${C.peau}"/>`
+    + (dos ? `<ellipse cx="118" cy="420" rx="9" ry="9" fill="${C.peau}"/>`
+           : `<path d="M110 412 C108 424 114 431 124 431 C132 431 135 426 132 418 C129 412 124 408 118 408 Z" fill="${C.peau}"/>`);
+  let corps = miroir(membres) + cap([100, 50], [100, 86], 14, 15.5, C.peau) + lisse(tronc, C.peau);
+
+  // muscles : contour léger partout, couleur sur ceux qui travaillent
+  const zones = dos ? MUSCLES_DOS : MUSCLES_FACE;
+  let fines = '', fortes = '';
+  for (const nom in zones) {
+    const pts = zones[nom], i = M[nom] || 0;
+    if (nom === 'abdominaux') {
+      const r = ABDOS.map(([x, y, w, h]) => `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="4"`);
+      fines += r.map(s => `${s} fill="${C.peauO}" opacity=".35"/>`).join('');
+      if (i) fortes += r.map(s => `${s} fill="${ACCENT}" opacity="${.35 + .65 * i}"/>`).join('');
+      continue;
+    }
+    if (femme && nom === 'pectoraux') {
+      const p = [[104, 100], [128, 98], [140, 106], [138, 122], [122, 130], [104, 126]];
+      fines += lisse(p, C.peauO).replace('/>', ' opacity=".22"/>');
+      if (i) fortes += lisse(p, ACCENT).replace('/>', ` opacity="${.35 + .65 * i}"/>`);
+      continue;
+    }
+    fines += lisse(pts, C.peauO).replace('/>', ' opacity=".35"/>');
+    if (i) fortes += lisse(pts, ACCENT).replace('/>', ` opacity="${.35 + .65 * i}" stroke="${ACCENT_O}" stroke-width="1.2"/>`);
+  }
+  corps += miroir(fines) + miroir(fortes);
+  if (!dos && !femme) corps += `<path d="M100 132 L100 222" stroke="${C.peauO}" stroke-width="1.4" opacity=".6"/>`;
+  if (dos) corps += `<path d="M100 84 L100 220" stroke="${C.peauO}" stroke-width="1.6" opacity=".7"/>`
+                  + `<path d="M100 236 L100 262" stroke="${C.peauO}" stroke-width="1.6" opacity=".8"/>`;
+
+  // tête
+  const tete = `<ellipse cx="100" cy="40" rx="22" ry="27" fill="${C.peau}"/>`
+    + miroir(`<ellipse cx="122" cy="43" rx="4.5" ry="7.5" fill="${C.peauO}"/>`);
+  let cheveux;
+  if (dos) {
+    cheveux = `<path d="M77 44 C74 14 90 6 100 6 C110 6 126 14 123 44 C118 52 110 56 100 56 C90 56 82 52 77 44 Z" fill="${C.cheveux}"/>`
+      + (femme ? `<path d="M93 30 C88 50 90 80 100 92 C110 80 112 50 107 30 Z" fill="${C.cheveux}"/>`
+               + `<rect x="94" y="30" width="12" height="7" rx="3.5" fill="${C.haut}"/>` : '');
+  } else {
+    cheveux = femme
+      ? `<path d="M77 44 C72 14 90 7 100 7 C112 7 128 14 123 44 C121 32 116 24 108 21 C100 27 88 28 80 30 C78 34 78 40 77 44 Z" fill="${C.cheveux}"/>`
+      : `<path d="M78 34 C76 14 90 8 100 8 C112 8 125 14 122 34 C118 24 110 20 100 21 C90 21 82 25 78 34 Z" fill="${C.cheveux}"/>`;
+    cheveux += miroir(`<path d="M106 33 Q111 30 116 32" stroke="${C.cheveux}" stroke-width="2.2" fill="none" stroke-linecap="round"/>`
+      + `<ellipse cx="110" cy="39.5" rx="2.4" ry="2.8" fill="#141414"/>`
+      + `<ellipse cx="111" cy="51" rx="4" ry="2.6" fill="${C.joue}" opacity="${C.joueOp}"/>`)
+      + `<path d="M100 40 L98 50 L101.5 51" stroke="${C.peauO}" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/>`
+      + `<path d="M95 57 Q100 60 105 57" stroke="${C.bouche}" stroke-width="2.2" fill="none" stroke-linecap="round"/>`;
+  }
+  return `<ellipse cx="100" cy="432" rx="52" ry="6" fill="#141414" opacity=".08"/>` + corps + tete + cheveux;
+}
+const MUSCLES = { face: Object.keys(MUSCLES_FACE), dos: Object.keys(MUSCLES_DOS) };
+
+window.Perso = { dessiner, cadrer, squelette, anatomie, POSES, TYPES, PEAUX, HAUTS, MUSCLES };
 })();

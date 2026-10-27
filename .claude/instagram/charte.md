@@ -43,3 +43,16 @@ Bibliothèque commune : `carrousels/personnages.js`, planche : `carrousels/perso
 - Poses prêtes : `debout`, `squat`, `mur`, `gainage`, `birddog` (`Perso.POSES`).
   Une nouvelle pose = bassin, angle du buste, place des mains et des chevilles.
 - Varier les personnages d'un carrousel à l'autre pour que chacun s'y retrouve.
+
+## Corps anatomique (2026-10-27)
+
+Mannequin lisse, de face ou de dos, pour montrer les muscles travaillés
+(inspiré des infographies @supertrainers). Planche : `carrousels/personnages/anatomie.png`.
+
+- `Perso.anatomie({ type: 'homme' | 'femme', peau, vue: 'face' | 'dos', muscles: { quadriceps: 1, fessiers: 1, ischios: .5 } })`,
+  dessin dans un repère `0 0 200 440`.
+- Muscles en orange de la charte : 1 = muscle principal, .5 = muscle qui aide.
+  Les autres restent en contour léger.
+- Face : deltoides, pectoraux, biceps, avantbras, abdominaux, obliques, quadriceps,
+  adducteurs, mollets, tibial. Dos : trapezes, deltoides, triceps, dorsaux, avantbras,
+  lombaires, fessiers, ischios, mollets.
