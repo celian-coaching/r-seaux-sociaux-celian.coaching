@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Carrousel 4 mouvements</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Caveat:wght@600;700&display=swap">
+<style>
+  :root {
+    --citron: #e0ff20;
+    --menthe: #00dba0;
+    --orange: #e46d29;
+    --noir: #141414;
+    --papier: #f6f4ec;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #444; font-family: Inter, sans-serif; }
+  section {
+    width: 1080px; height: 1350px; position: relative; overflow: hidden;
+    padding: 0 120px; display: flex; flex-direction: column;
+    background: var(--papier); color: var(--noir);
+  }
+  section::before {
+    content: ""; position: absolute; inset: 0; pointer-events: none; opacity: .5;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/><feColorMatrix values='0 0 0 0 .55  0 0 0 0 .5  0 0 0 0 .4  0 0 0 .09 0'/></filter><rect width='300' height='300' filter='url(%23n)'/></svg>");
+  }
+  section > * { position: relative; }
+  h1, h2, .num, .label, .pill, .bar, .count { font-family: Oswald, sans-serif; text-transform: uppercase; }
+
+  .bande { position: absolute !important; left: 0; top: 0; width: 1080px; height: 130px; }
+  .count { position: absolute !important; right: 120px; top: 40px; font-size: 36px; font-weight: 700; }
+  .handle { position: absolute !important; left: 120px; bottom: 60px; font-size: 32px; font-weight: 600; opacity: .75; }
+
+  .label {
+    display: inline-block; background: var(--orange); color: var(--noir);
+    font-weight: 700; padding: 2px 22px 8px; transform: rotate(-1.5deg);
+  }
+
+  /* couverture */
+  .cover h1 { margin-top: 200px; font-size: 140px; line-height: 1.02; font-weight: 700; }
+  .cover h1 .label { font-size: 140px; margin-top: 14px; }
+  .cover p { font-size: 46px; font-weight: 600; margin-top: 44px; }
+  .cover #cover-illu { position: absolute !important; right: 70px; bottom: 60px; width: 500px; height: 500px; }
+
+  /* enjeu */
+  .enjeu h2 { margin-top: 230px; font-size: 140px; line-height: 1.02; font-weight: 700; }
+  .enjeu h2 .label { background: var(--menthe); font-size: 140px; margin-top: 10px; }
+  .enjeu p { font-size: 50px; line-height: 1.3; margin-top: 56px; font-weight: 500; }
+  .enjeu p strong { font-weight: 800; }
+  .enjeu .mini { display: flex; justify-content: space-between; margin-top: 70px; }
+  .enjeu .mini svg { width: 200px; height: 170px; }
+
+  /* mouvements */
+  .mvt .titre { margin-top: 170px; display: flex; align-items: flex-start; gap: 34px; }
+  .mvt .num { font-size: 190px; line-height: .78; font-weight: 700; color: var(--orange); }
+  .mvt h2 { font-size: 104px; line-height: 1; font-weight: 700; }
+  .mvt h2 .label { background: var(--citron); font-size: 76px; margin-top: 12px; }
+  .mvt .illu { position: relative; margin: 20px -100px 0; }
+  .mvt .illu svg { width: 1000px; height: 640px; display: block; margin: 0 auto; }
+  .mvt .pill {
+    position: absolute; right: 100px; top: 0; background: var(--menthe); color: var(--noir);
+    font-size: 46px; font-weight: 700; padding: 4px 28px; border-radius: 999px;
+  }
+  .mvt p { font-size: 44px; line-height: 1.3; margin-top: 0; }
+  .mvt p strong { font-weight: 800; background: linear-gradient(transparent 58%, var(--citron) 58%); }
+
+  /* récap */
+  .recap h2 { margin-top: 180px; font-size: 104px; line-height: 1; font-weight: 700; }
+  .recap h2 .label { background: var(--menthe); font-size: 104px; margin-top: 10px; }
+  .recap ol { list-style: none; margin-top: 46px; display: flex; flex-direction: column; gap: 14px; }
+  .recap li {
+    display: flex; align-items: center; gap: 24px; font-size: 46px; font-weight: 700;
+    background: #fff; border-radius: 24px; padding: 6px 30px 6px 10px;
+  }
+  .recap li svg { width: 190px; height: 120px; flex: none; }
+  .recap li em { margin-left: auto; font-style: normal; font-family: Oswald, sans-serif; color: var(--orange); font-size: 50px; }
+  .recap .bar {
+    margin-top: 34px; background: var(--noir); color: var(--citron);
+    font-size: 52px; font-weight: 700; text-align: center; padding: 24px 20px; border-radius: 22px;
+  }
+
+  /* appel à l'action */
+  .cta { background: var(--orange); justify-content: center; }
+  .cta::before { opacity: .35; }
+  .cta svg.signet { width: 170px; height: 220px; margin-bottom: 56px; }
+  .cta h2 { font-size: 124px; font-weight: 700; white-space: nowrap; }
+  .cta p { font-size: 58px; font-weight: 600; margin-top: 30px; }
+
+  /* textes manuscrits dans les dessins */
+  .note { font-family: Caveat, cursive; font-weight: 700; fill: var(--noir); }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <svg class="bande" data-bande="#00dba0"></svg>
+  <span class="count">1/8</span>
+  <h1>Par où<br>commencer<br><span class="label">facilement&nbsp;?</span></h1>
+  <p>4 mouvements, chez toi,<br>sans matériel.</p>
+  <svg id="cover-illu"></svg>
+  <span class="handle">@celian.coaching</span>
+</section>
+
+<section class="enjeu">
+  <svg class="bande" data-bande="#e0ff20"></svg>
+  <span class="count">2/8</span>
+  <h2>Pas besoin<br><span class="label">de salle</span></h2>
+  <p>Ni de programme compliqué.<br>Ces <strong>4 gestes</strong> font travailler<br><strong>tout ton corps.</strong></p>
+  <div class="mini">
+    <svg data-mini="squat"></svg><svg data-mini="mur"></svg><svg data-mini="gainage"></svg><svg data-mini="birddog"></svg>
+  </div>
+  <span class="handle">@celian.coaching</span>
+</section>
+
+<section class="mvt">
+  <svg class="bande" data-bande="#00dba0"></svg>
+  <span class="count">3/8</span>
+  <div class="titre"><span class="num">1</span><h2>Le squat<br><span class="label">sur chaise</span></h2></div>
+  <div class="illu"><span class="pill">10×</span><svg data-pose="squat"></svg></div>
+  <p>Tu t'assois, tu te relèves. <strong>10 fois, sans les mains.</strong> C'est le geste que tu fais tous les jours.</p>
+  <span class="handle">@celian.coaching</span>
+</section>
+
+<section class="mvt">
+  <svg class="bande" data-bande="#00dba0"></svg>
+  <span class="count">4/8</span>
+  <div class="titre"><span class="num">2</span><h2>Les pompes<br><span class="label">contre le mur</span></h2></div>
+  <div class="illu"><span class="pill">10×</span><svg data-pose="mur"></svg></div>
+  <p>Mains à hauteur d'épaules, <strong>le corps droit.</strong> Le haut du corps, sans aller au sol.</p>
+  <span class="handle">@celian.coaching</span>
+</section>
+
+<section class="mvt">
+  <svg class="bande" data-bande="#00dba0"></svg>
+  <span class="count">5/8</span>
+  <div class="titre"><span class="num">3</span><h2>Le<br><span class="label">gainage</span></h2></div>
+  <div class="illu"><span class="pill">20 s</span><svg data-pose="gainage"></svg></div>
+  <p>20 secondes sur les avant-bras. Trop dur ? Sur les genoux. <strong>Ça protège ta colonne.</strong></p>
+  <span class="handle">@celian.coaching</span>
+</section>
+
+<section class="mvt">
+  <svg class="bande" data-bande="#00dba0"></svg>
+  <span class="count">6/8</span>
+  <div class="titre"><span class="num">4</span><h2>Le<br><span class="label">bird dog</span></h2></div>
+  <div class="illu"><span class="pill">10×</span><svg data-pose="birddog"></svg></div>
+  <p>À quatre pattes, tu tends un bras et la jambe opposée. 2 secondes, puis tu changes. <strong>Le dos reste plat.</strong></p>
+  <span class="handle">@celian.coaching</span>
+</section>
+
+<section class="recap">
+  <svg class="bande" data-bande="#e0ff20"></svg>
+  <span class="count">7/8</span>
+  <h2>Ta séance<br><span class="label">en un écran</span></h2>
+  <ol>
+    <li><svg data-mini="squat"></svg>Squat sur chaise<em>10×</em></li>
+    <li><svg data-mini="mur"></svg>Pompes au mur<em>10×</em></li>
+    <li><svg data-mini="gainage"></svg>Gainage<em>20 s</em></li>
+    <li><svg data-mini="birddog"></svg>Bird dog<em>10×</em></li>
+  </ol>
+  <div class="bar">3 tours · 2 à 3 fois par semaine</div>
+  <span class="handle">@celian.coaching</span>
+</section>
+
+<section class="cta">
+  <span class="count">8/8</span>
+  <svg class="signet" viewBox="0 0 170 220" aria-hidden="true">
+    <path d="M14 14 H156 V206 L85 152 L14 206 Z" fill="none" stroke="#141414" stroke-width="20" stroke-linejoin="round"/>
+  </svg>
+  <h2>Enregistre-la</h2>
+  <p>Pour ta prochaine séance.</p>
+  <span class="handle">@celian.coaching</span>
+</section>
+
+<script>
+const C = {
+  peau: '#f2c29b', peauO: '#d9a079',
+  cheveux: '#4a3426',
+  haut: '#00dba0', hautO: '#00b083',
+  bas: '#2d2f3e', basO: '#1d1f2a',
+  chaussure: '#e46d29', chaussureO: '#bf561c',
+  tapis: '#e0ff20', meuble: '#b8a68c', meubleO: '#97856b',
+};
+
+function seg(a, b, w, col) {
+  return `<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="${col}" stroke-width="${w}" stroke-linecap="round"/>`;
+}
+const r1 = n => Math.round(n * 10) / 10;
+function lerp(a, b, t) { return [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t]; }
+function add(a, v, k = 1) { return [a[0] + v[0] * k, a[1] + v[1] * k]; }
+function unit(a, b) { const d = Math.hypot(b[0] - a[0], b[1] - a[1]) || 1; return [(b[0] - a[0]) / d, (b[1] - a[1]) / d]; }
+
+// membre effilé : deux cercles (rayons ra, rb) reliés par leurs tangentes
+function cap(a, b, ra, rb, col) {
+  const d = Math.hypot(b[0] - a[0], b[1] - a[1]) || 1;
+  const th = Math.atan2(b[1] - a[1], b[0] - a[0]);
+  const al = Math.acos(Math.max(-1, Math.min(1, (ra - rb) / d)));
+  const pt = (c, r, ang) => `${r1(c[0] + r * Math.cos(ang))} ${r1(c[1] + r * Math.sin(ang))}`;
+  return `<path d="M${pt(a, ra, th + al)} L${pt(b, rb, th + al)} A${rb} ${rb} 0 ${2 * al > Math.PI ? 1 : 0} 0 ${pt(b, rb, th - al)}`
+       + ` L${pt(a, ra, th - al)} A${ra} ${ra} 0 ${2 * al > Math.PI ? 0 : 1} 0 ${pt(a, ra, th + al)} Z" fill="${col}"/>`;
+}
+// contour fermé lissé (Catmull-Rom)
+function lisse(pts, col) {
+  const n = pts.length, P = i => pts[(i + n) % n];
+  let d = `M${r1(pts[0][0])} ${r1(pts[0][1])}`;
+  for (let i = 0; i < n; i++) {
+    const p0 = P(i - 1), p1 = P(i), p2 = P(i + 1), p3 = P(i + 2);
+    d += ` C${r1(p1[0] + (p2[0] - p0[0]) / 6)} ${r1(p1[1] + (p2[1] - p0[1]) / 6)} ${r1(p2[0] - (p3[0] - p1[0]) / 6)} ${r1(p2[1] - (p3[1] - p1[1]) / 6)} ${r1(p2[0])} ${r1(p2[1])}`;
+  }
+  return `<path d="${d} Z" fill="${col}"/>`;
+}
+
+function chaussure(cheville, pied, dir, ombre) {
+  const u = unit(cheville, pied), talon = add(cheville, u, -9);
+  const sol = dir === 1 ? [-u[1], u[0]] : [u[1], -u[0]];
+  return cap(add(talon, sol, 6), add(pied, sol, 5), 11, 9, ombre ? '#d9d4c8' : '#fff')
+       + cap(talon, pied, 13, 10.5, ombre ? C.chaussureO : C.chaussure)
+       + cap(add(lerp(talon, pied, .45), sol, -7), add(lerp(talon, pied, .8), sol, -5), 2.5, 2.5, ombre ? '#9e4515' : '#fff');
+}
+function jambe(l, dir, ombre) {
+  const bas = ombre ? C.basO : C.bas;
+  return chaussure(l.cheville, l.pied, dir, ombre)
+       + cap(l.genou, l.cheville, 15, 9.5, bas) + cap(l.hanche, l.genou, 24, 15, bas);
+}
+function bras(a, ombre) {
+  const peau = ombre ? C.peauO : C.peau, u = unit(a.coude, a.main);
+  return cap(a.coude, a.main, 9.5, 7, peau) + cap(a.main, add(a.main, u, 9), 9, 8.5, peau)
+       + cap(a.epaule, a.coude, 13, 9.5, peau)
+       + cap(a.epaule, lerp(a.epaule, a.coude, .42), 17, 14.5, ombre ? C.hautO : C.haut);
+}
+// buste vu de profil : dos d'un côté, poitrine du côté du regard
+function tronc(h, e, dir) {
+  const u = unit(h, e), L = Math.hypot(e[0] - h[0], e[1] - h[1]);
+  const nf = [-u[1] * dir, u[0] * dir], nb = [-nf[0], -nf[1]];
+  const at = (t, n, w) => add(add(h, u, L * t), n, w);
+  const haut = [at(.18, nb, 26), at(.5, nb, 23), at(.88, nb, 25), at(1.1, nb, 10), at(1.12, nf, 6),
+                at(.92, nf, 23), at(.72, nf, 28), at(.48, nf, 22), at(.18, nf, 25), at(.14, nb, 0)];
+  const bassin = [at(0, nb, 26), at(.3, nb, 24), at(.3, nf, 23), at(0, nf, 25), at(-.14, nb, 4)];
+  return lisse(bassin, C.bas) + lisse(haut, C.haut)
+       + cap(at(.16, nb, 23), at(.16, nf, 22), 3, 3, C.hautO);
+}
+// tête de profil, dessinée regard vers la droite puis retournée selon dir
+function tete(t, dir, angle = 0) {
+  return `<g transform="translate(${t[0]} ${t[1]}) scale(${dir} 1) rotate(${angle})">`
+       + `<path d="M-14 -10 C-38 -14 -52 4 -46 26 C-40 14 -32 6 -18 4 Z" fill="${C.cheveux}"/>`
+       + `<circle cx="-17" cy="-6" r="5" fill="${C.chaussure}"/>`
+       + `<ellipse cx="2" cy="1" rx="21" ry="24" fill="${C.peau}"/>`
+       + `<circle cx="21" cy="5" r="4.5" fill="${C.peau}"/>`
+       + `<path d="M-22 8 C-28 -24 6 -34 24 -8 C12 -15 -2 -14 -6 -6 C-9 0 -14 4 -22 8 Z" fill="${C.cheveux}"/>`
+       + `<ellipse cx="-4" cy="4" rx="5" ry="7" fill="${C.peauO}"/>`
+       + `<circle cx="9" cy="11" r="4.5" fill="#f29c86" opacity=".6"/>`
+       + `<path d="M9 -7 q5 -3 10 0" stroke="${C.cheveux}" stroke-width="2.6" fill="none" stroke-linecap="round"/>`
+       + `<circle cx="14" cy="0" r="3" fill="#141414"/>`
+       + `<path d="M12 14 q5 3 9 -1" stroke="#a5654a" stroke-width="2.6" fill="none" stroke-linecap="round"/></g>`;
+}
+function personne(p) {
+  const t = lerp(p.epaule, p.tete, .78), cou = lerp(p.epaule, t, .55);
+  return jambe(p.jambeLoin, p.dir, true) + bras(p.brasLoin, true)
+       + cap(lerp(p.hanche, p.epaule, .9), cou, 10, 9, C.peauO)
+       + tronc(p.hanche, p.epaule, p.dir)
+       + jambe(p.jambe, p.dir, false) + tete(t, p.dir, p.angle) + bras(p.bras, false);
+}
+// texte manuscrit (une ou deux lignes) + flèche courbe
+function note(x, y, lignes, de, vers, ctrl, ancre = 'start') {
+  const t = lignes.map((l, i) => `<text class="note" x="${x}" y="${y + i * 32}" font-size="32" text-anchor="${ancre}">${l}</text>`).join('');
+  return t + `<path d="M${de[0]} ${de[1]} Q ${ctrl[0]} ${ctrl[1]} ${vers[0]} ${vers[1]}" stroke="#141414" stroke-width="3" fill="none" stroke-linecap="round" marker-end="url(#pointe)"/>`;
+}
+const defs = `<defs><marker id="pointe" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#141414"/></marker></defs>`;
+const ombreSol = (x1, x2) => `<ellipse cx="${(x1 + x2) / 2}" cy="${406}" rx="${(x2 - x1) / 2}" ry="12" fill="#141414" opacity=".08"/>`;
+const tapis = (x1, x2) => `<rect x="${x1}" y="398" width="${x2 - x1}" height="12" rx="6" fill="${C.tapis}"/>`;
+
+const POSES = {
+  squat: {
+    box: '140 70 330 340',
+    decor: () => ombreSol(150, 470)
+      + seg([440, 300], [440, 400], 14, C.meubleO) + seg([440, 300], [440, 160], 14, C.meubleO)
+      + `<rect x="318" y="290" width="128" height="18" rx="6" fill="${C.meuble}"/>`
+      + seg([330, 300], [330, 400], 14, C.meuble),
+    p: {
+      dir: -1, hanche: [328, 268], epaule: [290, 170], cou: [282, 150], tete: [266, 112],
+      jambe: { hanche: [328, 268], genou: [236, 282], cheville: [236, 384], pied: [200, 392] },
+      jambeLoin: { hanche: [320, 262], genou: [250, 276], cheville: [252, 382], pied: [216, 389] },
+      bras: { epaule: [288, 180], coude: [236, 196], main: [184, 196] },
+      brasLoin: { epaule: [296, 172], coude: [246, 186], main: [196, 186] },
+    },
+    notes: () => note(20, 60, ['Dos droit'], [130, 62], [322, 200], [380, 50])
+      + note(20, 250, ['Sans', 'les mains'], [70, 220], [166, 198], [110, 196])
+      + note(20, 440, ['Pieds à plat'], [150, 420], [208, 404], [180, 430])
+      + note(470, 220, ['Les fesses', 'frôlent la chaise'], [520, 260], [360, 282], [470, 300]),
+  },
+  mur: {
+    box: '130 60 420 360',
+    decor: () => ombreSol(130, 520) + `<rect x="502" y="30" width="40" height="376" fill="#e4dcc6"/><rect x="502" y="30" width="8" height="376" fill="#cbc0a3"/>`,
+    p: {
+      dir: 1, hanche: [300, 262], epaule: [412, 158], cou: [424, 146], tete: [446, 116],
+      jambe: { hanche: [300, 262], genou: [240, 324], cheville: [182, 380], pied: [210, 394] },
+      jambeLoin: { hanche: [292, 268], genou: [232, 330], cheville: [172, 384], pied: [200, 396] },
+      bras: { epaule: [412, 166], coude: [446, 212], main: [490, 166] },
+      brasLoin: { epaule: [404, 158], coude: [442, 202], main: [490, 156] },
+    },
+    notes: () => note(30, 80, ['Le corps droit,', 'de la tête aux pieds'], [140, 130], [292, 236], [220, 150])
+      + note(590, 300, ['Mains à hauteur', "d'épaules"], [560, 272], [502, 182], [570, 220], 'end'),
+  },
+  gainage: {
+    box: '70 230 460 190',
+    decor: () => ombreSol(70, 530) + tapis(60, 540),
+    p: {
+      dir: 1, hanche: [266, 336], epaule: [410, 300], cou: [430, 294], tete: [468, 282],
+      jambe: { hanche: [266, 336], genou: [186, 358], cheville: [114, 376], pied: [102, 398] },
+      jambeLoin: { hanche: [262, 330], genou: [182, 352], cheville: [110, 370], pied: [94, 394] },
+      bras: { epaule: [410, 308], coude: [410, 386], main: [490, 386] },
+      brasLoin: { epaule: [402, 300], coude: [398, 384], main: [476, 382] },
+    },
+    notes: () => note(40, 180, ['Bassin aligné'], [130, 194], [262, 300], [220, 200])
+      + note(300, 120, ['Ventre serré'], [360, 132], [340, 292], [400, 200])
+      + note(590, 200, ['Coudes sous', 'les épaules'], [520, 248], [424, 376], [520, 330], 'end'),
+  },
+  birddog: {
+    box: '10 170 570 240',
+    decor: () => ombreSol(30, 570) + tapis(80, 470),
+    p: {
+      dir: 1, angle: 60, hanche: [222, 276], epaule: [398, 268], cou: [418, 266], tete: [448, 268],
+      jambe: { hanche: [222, 276], genou: [138, 270], cheville: [54, 262], pied: [28, 250] },
+      jambeLoin: { hanche: [228, 284], genou: [228, 392], cheville: [134, 396], pied: [112, 388] },
+      bras: { epaule: [398, 276], coude: [400, 336], main: [404, 392] },
+      brasLoin: { epaule: [392, 264], coude: [468, 252], main: [540, 240] },
+    },
+    notes: () => note(250, 110, ['Dos plat'], [300, 122], [310, 232], [330, 170])
+      + note(20, 110, ['Bras et jambe', 'opposés'], [80, 160], [70, 240], [50, 200])
+      + note(590, 130, ['Regard au sol'], [530, 146], [470, 300], [560, 250], 'end')
+      + note(20, 350, ['Bassin immobile'], [180, 322], [212, 302], [205, 320]),
+  },
+};
+
+function dessin(nom, notes) {
+  const P = POSES[nom];
+  return defs + P.decor() + personne(P.p) + (notes ? P.notes() : '');
+}
+
+document.querySelectorAll('[data-pose]').forEach(s => {
+  s.setAttribute('viewBox', '0 0 600 480');
+  s.innerHTML = dessin(s.dataset.pose, true);
+});
+document.querySelectorAll('[data-mini]').forEach(s => {
+  s.setAttribute('viewBox', POSES[s.dataset.mini].box);
+  s.innerHTML = dessin(s.dataset.mini, false);
+});
+const cov = document.getElementById('cover-illu');
+cov.setAttribute('viewBox', '130 60 360 360');
+cov.innerHTML = dessin('squat', false);
+
+// bande de papier déchiré en haut
+document.querySelectorAll('[data-bande]').forEach(s => {
+  s.setAttribute('viewBox', '0 0 1080 130');
+  const bord = [];
+  let x = 1080, k = 7;
+  while (x > 0) {
+    k = (k * 37 + 11) % 97;
+    bord.push(`${x},${92 + (k % 26)}`);
+    x -= 24 + (k % 22);
+  }
+  bord.push('0,100');
+  s.innerHTML = `<polygon points="0,0 1080,0 ${bord.join(' ')}" fill="${s.dataset.bande}"/>`
+    + `<polyline points="${bord.join(' ')}" fill="none" stroke="#fff" stroke-width="5" opacity=".7"/>`;
+});
+</script>
+</body>
+</html>
