@@ -32,8 +32,8 @@ const TENUE = { bas: '#2d2f3e', basO: '#1d1f2a', chaussure: '#e46d29', chaussure
 const TYPES = {
   femme:     { nom: 'Femme',       taille: 1,   tete: 1,   carrure: 1,    poitrine: 1,   coiffure: 'queue',    haut: 'menthe', cil: true },
   homme:     { nom: 'Homme',       taille: 1.04, tete: 1,  carrure: 1.12, poitrine: .25, coiffure: 'court',    haut: 'citron' },
-  grandmere: { nom: 'Grand-mère',  taille: .97, tete: 1,   carrure: 1.05, poitrine: .9,  coiffure: 'chignon',  haut: 'menthe', cil: true, gris: true, lunettes: true, rides: true },
-  grandpere: { nom: 'Grand-père',  taille: 1.01, tete: 1,  carrure: 1.1,  poitrine: .2,  coiffure: 'degarni',  haut: 'citron', gris: true, lunettes: true, rides: true, moustache: true },
+  grandmere: { nom: 'Grand-mère',  taille: .92, tete: 1,   carrure: 1.05, poitrine: .9,  coiffure: 'chignon',  haut: 'menthe', cil: true, gris: true, lunettes: true, rides: true },
+  grandpere: { nom: 'Grand-père',  taille: .95, tete: 1,  carrure: 1.1,  poitrine: .2,  coiffure: 'degarni',  haut: 'citron', gris: true, lunettes: true, rides: true, moustache: true },
   garcon:    { nom: 'Garçon',      taille: .66, tete: 1.32, carrure: .94, poitrine: 0,   coiffure: 'epis',     haut: 'citron' },
   fille:     { nom: 'Fille',       taille: .66, tete: 1.32, carrure: .94, poitrine: 0,   coiffure: 'couettes', haut: 'menthe', cil: true },
 };
@@ -168,7 +168,7 @@ function tete(C, t, dir, angle = 0) {
 
 // squelette aux proportions fixes : on donne le bassin, l'angle du buste,
 // et où vont mains et chevilles ; coudes et genoux se placent tout seuls.
-const L = { tronc: 130, cou: 44, bras: 64, avantBras: 56, cuisse: 106, tibia: 95, pied: 36 };
+const L = { tronc: 130, cou: 44, bras: 62, avantBras: 54, cuisse: 92, tibia: 80, pied: 36 };
 const vec = (deg, l) => [Math.cos(deg * Math.PI / 180) * l, Math.sin(deg * Math.PI / 180) * l];
 function ik(a, cible, l1, l2, pli) {
   const d = Math.min(Math.hypot(cible[0] - a[0], cible[1] - a[1]), l1 + l2 - .5);
@@ -195,23 +195,23 @@ function squelette(s) {
 
 const POSES = {
   debout: {
-    dir: 1, hanche: [300, 182], tronc: -90, regard: 0, sol: [300, 398],
+    dir: 1, hanche: [300, 209], tronc: -90, regard: 0, sol: [300, 398],
     jambe: { cheville: [304, 460], pied: 0, pli: 1 },
     jambeLoin: { cheville: [290, 460], pied: 0, pli: 1 },
     bras: { main: [312, 400], pli: -1 },
     brasLoin: { main: [290, 400], pli: -1 },
   },
   squat: {
-    dir: -1, hanche: [344, 262], tronc: 252, regard: 4, sol: [245, 398],
-    jambe: { cheville: [238, 382], pied: 182, pli: 1 },
-    jambeLoin: { cheville: [252, 380], pied: 182, pli: 1 },
-    bras: { main: [168, 160], pli: -1 },
-    brasLoin: { main: [178, 150], pli: -1 },
+    dir: -1, hanche: [334, 298], tronc: 252, regard: 4, sol: [245, 398],
+    jambe: { cheville: [240, 382], pied: 182, pli: 1 },
+    jambeLoin: { cheville: [254, 380], pied: 182, pli: 1 },
+    bras: { main: [170, 196], pli: -1 },
+    brasLoin: { main: [180, 186], pli: -1 },
   },
   mur: {
-    dir: 1, hanche: [314, 256], tronc: -40, regard: 6, sol: [155, 398],
-    jambe: { cheville: [160, 386], pied: 0, pli: 1 },
-    jambeLoin: { cheville: [150, 388], pied: 0, pli: 1 },
+    dir: 1, hanche: [320, 262], tronc: -44, regard: 6, sol: [196, 398],
+    jambe: { cheville: [140, 436], pied: 0, pli: 1 },
+    jambeLoin: { cheville: [132, 440], pied: 0, pli: 1 },
     bras: { main: [484, 174], pli: 1 },
     brasLoin: { main: [484, 162], pli: 1 },
   },
@@ -223,9 +223,9 @@ const POSES = {
     brasLoin: { main: [468, 384], pli: 1 },
   },
   birddog: {
-    dir: 1, hanche: [272, 277], tronc: -5, regard: 10, nuque: 6, sol: [300, 398],
-    jambe: { cheville: [60, 266], pied: 92, pli: 1 },
-    jambeLoin: { cheville: [174, 368], pied: 125, pli: -1 },
+    dir: 1, hanche: [272, 291], tronc: -9, regard: 12, nuque: 8, sol: [300, 398],
+    jambe: { cheville: [60, 270], pied: 92, pli: 1 },
+    jambeLoin: { cheville: [190, 362], pied: 125, pli: -1 },
     bras: { main: [404, 420], pli: 1 },
     brasLoin: { main: [560, 246], pli: 1 },
   },

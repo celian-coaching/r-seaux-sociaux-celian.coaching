@@ -190,13 +190,13 @@ const tapis = (x1, x2) => `<rect x="${x1}" y="398" width="${x2 - x1}" height="12
 const POSES = {
   squat: {
     decor: () => ombreSol(150, 480)
-      + seg([450, 300], [450, 400], 14, C.meubleO) + seg([450, 300], [450, 160], 14, C.meubleO)
-      + `<rect x="326" y="292" width="130" height="18" rx="6" fill="${C.meuble}"/>`
-      + seg([338, 300], [338, 400], 14, C.meuble),
-    notes: () => note(410, 120, ['Dos droit'], [430, 132], [346, 206], [420, 190])
-      + note(20, 250, ['Sans', 'les mains'], [70, 220], [160, 170], [100, 180])
+      + seg([446, 336], [446, 400], 14, C.meubleO) + seg([446, 336], [446, 196], 14, C.meubleO)
+      + `<rect x="322" y="328" width="130" height="18" rx="6" fill="${C.meuble}"/>`
+      + seg([334, 336], [334, 400], 14, C.meuble),
+    notes: () => note(410, 150, ['Dos droit'], [430, 162], [340, 242], [420, 226])
+      + note(20, 290, ['Sans', 'les mains'], [70, 260], [160, 206], [100, 216])
       + note(20, 440, ['Pieds à plat'], [150, 420], [214, 404], [184, 430])
-      + note(480, 220, ['Les fesses', 'frôlent la chaise'], [530, 260], [372, 282], [480, 300]),
+      + note(480, 250, ['Les fesses', 'frôlent la chaise'], [530, 290], [362, 318], [480, 330]),
   },
   mur: {
     decor: () => ombreSol(130, 520) + `<rect x="502" y="30" width="40" height="376" fill="#e4dcc6"/><rect x="502" y="30" width="8" height="376" fill="#cbc0a3"/>`,
