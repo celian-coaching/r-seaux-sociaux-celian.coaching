@@ -3,7 +3,7 @@
 **Règle retenue par Célian (2026-10-27)** : logo citron, posé sur fond menthe ou orange.
 Sur un autre fond, logo citron dans un rond menthe ou orange (`pastille-citron-sur-menthe.png`,
 `pastille-citron-sur-orange.png`). Version recadrée pour les visuels : `logo-citron-recadre.png`.
-Logo orange aussi au choix (`logo-orange-recadre.png`) : direct sur noir, ou sur clair en grand ;
+Logo orange aussi au choix (`logo-orange-recadre.png`) : direct sur citron, menthe ou noir, ou sur clair en grand ;
 sinon dans un rond noir ou clair (`pastille-orange-sur-noir.png`, `pastille-orange-sur-clair.png`).
 Le reste de ce fichier (contrastes, combinaisons) est l'étude d'origine.
 
@@ -22,7 +22,7 @@ noir `#141414`, clair `#f4f4f0`).
 Combinaisons (contraste) : noir sur citron 16,2 · noir sur menthe 10,2 · noir sur orange 5,7 ;
 citron, menthe ou orange sur noir (mêmes valeurs) ; noir/clair 16,7. Comme pour le texte de la
 charte : logo noir sur les trois couleurs, logo en couleur sur fond noir. Orange sur clair (2,9)
-seulement en grand. Jamais d'orange sur citron ni sur menthe.
+seulement en grand. Orange sur citron et sur menthe : validé par Célian pour le logo (pas pour le texte).
 
 Usage : cartons des reels, couvertures des stories à la une, tenues. La photo de profil
 reste le visage de Célian. Les fichiers sont recadrés depuis le croquis : à refaire en
