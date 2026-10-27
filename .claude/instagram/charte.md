@@ -57,3 +57,13 @@ Mannequin lisse, de face ou de dos, pour montrer les muscles travaillés
 - Face : deltoides, pectoraux, biceps, avantbras, abdominaux, obliques, quadriceps,
   adducteurs, mollets, tibial. Dos : trapezes, deltoides, triceps, dorsaux, avantbras,
   lombaires, fessiers, ischios, mollets.
+
+## Logo sur chaque visuel (2026-10-27)
+
+Fichiers et règles de couleur : `logo/README.md` (logo validé : piste 4, l'haltère C + D).
+
+- Toujours le logo sur ce qui sort : carrousels, cartons de reels, stories, affiches.
+- Carrousels : logo noir `logo/logo-noir-recadre.png` (recadré, fond transparent), 46 px de
+  haut, à gauche de `@celian.coaching`, en bas à gauche de chaque slide
+  (voir `.handle` dans `carrousels/01-4-mouvements/slides.html`).
+- Logo noir sur papier, citron, menthe et orange ; logo en couleur ou clair sur fond noir.
