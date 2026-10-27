@@ -202,11 +202,11 @@ const POSES = {
     brasLoin: { main: [290, 400], pli: -1 },
   },
   squat: {
-    dir: -1, hanche: [334, 298], tronc: 252, regard: 4, sol: [245, 398],
+    dir: -1, hanche: [336, 292], tronc: 252, regard: 4, sol: [245, 398],
     jambe: { cheville: [240, 382], pied: 182, pli: 1 },
     jambeLoin: { cheville: [254, 380], pied: 182, pli: 1 },
-    bras: { main: [170, 196], pli: -1 },
-    brasLoin: { main: [180, 186], pli: -1 },
+    bras: { main: [170, 190], pli: -1 },
+    brasLoin: { main: [180, 180], pli: -1 },
   },
   mur: {
     dir: 1, hanche: [320, 262], tronc: -44, regard: 6, sol: [196, 398],
