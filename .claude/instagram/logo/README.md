@@ -8,6 +8,7 @@ noir `#141414`, clair `#f4f4f0`).
   (orange, citron, menthe, noir, clair, et blanc pur pour les vidéos).
 - `carre-<logo>-sur-<fond>.png` : carrés de 1080 × 1080 prêts à poster.
 - `planche-couleurs.png` : toutes les combinaisons, avec le contraste et le test en rond de 110 px.
+- `planche-logo.png` : les 9 déclinaisons et la palette sur une seule image (2020 × 2630).
 - `logo-celian-coaching.png` : le recadrage d'origine. `pistes-logo-1-a-4.webp` : les 4 pistes.
 
 Combinaisons (contraste) : noir sur citron 16,2 · noir sur menthe 10,2 · noir sur orange 5,7 ;
