@@ -6,9 +6,10 @@ noir `#141414`, clair `#f4f4f0`).
 
 - `logo-<couleur>-transparent.png` : le logo seul, fond transparent, bords lissés
   (orange, citron, menthe, noir, clair, et blanc pur pour les vidéos).
-- `carre-<logo>-sur-<fond>.png` : carrés de 1080 × 1080 prêts à poster.
+- `carre-<logo>-sur-<fond>.png` : carrés de 1080 × 1080 prêts à poster, les 20 combinaisons
+  (chaque couleur sur chaque autre fond).
 - `planche-couleurs.png` : toutes les combinaisons, avec le contraste et le test en rond de 110 px.
-- `planche-logo.png` : les 9 déclinaisons et la palette sur une seule image (2020 × 2630).
+- `planche-logo.png` : la matrice complète, 5 couleurs de logo × 5 fonds, avec le contraste.
 - `logo-celian-coaching.png` : le recadrage d'origine. `pistes-logo-1-a-4.webp` : les 4 pistes.
 
 Combinaisons (contraste) : noir sur citron 16,2 · noir sur menthe 10,2 · noir sur orange 5,7 ;
@@ -19,3 +20,7 @@ seulement en grand. Jamais d'orange sur citron ni sur menthe.
 Usage : cartons des reels, couvertures des stories à la une, tenues. La photo de profil
 reste le visage de Célian. Les fichiers sont recadrés depuis le croquis : à refaire en
 vectoriel pour l'impression, avec des disques un peu plus hauts. Version courte : piste 1.
+
+Lisibles (contraste ≥ 4,5) : 8 combinaisons sur 20, toutes avec du noir (noir sur citron,
+menthe, orange, clair, et l'inverse). Les 12 autres sont sous 3 : à réserver à un usage
+décoratif en grand, jamais pour un logo qui doit se lire en petit.
