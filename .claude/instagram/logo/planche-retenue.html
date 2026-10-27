@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Logos retenus</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Inter:wght@500;700&display=swap">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #444; font-family: Inter, sans-serif; }
+  section { width: 1600px; padding: 70px; background: #f6f4ec; color: #141414; }
+  h1 { font-family: Oswald, sans-serif; text-transform: uppercase; font-size: 64px; }
+  h1 span { background: #e0ff20; padding: 0 16px 4px; display: inline-block; transform: rotate(-1.5deg); }
+  h2 { font-family: Oswald, sans-serif; text-transform: uppercase; font-size: 34px; margin: 50px 0 20px; }
+  .ligne { display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; }
+  .case { aspect-ratio: 1; display: flex; align-items: center; justify-content: center; border-radius: 18px; }
+  .case img.logo { width: 62%; }
+  .case img.pastille { width: 46%; }
+  .lab { font-weight: 700; font-size: 20px; margin-top: 12px; }
+  .lab small { display: block; font-weight: 500; font-size: 16px; opacity: .6; margin-top: 3px; }
+  .bord { box-shadow: inset 0 0 0 2px #e4dfd0; }
+</style>
+</head>
+<body>
+<section>
+  <h1>Les logos <span>retenus</span></h1>
+  <h2>Logo citron</h2>
+  <div class="ligne">
+    <div><div class="case" style="background:#00dba0"><img class="logo" src="logo-citron-recadre.png"></div><div class="lab">Sur menthe<small>posé directement</small></div></div>
+    <div><div class="case" style="background:#e46d29"><img class="logo" src="logo-citron-recadre.png"></div><div class="lab">Sur orange<small>posé directement</small></div></div>
+    <div><div class="case bord" style="background:#f6f4ec"><img class="pastille" src="pastille-citron-sur-menthe.png"></div><div class="lab">Rond menthe<small>sur papier, citron, noir, photo</small></div></div>
+    <div><div class="case bord" style="background:#f6f4ec"><img class="pastille" src="pastille-citron-sur-orange.png"></div><div class="lab">Rond orange<small>sur papier, citron, noir, photo</small></div></div>
+  </div>
+  <h2>Logo orange</h2>
+  <div class="ligne">
+    <div><div class="case" style="background:#e0ff20"><img class="logo" src="logo-orange-recadre.png"></div><div class="lab">Sur citron<small>posé directement</small></div></div>
+    <div><div class="case" style="background:#00dba0"><img class="logo" src="logo-orange-recadre.png"></div><div class="lab">Sur menthe<small>posé directement</small></div></div>
+    <div><div class="case" style="background:#141414"><img class="logo" src="logo-orange-recadre.png"></div><div class="lab">Sur noir<small>posé directement</small></div></div>
+    <div><div class="case bord" style="background:#f4f4f0"><img class="logo" src="logo-orange-recadre.png"></div><div class="lab">Sur clair<small>en grand seulement</small></div></div>
+  </div>
+  <div class="ligne" style="margin-top:30px">
+    <div><div class="case bord" style="background:#f6f4ec"><img class="pastille" src="pastille-orange-sur-noir.png"></div><div class="lab">Rond noir<small>quand le fond ne va pas</small></div></div>
+    <div><div class="case" style="background:#e46d29"><img class="pastille" src="pastille-orange-sur-clair.png"></div><div class="lab">Rond clair<small>ex. sur fond orange</small></div></div>
+  </div>
+</section>
+</body>
+</html>

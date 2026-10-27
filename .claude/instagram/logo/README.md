@@ -5,6 +5,7 @@ Sur un autre fond, logo citron dans un rond menthe ou orange (`pastille-citron-s
 `pastille-citron-sur-orange.png`). Version recadrée pour les visuels : `logo-citron-recadre.png`.
 Logo orange aussi au choix (`logo-orange-recadre.png`) : direct sur citron, menthe ou noir, ou sur clair en grand ;
 sinon dans un rond noir ou clair (`pastille-orange-sur-noir.png`, `pastille-orange-sur-clair.png`).
+Tout ce qui est retenu, sur une image : `planche-retenue.png`.
 Le reste de ce fichier (contrastes, combinaisons) est l'étude d'origine.
 
 Validé le 2026-10-27 : **piste 4** (monogramme C + D emboîtés en haltère, disques détachés).
