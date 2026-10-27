@@ -12,9 +12,9 @@
   h1 span { background: #e46d29; padding: 0 16px 4px; display: inline-block; transform: rotate(-1.5deg); }
   h2 { font-family: Oswald, sans-serif; text-transform: uppercase; font-size: 36px; margin-top: 50px; }
   .sous { font-size: 20px; opacity: .7; margin-top: 10px; }
-  .grille { display: grid; grid-template-columns: repeat(12, 1fr); margin-top: 26px; text-align: center; }
-  .grille svg { width: 100%; height: 300px; }
-  .lab { font-weight: 700; font-size: 16px; }
+  .grille { display: grid; grid-template-columns: repeat(4, 300px); gap: 40px; margin-top: 26px; text-align: center; }
+  .grille svg { width: 100%; height: 560px; }
+  .lab { font-weight: 700; font-size: 22px; }
   .lab small { display: block; font-weight: 500; opacity: .6; }
   .zones { display: grid; grid-template-columns: repeat(10, 1fr); gap: 6px; margin-top: 26px; text-align: center; }
   .zones svg { width: 100%; height: 230px; }
@@ -32,7 +32,7 @@
   <div class="zones" id="zf"></div>
   <h2>Les zones, de dos</h2>
   <div class="zones" id="zd"></div>
-  <p class="code">Perso.anatomie({ type: 'homme' | 'femme', peau: 'claire' | 'mate' | 'foncee', vue: 'face' | 'dos', muscles: { quadriceps: 1, fessiers: 1, ischios: .5 } })</p>
+  <p class="code">Perso.anatomie({ type: 'homme' | 'femme', vue: 'face' | 'dos', muscles: { quadriceps: 1, fessiers: 1, ischios: .5 } })</p>
 </section>
 <script src="../personnages.js"></script>
 <script>
@@ -40,11 +40,10 @@ const NOMS = { deltoides: 'Épaules', pectoraux: 'Pectoraux', biceps: 'Biceps', 
   obliques: 'Obliques', quadriceps: 'Quadriceps', adducteurs: 'Adducteurs', mollets: 'Mollets', tibial: 'Tibial',
   trapezes: 'Trapèzes', triceps: 'Triceps', dorsaux: 'Dorsaux', lombaires: 'Lombaires', fessiers: 'Fessiers', ischios: 'Ischios' };
 const squat = { quadriceps: 1, fessiers: 1, ischios: .5, adducteurs: .5, mollets: .3, abdominaux: .4, lombaires: .4 };
-const peaux = { claire: 'Beige clair', mate: 'Marron clair', foncee: 'Noir clair' };
 const fig = (o, h) => `<svg viewBox="0 0 200 440">${Perso.anatomie(o)}</svg>`;
 let g = '';
-for (const p in peaux) for (const t of ['homme', 'femme']) for (const v of ['face', 'dos'])
-  g += `<div>${fig({ type: t, peau: p, vue: v, muscles: squat })}<div class="lab">${t === 'homme' ? 'Homme' : 'Femme'}, ${v}<small>${peaux[p]}</small></div></div>`;
+for (const t of ['homme', 'femme']) for (const v of ['face', 'dos'])
+  g += `<div>${fig({ type: t, vue: v, muscles: squat })}<div class="lab">${t === 'homme' ? 'Homme' : 'Femme'}, ${v}</div></div>`;
 document.getElementById('g').innerHTML = g;
 for (const [id, vue] of [['zf', 'face'], ['zd', 'dos']])
   document.getElementById(id).innerHTML = Perso.MUSCLES[vue].map(m =>

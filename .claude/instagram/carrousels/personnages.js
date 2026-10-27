@@ -253,9 +253,10 @@ function cadrer(svg, marge = 8) {
 
 // ---------------------------------------------------------------------------
 // Mannequin anatomique, de face ou de dos, pour montrer les muscles travaillés.
-//   Perso.anatomie({ type: 'homme' | 'femme', peau, vue: 'face' | 'dos',
+//   Perso.anatomie({ type: 'homme' | 'femme', vue: 'face' | 'dos',
 //                    muscles: { quadriceps: 1, fessiers: 1, ischios: .5 } })
 // renvoie le dessin dans un repère 0 0 200 440 (pieds à y = 430).
+// Le mannequin est toujours en peau beige clair.
 // Intensité de 0 à 1 : 1 = muscle principal, .5 = muscle qui aide.
 // Noms : Perso.MUSCLES.face et Perso.MUSCLES.dos.
 
@@ -293,7 +294,7 @@ const MUSCLES_DOS = {
 const ABDOS = [[103, 134, 12, 18], [103, 156, 12, 19], [103, 179, 11, 18], [103, 201, 9, 20]];
 
 function anatomie(o = {}) {
-  const C = couleurs({ type: o.type || 'homme', peau: o.peau }), S = SILHOUETTE[o.type === 'femme' ? 'femme' : 'homme'];
+  const C = couleurs({ type: o.type || 'homme', peau: 'claire' }), S = SILHOUETTE[o.type === 'femme' ? 'femme' : 'homme'];
   const dos = o.vue === 'dos', M = o.muscles || {}, femme = o.type === 'femme';
   const sym = pts => pts.concat(pts.slice().reverse().map(([x, y]) => [200 - x, y]));
   const miroir = s => s + `<g transform="translate(200 0) scale(-1 1)">${s}</g>`;

@@ -49,7 +49,8 @@ Bibliothèque commune : `carrousels/personnages.js`, planche : `carrousels/perso
 Mannequin lisse, de face ou de dos, pour montrer les muscles travaillés
 (inspiré des infographies @supertrainers). Planche : `carrousels/personnages/anatomie.png`.
 
-- `Perso.anatomie({ type: 'homme' | 'femme', peau, vue: 'face' | 'dos', muscles: { quadriceps: 1, fessiers: 1, ischios: .5 } })`,
+- Toujours en peau beige clair (choix de Célian).
+- `Perso.anatomie({ type: 'homme' | 'femme', vue: 'face' | 'dos', muscles: { quadriceps: 1, fessiers: 1, ischios: .5 } })`,
   dessin dans un repère `0 0 200 440`.
 - Muscles en orange de la charte : 1 = muscle principal, .5 = muscle qui aide.
   Les autres restent en contour léger.
