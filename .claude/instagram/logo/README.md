@@ -1,5 +1,10 @@
 # Logo @celian.coaching
 
+**Règle retenue par Célian (2026-10-27)** : logo citron, posé sur fond menthe ou orange.
+Sur un autre fond, logo citron dans un rond menthe ou orange (`pastille-citron-sur-menthe.png`,
+`pastille-citron-sur-orange.png`). Version recadrée pour les visuels : `logo-citron-recadre.png`.
+Le reste de ce fichier (contrastes, combinaisons) est l'étude d'origine.
+
 Validé le 2026-10-27 : **piste 4** (monogramme C + D emboîtés en haltère, disques détachés).
 Couleurs : celles de `../charte.md` (citron `#e0ff20`, menthe `#00dba0`, orange `#e46d29`,
 noir `#141414`, clair `#f4f4f0`).
