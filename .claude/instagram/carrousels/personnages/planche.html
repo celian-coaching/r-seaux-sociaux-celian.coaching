@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Personnages</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Inter:wght@500;700&display=swap">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #444; font-family: Inter, sans-serif; }
+  section { width: 1800px; padding: 70px 70px 60px; background: #f6f4ec; color: #141414; }
+  h1 { font-family: Oswald, sans-serif; text-transform: uppercase; font-size: 64px; }
+  h1 span { background: #e0ff20; padding: 0 16px 4px; display: inline-block; transform: rotate(-1.5deg); }
+  .grille { display: grid; grid-template-columns: 150px repeat(6, 1fr); margin-top: 40px; align-items: end; }
+  .grille > div { text-align: center; }
+  .col { font-family: Oswald, sans-serif; text-transform: uppercase; font-size: 30px; padding-bottom: 10px; }
+  .lig { font-weight: 700; font-size: 22px; text-align: left !important; align-self: center; }
+  .lig small { display: block; font-weight: 500; font-size: 16px; opacity: .6; }
+  .case { border-bottom: 3px solid #e4dfd0; }
+  svg { width: 100%; height: 420px; display: block; }
+  .portrait svg { height: 190px; }
+  h2 { font-family: Oswald, sans-serif; text-transform: uppercase; font-size: 36px; margin-top: 50px; }
+  p.code { margin-top: 26px; font-size: 18px; opacity: .65; }
+</style>
+</head>
+<body>
+<section>
+  <h1>Les <span>personnages</span></h1>
+  <div class="grille" id="g"></div>
+  <h2>Les visages</h2>
+  <div class="grille portrait" id="v"></div>
+  <p class="code">Perso.dessiner(pose, { type: 'femme' | 'homme' | 'grandmere' | 'grandpere' | 'garcon' | 'fille', peau: 'claire' | 'mate' | 'foncee' })</p>
+</section>
+<script src="../personnages.js"></script>
+<script>
+const g = document.getElementById('g');
+const types = Object.keys(Perso.TYPES);
+const peaux = { claire: 'Beige clair', mate: 'Marron clair', foncee: 'Noir clair' };
+g.innerHTML = '<div></div>' + types.map(t => `<div class="col">${Perso.TYPES[t].nom}</div>`).join('')
+  + Object.keys(peaux).map(p => `<div class="lig">${peaux[p]}<small>peau: '${p}'</small></div>`
+  + types.map(t => `<div class="case"><svg viewBox="225 -42 150 452" data-t="${t}" data-p="${p}"></svg></div>`).join('')).join('');
+g.querySelectorAll('svg').forEach(s => {
+  s.innerHTML = `<ellipse cx="300" cy="402" rx="62" ry="7" fill="#141414" opacity=".08"/>`
+    + Perso.dessiner('debout', { type: s.dataset.t, peau: s.dataset.p });
+});
+const v = document.getElementById('v');
+v.innerHTML = '<div></div>' + types.map(t => `<div class="col">${Perso.TYPES[t].nom}</div>`).join('')
+  + Object.keys(peaux).map(p => `<div class="lig">${peaux[p]}</div>`
+  + types.map(t => `<div><svg data-t="${t}" data-p="${p}"></svg></div>`).join('')).join('');
+v.querySelectorAll('svg').forEach(s => {
+  s.innerHTML = Perso.dessiner('debout', { type: s.dataset.t, peau: s.dataset.p });
+  const k = Perso.TYPES[s.dataset.t].taille, y = 398 - 388 * k;
+  s.setAttribute('viewBox', `${300 - 62 * k} ${y - 42 * k} ${124 * k} ${100 * k}`);
+});
+</script>
+</body>
+</html>

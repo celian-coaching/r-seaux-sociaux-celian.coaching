@@ -171,128 +171,12 @@
   <span class="handle">@celian.coaching</span>
 </section>
 
+<script src="../personnages.js"></script>
 <script>
-const C = {
-  peau: '#f2c29b', peauO: '#d9a079',
-  cheveux: '#4a3426',
-  haut: '#00dba0', hautO: '#00b083',
-  bas: '#2d2f3e', basO: '#1d1f2a',
-  chaussure: '#e46d29', chaussureO: '#bf561c',
-  tapis: '#e0ff20', meuble: '#b8a68c', meubleO: '#97856b',
-};
+const C = { tapis: '#e0ff20', meuble: '#b8a68c', meubleO: '#97856b' };
 
 function seg(a, b, w, col) {
   return `<line x1="${a[0]}" y1="${a[1]}" x2="${b[0]}" y2="${b[1]}" stroke="${col}" stroke-width="${w}" stroke-linecap="round"/>`;
-}
-const r1 = n => Math.round(n * 10) / 10;
-function lerp(a, b, t) { return [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t]; }
-function add(a, v, k = 1) { return [a[0] + v[0] * k, a[1] + v[1] * k]; }
-function unit(a, b) { const d = Math.hypot(b[0] - a[0], b[1] - a[1]) || 1; return [(b[0] - a[0]) / d, (b[1] - a[1]) / d]; }
-
-// membre effilé : deux cercles (rayons ra, rb) reliés par leurs tangentes
-function cap(a, b, ra, rb, col) {
-  const d = Math.hypot(b[0] - a[0], b[1] - a[1]) || 1;
-  const th = Math.atan2(b[1] - a[1], b[0] - a[0]);
-  const al = Math.acos(Math.max(-1, Math.min(1, (ra - rb) / d)));
-  const pt = (c, r, ang) => `${r1(c[0] + r * Math.cos(ang))} ${r1(c[1] + r * Math.sin(ang))}`;
-  return `<path d="M${pt(a, ra, th + al)} L${pt(b, rb, th + al)} A${rb} ${rb} 0 ${2 * al > Math.PI ? 1 : 0} 0 ${pt(b, rb, th - al)}`
-       + ` L${pt(a, ra, th - al)} A${ra} ${ra} 0 ${2 * al > Math.PI ? 0 : 1} 0 ${pt(a, ra, th + al)} Z" fill="${col}"/>`;
-}
-// contour fermé lissé (Catmull-Rom)
-function lisse(pts, col) {
-  const n = pts.length, P = i => pts[(i + n) % n];
-  let d = `M${r1(pts[0][0])} ${r1(pts[0][1])}`;
-  for (let i = 0; i < n; i++) {
-    const p0 = P(i - 1), p1 = P(i), p2 = P(i + 1), p3 = P(i + 2);
-    d += ` C${r1(p1[0] + (p2[0] - p0[0]) / 6)} ${r1(p1[1] + (p2[1] - p0[1]) / 6)} ${r1(p2[0] - (p3[0] - p1[0]) / 6)} ${r1(p2[1] - (p3[1] - p1[1]) / 6)} ${r1(p2[0])} ${r1(p2[1])}`;
-  }
-  return `<path d="${d} Z" fill="${col}"/>`;
-}
-
-// basket de profil, tracée cheville à l'origine, pointe vers +x, semelle vers +y
-function chaussure(cheville, pied, dir, ombre) {
-  const u = unit(cheville, pied), s = dir === 1 ? [-u[1], u[0]] : [u[1], -u[0]];
-  const tige = ombre ? C.chaussureO : C.chaussure, semelle = ombre ? '#d6d0c2' : '#fff';
-  return `<g transform="matrix(${r1(u[0] * 1000) / 1000} ${r1(u[1] * 1000) / 1000} ${r1(s[0] * 1000) / 1000} ${r1(s[1] * 1000) / 1000} ${r1(cheville[0])} ${r1(cheville[1])})">`
-       + `<path d="M-15 10 L-17 -6 C-17 -16 -12 -20 -5 -20 L2 -19 C5 -13 10 -10 18 -9 C30 -7 40 -3 42 4 L42 10 Z" fill="${tige}"/>`
-       + `<path d="M-19 9 L40 9 C46 9 48 12 46 15 C44 18 40 18 36 18 L-14 18 C-19 18 -21 13 -19 9 Z" fill="${semelle}"/>`
-       + `<path d="M-19 15 L45 15" stroke="${ombre ? '#b9b2a2' : '#d9d4c8'}" stroke-width="2"/>`
-       + `<path d="M-6 4 C4 1 14 0 27 3" stroke="${semelle}" stroke-width="3.5" fill="none" stroke-linecap="round"/>`
-       + [[6, -14], [12, -11.5], [18, -10]].map(([x, y]) => `<path d="M${x - 2} ${y - 3} l4 6" stroke="${semelle}" stroke-width="2.4" stroke-linecap="round"/>`).join('')
-       + `<path d="M-17 -8 C-17 -16 -12 -20 -6 -20" stroke="${ombre ? '#8f3e12' : '#9e4515'}" stroke-width="5" fill="none" stroke-linecap="round"/></g>`;
-}
-function jambe(l, dir, ombre) {
-  const bas = ombre ? C.basO : C.bas;
-  return cap(l.genou, l.cheville, 15, 9, bas) + chaussure(l.cheville, l.pied, dir, ombre)
-       + cap(l.hanche, l.genou, 24, 15, bas);
-}
-function bras(a, ombre) {
-  const peau = ombre ? C.peauO : C.peau, u = unit(a.coude, a.main);
-  return cap(a.coude, a.main, 9.5, 7, peau) + cap(a.main, add(a.main, u, 9), 9, 8.5, peau)
-       + cap(a.epaule, a.coude, 13, 9.5, peau)
-       + cap(a.epaule, lerp(a.epaule, a.coude, .42), 17, 14.5, ombre ? C.hautO : C.haut);
-}
-// buste vu de profil : dos d'un côté, poitrine du côté du regard
-function tronc(h, e, dir) {
-  const u = unit(h, e), L = Math.hypot(e[0] - h[0], e[1] - h[1]);
-  const nf = [-u[1] * dir, u[0] * dir], nb = [-nf[0], -nf[1]];
-  const at = (t, n, w) => add(add(h, u, L * t), n, w);
-  const haut = [at(.18, nb, 26), at(.5, nb, 23), at(.88, nb, 25), at(1.1, nb, 10), at(1.12, nf, 6),
-                at(.92, nf, 23), at(.72, nf, 28), at(.48, nf, 22), at(.18, nf, 25), at(.14, nb, 0)];
-  const bassin = [at(0, nb, 26), at(.3, nb, 24), at(.3, nf, 23), at(0, nf, 25), at(-.14, nb, 4)];
-  return lisse(bassin, C.bas) + lisse(haut, C.haut)
-       + cap(at(.16, nb, 23), at(.16, nf, 22), 3, 3, C.hautO);
-}
-// tête de profil (nez, lèvres, menton), regard vers la droite puis retournée selon dir
-function tete(t, dir, angle = 0) {
-  return `<g transform="translate(${r1(t[0])} ${r1(t[1])}) scale(${dir} 1) rotate(${r1(angle)})">`
-       + `<path d="M-12 -18 C-30 -26 -48 -14 -46 8 C-44 20 -38 26 -32 30 C-36 18 -34 4 -20 -4 Z" fill="${C.cheveux}"/>`
-       + `<path d="M-12 -18 C-24 -18 -30 -10 -34 0" stroke="#5e4433" stroke-width="3" fill="none" stroke-linecap="round"/>`
-       + `<rect x="-20" y="-20" width="9" height="13" rx="4" transform="rotate(-30 -15 -13)" fill="${C.haut}"/>`
-       + `<path d="M-19 -4 C-19 -20 -7 -25 5 -25 C16 -25 22 -17 22 -7 L22 -4 C24 -1 27 2 27 4.5 C27 6.5 25 7.5 22.5 7.5`
-       + ` C22.5 9.5 23 11 22 12.5 C22.5 14 22 16 20 17 C19 21 16 23.5 11 24 C4 24.5 -4 23 -9 19 C-15 14 -19 6 -19 -4 Z" fill="${C.peau}"/>`
-       + `<path d="M-21 6 C-27 -24 -2 -34 16 -24 C22 -21 25 -15 24 -10 C16 -15 8 -15 2 -11 C-4 -7 -8 -2 -10 4 C-13 4 -17 4 -21 6 Z" fill="${C.cheveux}"/>`
-       + `<path d="M2 -11 C8 -15 16 -15 24 -10" stroke="#5e4433" stroke-width="2.5" fill="none" stroke-linecap="round"/>`
-       + `<path d="M-9 0 C-14 -2 -15 8 -11 11 C-8 12 -7 9 -7 6" fill="${C.peauO}"/>`
-       + `<path d="M9 -7.5 Q13.5 -10 18 -8" stroke="${C.cheveux}" stroke-width="2" fill="none" stroke-linecap="round"/>`
-       + `<ellipse cx="14" cy="1" rx="2.6" ry="3.2" fill="#141414"/>`
-       + `<path d="M15.5 -2 l3 -2" stroke="#141414" stroke-width="1.8" stroke-linecap="round"/>`
-       + `<ellipse cx="9" cy="10" rx="5" ry="3.5" fill="#ef9a84" opacity=".35"/>`
-       + `<path d="M15.5 14.5 Q18.5 16.5 21.5 14.5" stroke="#b5634a" stroke-width="2.4" fill="none" stroke-linecap="round"/></g>`;
-}
-function personne(p) {
-  const cou = lerp(p.epaule, p.tete, .55);
-  return jambe(p.jambeLoin, p.dir, true) + bras(p.brasLoin, true)
-       + cap(lerp(p.hanche, p.epaule, .9), cou, 10, 9, C.peauO)
-       + tronc(p.hanche, p.epaule, p.dir)
-       + jambe(p.jambe, p.dir, false) + tete(p.tete, p.dir, p.angle) + bras(p.bras, false);
-}
-
-// squelette aux proportions fixes : on donne le bassin, l'angle du buste,
-// et où vont mains et chevilles ; coudes et genoux se placent tout seuls.
-const L = { tronc: 130, cou: 44, bras: 64, avantBras: 56, cuisse: 106, tibia: 95, pied: 36 };
-const vec = (deg, l) => [Math.cos(deg * Math.PI / 180) * l, Math.sin(deg * Math.PI / 180) * l];
-function ik(a, cible, l1, l2, pli) {
-  const d = Math.min(Math.hypot(cible[0] - a[0], cible[1] - a[1]), l1 + l2 - .5);
-  const th = Math.atan2(cible[1] - a[1], cible[0] - a[0]);
-  const al = Math.acos((l1 * l1 + d * d - l2 * l2) / (2 * l1 * d)) * pli;
-  const mid = [a[0] + l1 * Math.cos(th + al), a[1] + l1 * Math.sin(th + al)];
-  return [mid, add(mid, unit(mid, cible), l2)];
-}
-function squelette(s) {
-  const h = s.hanche, e = add(h, vec(s.tronc, L.tronc));
-  const spine = s.tronc, aligne = s.dir === 1 ? spine + 90 : 270 - spine;
-  const jambe = (j, hh) => { const [g, c] = ik(hh, j.cheville, L.cuisse, L.tibia, j.pli);
-    return { hanche: hh, genou: g, cheville: c, pied: add(c, vec(j.pied, L.pied)) }; };
-  const bras = (b, ee) => { const [c, m] = ik(ee, b.main, L.bras, L.avantBras, b.pli);
-    return { epaule: ee, coude: c, main: m }; };
-  const loin = [-6 * s.dir, -3];
-  return {
-    dir: s.dir, hanche: h, epaule: e,
-    tete: add(e, vec(spine + (s.nuque || 0) * s.dir, L.cou)), angle: aligne * .55 + (s.regard || 0),
-    jambe: jambe(s.jambe, h), jambeLoin: jambe(s.jambeLoin, add(h, loin)),
-    bras: bras(s.bras, add(e, [0, 4])), brasLoin: bras(s.brasLoin, add(e, loin)),
-  };
 }
 // texte manuscrit (une ou deux lignes) + flèche courbe
 function note(x, y, lignes, de, vers, ctrl, ancre = 'start') {
@@ -309,13 +193,6 @@ const POSES = {
       + seg([450, 300], [450, 400], 14, C.meubleO) + seg([450, 300], [450, 160], 14, C.meubleO)
       + `<rect x="326" y="292" width="130" height="18" rx="6" fill="${C.meuble}"/>`
       + seg([338, 300], [338, 400], 14, C.meuble),
-    s: {
-      dir: -1, hanche: [344, 262], tronc: 252, regard: 4,
-      jambe: { cheville: [238, 382], pied: 182, pli: 1 },
-      jambeLoin: { cheville: [252, 380], pied: 182, pli: 1 },
-      bras: { main: [168, 160], pli: -1 },
-      brasLoin: { main: [178, 150], pli: -1 },
-    },
     notes: () => note(410, 120, ['Dos droit'], [430, 132], [346, 206], [420, 190])
       + note(20, 250, ['Sans', 'les mains'], [70, 220], [160, 170], [100, 180])
       + note(20, 440, ['Pieds à plat'], [150, 420], [214, 404], [184, 430])
@@ -323,67 +200,38 @@ const POSES = {
   },
   mur: {
     decor: () => ombreSol(130, 520) + `<rect x="502" y="30" width="40" height="376" fill="#e4dcc6"/><rect x="502" y="30" width="8" height="376" fill="#cbc0a3"/>`,
-    s: {
-      dir: 1, hanche: [314, 256], tronc: -40, regard: 6,
-      jambe: { cheville: [160, 386], pied: 0, pli: 1 },
-      jambeLoin: { cheville: [150, 388], pied: 0, pli: 1 },
-      bras: { main: [484, 174], pli: 1 },
-      brasLoin: { main: [484, 162], pli: 1 },
-    },
     notes: () => note(30, 80, ['Le corps droit,', 'de la tête aux pieds'], [140, 130], [300, 236], [220, 150])
       + note(590, 300, ['Mains à hauteur', "d'épaules"], [560, 272], [500, 186], [570, 220], 'end'),
   },
   gainage: {
     decor: () => ombreSol(50, 550) + tapis(40, 560),
-    s: {
-      dir: 1, hanche: [288, 338], tronc: -8, regard: 4,
-      jambe: { cheville: [30, 374], pied: 112, pli: 1 },
-      jambeLoin: { cheville: [24, 370], pied: 112, pli: 1 },
-      bras: { main: [480, 388], pli: 1 },
-      brasLoin: { main: [468, 384], pli: 1 },
-    },
     notes: () => note(30, 180, ['Bassin aligné'], [120, 194], [282, 300], [220, 200])
       + note(290, 120, ['Ventre serré'], [350, 132], [350, 320], [410, 220])
       + note(590, 200, ['Coudes sous', 'les épaules'], [520, 248], [430, 376], [520, 330], 'end'),
   },
   birddog: {
     decor: () => ombreSol(40, 570) + tapis(130, 470),
-    s: {
-      dir: 1, hanche: [272, 277], tronc: -5, regard: 10, nuque: 6,
-      jambe: { cheville: [60, 266], pied: 92, pli: 1 },
-      jambeLoin: { cheville: [174, 368], pied: 125, pli: -1 },
-      bras: { main: [404, 420], pli: 1 },
-      brasLoin: { main: [560, 246], pli: 1 },
-    },
     notes: () => note(260, 120, ['Dos plat'], [310, 132], [330, 236], [340, 180])
       + note(20, 110, ['Bras et jambe', 'opposés'], [80, 160], [90, 248], [50, 210])
       + note(590, 130, ['Regard au sol'], [540, 146], [470, 296], [560, 250], 'end')
       + note(20, 345, ['Bassin immobile'], [200, 322], [258, 296], [240, 320]),
   },
 };
-for (const k in POSES) POSES[k].p = squelette(POSES[k].s);
-
 function dessin(nom, notes) {
   const P = POSES[nom];
-  return defs + P.decor() + personne(P.p) + (notes ? P.notes() : '');
+  return defs + P.decor() + Perso.dessiner(nom) + (notes ? P.notes() : '');
 }
-// cadre une illustration sans annotations au plus juste
-function cadrer(s, marge) {
-  const b = s.getBBox();
-  s.setAttribute('viewBox', `${b.x - marge} ${b.y - marge} ${b.width + 2 * marge} ${b.height + 2 * marge}`);
-}
-
 document.querySelectorAll('[data-pose]').forEach(s => {
   s.setAttribute('viewBox', '0 0 600 480');
   s.innerHTML = dessin(s.dataset.pose, true);
 });
 document.querySelectorAll('[data-mini]').forEach(s => {
   s.innerHTML = dessin(s.dataset.mini, false);
-  cadrer(s, 6);
+  Perso.cadrer(s, 6);
 });
 const cov = document.getElementById('cover-illu');
 cov.innerHTML = dessin('squat', false);
-cadrer(cov, 10);
+Perso.cadrer(cov, 10);
 
 // bande de papier déchiré en haut
 document.querySelectorAll('[data-bande]').forEach(s => {

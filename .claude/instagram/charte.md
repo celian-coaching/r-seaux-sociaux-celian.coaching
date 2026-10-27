@@ -29,3 +29,17 @@ Inspiration : les infographies de @supertrainers, avec nos couleurs (exemples da
   (fonctions `personne()`, `tronc()`, `chaussure()`, `tete()` ; chaque pose se
   décrit par le bassin, l'angle du buste et la place des mains et des chevilles,
   `squelette()` garde les mêmes longueurs de membres partout) : réutiliser ce fichier comme base.
+
+## Personnages (2026-10-27)
+
+Bibliothèque commune : `carrousels/personnages.js`, planche : `carrousels/personnages/planche.png`.
+
+- 6 personnages : `femme`, `homme`, `grandmere`, `grandpere`, `garcon`, `fille`.
+- 3 peaux : `claire` (beige clair), `mate` (marron clair), `foncee` (noir clair).
+- Hauts : menthe ou citron selon le personnage (modifiable avec `haut`), legging
+  foncé et baskets orange pour tous.
+- Dans une page de slides : `<script src="../personnages.js"></script>` puis
+  `svg.innerHTML = Perso.dessiner('squat', { type: 'homme', peau: 'mate' })`.
+- Poses prêtes : `debout`, `squat`, `mur`, `gainage`, `birddog` (`Perso.POSES`).
+  Une nouvelle pose = bassin, angle du buste, place des mains et des chevilles.
+- Varier les personnages d'un carrousel à l'autre pour que chacun s'y retrouve.
