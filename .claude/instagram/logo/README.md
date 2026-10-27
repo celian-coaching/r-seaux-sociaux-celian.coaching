@@ -3,8 +3,8 @@
 **Règle retenue par Célian (2026-10-27)** : logo citron, posé sur fond menthe ou orange.
 Sur un autre fond, logo citron dans un rond menthe ou orange (`pastille-citron-sur-menthe.png`,
 `pastille-citron-sur-orange.png`). Version recadrée pour les visuels : `logo-citron-recadre.png`.
-Logo orange aussi au choix (`logo-orange-recadre.png`) : direct sur citron, menthe ou noir, ou sur clair en grand ;
-sinon dans un rond noir ou clair (`pastille-orange-sur-noir.png`, `pastille-orange-sur-clair.png`).
+Logo orange aussi au choix (`logo-orange-recadre.png`) : direct sur citron ou menthe, jamais sur blanc
+ni sur noir ; sinon dans un rond citron ou menthe (`pastille-orange-sur-citron.png`, `pastille-orange-sur-menthe.png`).
 Tout ce qui est retenu, sur une image : `planche-retenue.png`.
 Le reste de ce fichier (contrastes, combinaisons) est l'étude d'origine.
 

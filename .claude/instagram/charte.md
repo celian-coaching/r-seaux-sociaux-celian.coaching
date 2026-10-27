@@ -68,9 +68,9 @@ Fichiers et règles de couleur : `logo/README.md` (logo validé : piste 4, l'hal
   citron va dans un rond menthe ou orange : `logo/pastille-citron-sur-menthe.png` ou
   `logo/pastille-citron-sur-orange.png` (fond transparent).
 - Logo orange aussi possible (`logo/logo-orange-recadre.png`) : posé directement sur fond
-  citron, menthe ou noir, ou sur fond clair en grand (choix de Célian, malgré le contraste
-  faible sur citron et menthe : réservé au logo, jamais au texte). Sinon dans un rond noir ou clair :
-  `logo/pastille-orange-sur-noir.png`, `logo/pastille-orange-sur-clair.png`.
+  citron ou menthe (choix de Célian, réservé au logo, jamais au texte). Jamais sur blanc ni
+  sur noir : sur ces fonds et les autres, logo orange dans un rond citron ou menthe :
+  `logo/pastille-orange-sur-citron.png`, `logo/pastille-orange-sur-menthe.png`.
 - Carrousels : pastille menthe de 66 px à gauche de `@celian.coaching`, en bas à gauche des
   slides sur papier ; sur une slide orange ou menthe, `logo/logo-citron-recadre.png` posé
   directement (voir `.handle` dans `carrousels/01-4-mouvements/slides.html`).
