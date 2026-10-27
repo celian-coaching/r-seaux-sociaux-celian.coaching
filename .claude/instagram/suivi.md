@@ -21,3 +21,4 @@ Statuts : à tourner → tourné → posté. Mis à jour par Claude quand Célia
 | 13 | Charges lourdes plutôt que séries interminables | à tourner | — | reels/13-charges-lourdes.md |
 | 14 | Moins de 6 h de sommeil, plus de faim | à tourner | — | reels/14-sommeil-faim.md |
 | 15 | Le tonus n'existe pas | à tourner | — | reels/15-tonus-existe-pas.md |
+| 16 | 1,3 kilo en 4 mois, juste en marchant | à tourner | — | reels/16-marche-podometre.md |
