@@ -21,7 +21,7 @@ def env(n,a,d):
 def saw(f,n): t=np.arange(n)/SR; return 2*((f*t+rng.random())%1)-1
 def note(m): return 440*2**((m-69)/12)
 n=int(.4*SR); t=np.arange(n)/SR
-f=48+170*np.exp(-t/0.03); kick=np.tanh(2.2*np.sin(2*np.pi*np.cumsum(f)/SR)*np.exp(-t/0.16))
+f=48+170*np.exp(-t/0.03); kick=np.tanh(1.3*np.sin(2*np.pi*np.cumsum(f)/SR)*np.exp(-t/0.09))
 kick+=hp(rng.standard_normal(n),3000)*np.exp(-t/0.004)*0.4
 n=int(.3*SR); nz=hp(rng.standard_normal(n),1200); t=np.arange(n)/SR
 snare=(nz*np.exp(-t/0.09)*0.6+np.sin(2*np.pi*190*t)*np.exp(-t/0.05)*0.6)
@@ -38,7 +38,7 @@ INTRO=2; bars=int(np.ceil(DUR/BAR))+1
 for bar in range(INTRO,bars):
     for beat in range(4):
         a=int((bar*BAR+beat*B)*SR); k=max(0,min(int(.22*SR),N-a))
-        if k: side[a:a+k]=np.minimum(side[a:a+k],np.linspace(.15,1,int(.22*SR))[:k]**0.7)
+        if k: side[a:a+k]=np.minimum(side[a:a+k],np.linspace(.55,1,int(.22*SR))[:k]**0.7)
 for bar in range(bars):
     t0=bar*BAR; ch=prog[bar%4]; rt=roots[bar%4]; full=bar>=INTRO
     if not full:
@@ -57,7 +57,7 @@ for bar in range(bars):
         continue
     for beat in range(4):
         tb=t0+beat*B
-        add(kick,tb,g=0.9,duck=False)
+        add(kick,tb,g=0.5,duck=False)
         if beat in (1,3): add(snare,tb,g=0.75,duck=False)
         add(ohat,tb+B/2,pan=.25,duck=False)
         for q in (B/4,3*B/4): add(hat,tb+q,pan=-.25,g=0.6,duck=False)
@@ -66,18 +66,17 @@ for bar in range(bars):
             n=int(B/4*SR*0.95)
             b=np.tanh(2.5*lp(saw(note(rt),n)+0.6*saw(note(rt+12),n),700))*env(n,.002,.07)
             add(b,tb+q*B/4,g=0.6)
-            add(np.sin(2*np.pi*note(rt)*np.arange(n)/SR)*env(n,.002,.08),tb+q*B/4,g=0.5)
+            add(np.sin(2*np.pi*note(rt)*np.arange(n)/SR)*env(n,.002,.08),tb+q*B/4,g=0.3)
     # stabs d'accords graves, syncopés
     for st in (0,.75,1.5,2.5,3.0):
         n=int(B*0.5*SR); add(stab(ch,n,1500)*env(n,.003,.12),t0+st*B,pan=.15*np.sin(st*3),g=0.45)
     # petit fill de caisse claire toutes les 4 mesures
     if (bar-INTRO)%4==3:
         for k in range(4): add(snare,t0+3*B+k*B/4,g=0.35+0.1*k,duck=False)
-    # cri de synthé grave (« impact ») au début de chaque phrase
+    # souffle au début de chaque phrase
     if (bar-INTRO)%4==0:
         n=int(1.2*SR); tt=np.arange(n)/SR
         imp=np.tanh(3*np.sin(2*np.pi*(note(21)+40*np.exp(-tt/0.2))*tt))*np.exp(-tt/0.5)
-        add(imp,t0,g=0.4,duck=False)
         add(hp(rng.standard_normal(int(1.5*SR)),1500)*np.linspace(1,0,int(1.5*SR))**3*0.25,t0,duck=False)
 mix=np.stack([L,R],1)
 mix=np.tanh(1.4*mix/np.max(np.abs(mix)))
