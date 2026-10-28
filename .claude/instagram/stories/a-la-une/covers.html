@@ -1,0 +1,15 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="fonts_local.css">
+<style>
+*{margin:0;box-sizing:border-box}body{width:1080px;height:1920px;overflow:hidden}
+.c{width:1080px;height:1920px;background:#FF721D;display:none;align-items:center;justify-content:center;position:relative}
+.c.on{display:flex}
+.ring{width:620px;height:620px;display:flex;align-items:center;justify-content:center}
+.m{background:#fff;-webkit-mask-size:contain;-webkit-mask-repeat:no-repeat;-webkit-mask-position:center}
+.t{font-family:'Fugaz One';color:#fff;line-height:1}
+</style></head><body>
+<div class="c" id="qui"><div class="ring"><div class="t" style="font-size:480px;margin-top:20px">?</div></div></div>
+<div class="c" id="seances"><div class="ring"><div class="m" style="width:560px;height:302px;-webkit-mask-image:url(logo.png)"></div></div></div>
+<div class="c" id="tarifs"><div class="ring"><div class="t" style="font-size:460px;margin-top:10px">€</div></div></div>
+<div class="c" id="avis"><div class="ring"><svg width="460" height="460" viewBox="0 0 24 24"><path d="M12 2.8l2.7 5.6 6.1.8-4.5 4.2 1.1 6.1L12 16.6l-5.4 2.9 1.1-6.1L3.2 9.2l6.1-.8z" fill="#fff" stroke="#fff" stroke-width="2.2" stroke-linejoin="round"/></svg></div></div>
+<script>window.show=id=>{document.querySelectorAll('.c').forEach(e=>e.classList.toggle('on',e.id===id))}</script>
+</body></html>
