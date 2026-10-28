@@ -78,6 +78,32 @@ for bar in range(bars):
         n=int(1.2*SR); tt=np.arange(n)/SR
         imp=np.tanh(3*np.sin(2*np.pi*(note(21)+40*np.exp(-tt/0.2))*tt))*np.exp(-tt/0.5)
         add(hp(rng.standard_normal(int(1.5*SR)),1500)*np.linspace(1,0,int(1.5*SR))**3*0.25,t0,duck=False)
+# --- mélodie (registre médium, pas d'aigus) ---
+arp_pat=[0,1,2,1,0,2,1,2]
+lead=[(0,69,1.5),(1.5,72,.5),(2,76,1),(3,74,1),(4,72,1.5),(5.5,71,.5),(6,67,1),(7,69,1)]
+for bar in range(bars):
+    t0=bar*BAR; ch=prog[bar%4]
+    # nappe d'accords tenue
+    n=int(BAR*SR); pad=sum(saw(note(m+12)*(1+d),n) for m in ch for d in (-.005,.005))/6
+    e=np.minimum(1,np.arange(n)/(SR*.25))*np.minimum(1,(n-np.arange(n))/(SR*.1))
+    add(lp(pad,900 if bar<INTRO else 1300)*e,t0,g=0.22)
+    # arpège en croches
+    if bar>=1:
+        for k,ix in enumerate(arp_pat):
+            n=int(B/2*SR*0.95); m=ch[ix]+12
+            a=lp(saw(note(m),n)*0.6+np.sin(2*np.pi*note(m)*np.arange(n)/SR)*0.4,1800)*env(n,.003,.12)
+            add(a,t0+k*B/2,pan=0.35*(1 if k%2 else -1),g=0.28 if bar>=INTRO else 0.16)
+    # phrase mélodique à partir de la 4e mesure
+    if bar>=INTRO+2:
+        half=(bar-INTRO)%2
+        for st,m,ln in lead[half*4:half*4+4]:
+            st-=half*4; n=int(ln*B*SR); tt=np.arange(n)/SR
+            vib=1+0.004*np.sin(2*np.pi*5.5*tt)*np.minimum(1,tt/0.3)
+            ph=np.cumsum(note(m)*vib)/SR
+            v=(2*(ph%1)-1)*0.5+np.sin(2*np.pi*ph)*0.5
+            ev=np.minimum(1,tt/0.015)*np.minimum(1,(n-np.arange(n))/(SR*0.05))*(0.75+0.25*np.exp(-tt/0.3))
+            add(lp(v,2200)*ev,t0+st*B,pan=-0.1,g=0.3)
+            add(lp(v,1500)*ev*0.3,t0+st*B+0.75*B,pan=0.4,g=0.3)
 mix=np.stack([L,R],1)
 mix=np.tanh(1.4*mix/np.max(np.abs(mix)))
 mix=mix[:int(DUR*SR)]
