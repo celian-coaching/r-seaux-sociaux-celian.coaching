@@ -11,6 +11,6 @@ le navigateur bloque les masques en `file://`), puis
 ## Musique
 
 Musique originale composée par programme (`source/musique/compose.py`), donc
-sans droits d'auteur. `python3 compose.py full.wav`, couper les 0,33 premières
+sans droits d'auteur. `python3 compose.py full.wav 19.85`, couper les 0,15 premières
 secondes pour que le rythme démarre au 2e écran, puis normaliser à -14 LUFS
 au moment de l'assembler avec la vidéo.
