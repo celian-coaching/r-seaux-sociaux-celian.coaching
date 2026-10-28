@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<link rel="stylesheet" href="fonts_local.css">
+<style>
+:root{--or:#FF721D;--ci:#E0FF20;--tu:#00DBA0;--wh:#FFFFFF;--nr:#1B1B1B}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:var(--or)}
+.scene{position:absolute;inset:0;overflow:hidden}
+.el{position:absolute;will-change:transform,opacity}
+.fz{font-family:'Fugaz One';text-transform:uppercase;line-height:1.02}
+.os{font-family:'Oswald';}
+.c{left:0;right:0;text-align:center}
+.mask{background:currentColor;-webkit-mask-size:contain;-webkit-mask-repeat:no-repeat;-webkit-mask-position:center}
+.logo{-webkit-mask-image:url(logo.png)}
+.eclair{-webkit-mask-image:url(eclair.png)}
+.fleche{-webkit-mask-image:url(fleche.png)}
+.trait{-webkit-mask-image:url(trait.png)}
+.rond{-webkit-mask-image:url(rond.png)}
+.pill{display:inline-block;position:relative;padding:14px 48px 20px}
+.pill svg{position:absolute;inset:0;width:100%;height:100%;z-index:0}
+.pill span{position:relative;z-index:1}
+.photo{border-radius:50%;background:url(photo.png) center/cover}
+.brand{display:flex;align-items:center;gap:18px;font-family:'Fugaz One';font-size:40px;text-transform:uppercase}
+.brand i{display:block;width:74px;height:40px}
+.pattern{position:absolute;inset:-300px;display:grid;grid-template-columns:repeat(9,170px);grid-auto-rows:150px;transform:rotate(-30deg);opacity:.16}
+.pattern i{display:block;width:110px;height:60px}
+.card{display:flex;align-items:center;gap:30px;background:var(--wh);color:var(--or);border-radius:40px 34px 42px 30px;padding:26px 40px;font-family:'Fugaz One';font-size:40px;text-transform:uppercase;width:820px;white-space:nowrap}
+.card i{flex:0 0 64px;height:64px;color:var(--tu)}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><defs>
+<path id="pp" d="M14,7 C45,1 150,2 186,6 C199,9 200,49 189,53 C150,59 52,58 15,55 C1,52 -1,12 14,7 Z"/></defs></svg>
+
+<!-- 1 : intro -->
+<div class="scene" id="s1" style="background:var(--or)">
+  <div class="el c" data-in="0.1" data-a="fade" style="top:250px;display:flex;justify-content:center"><div class="brand" style="color:var(--wh)"><i class="mask logo"></i>CD COACHING</div></div>
+  <div class="el" data-in="0.25" data-a="pop" style="left:220px;top:380px;width:640px;height:640px;border-radius:50%;background:var(--wh)"></div>
+  <div class="el photo" data-in="0.35" data-a="pop" style="left:244px;top:404px;width:592px;height:592px"></div>
+  <div class="el mask eclair" data-in="0.9" data-a="pop" style="left:140px;top:420px;width:120px;height:186px;color:var(--ci);--r:-12deg"></div>
+  <div class="el mask fleche" data-in="1.05" data-a="pop" style="left:800px;top:880px;width:170px;height:160px;color:var(--tu)"></div>
+  <div class="el c fz" data-in="1.1" data-a="up" style="top:1090px;font-size:40px;color:var(--wh);letter-spacing:2px">Coach sportif à domicile</div>
+  <div class="el c fz" data-in="1.3" data-a="up" style="top:1160px;font-size:132px;color:var(--wh)">Séances</div>
+  <div class="el c" data-in="1.5" data-a="pop" style="top:1310px"><div class="pill fz" style="font-size:112px;color:var(--or)"><svg viewBox="0 0 200 60" preserveAspectRatio="none"><use href="#pp" fill="#fff"/></svg><span>Sur-mesure</span></div></div>
+  <div class="el c os" data-in="1.9" data-a="fade" style="top:1500px;font-size:46px;font-weight:500;color:var(--wh)">@celian.coaching</div>
+</div>
+
+<!-- 2 : le sport vient chez vous -->
+<div class="scene" id="s2" style="background:var(--tu)">
+  <div class="pattern" style="color:var(--ci)"></div>
+  <div class="el" data-in="0.05" data-a="pop" style="left:690px;top:250px;width:300px;height:300px;border-radius:50%;background:var(--ci)"></div>
+  <div class="el photo" data-in="0.12" data-a="pop" style="left:704px;top:264px;width:272px;height:272px"></div>
+  <div class="el fz" data-in="0.3" data-a="up" style="left:80px;top:640px;font-size:40px;color:var(--wh)">Coach sportif à domicile</div>
+  <div class="el fz" data-in="0.45" data-a="left" style="left:72px;top:720px;font-size:180px;color:var(--wh)">Le sport</div>
+  <div class="el fz" data-in="0.75" data-a="left" style="left:72px;top:910px;font-size:180px;color:var(--wh)">vient</div>
+  <div class="el" data-in="1.1" data-a="pop" style="left:50px;top:1110px;--r:-3deg"><div class="pill fz" style="font-size:150px;color:var(--tu);padding:18px 56px 28px"><svg viewBox="0 0 200 60" preserveAspectRatio="none"><use href="#pp" fill="#E0FF20"/></svg><span>Chez vous.</span></div></div>
+  <div class="el mask eclair" data-in="1.5" data-a="pop" style="left:840px;top:1380px;width:130px;height:200px;color:var(--or);--r:10deg"></div>
+  <div class="el mask eclair" data-in="1.65" data-a="pop" style="left:700px;top:1440px;width:90px;height:140px;color:var(--wh);--r:-8deg"></div>
+</div>
+
+<!-- 3 : dans votre salon / jardin / parc -->
+<div class="scene" id="s3" style="background:var(--wh)">
+  <div class="pattern" style="color:var(--or);opacity:.09"></div>
+  <div class="el fz" data-in="0.1" data-a="up" style="left:80px;top:430px;font-size:40px;color:var(--tu)">100 % sur-mesure</div>
+  <div class="el fz" data-in="0.2" data-a="up" style="left:72px;top:500px;font-size:150px;color:var(--or)">Dans votre</div>
+  <div class="el word" data-w="0" data-in="0.35" data-out="1.65" data-a="word" style="left:50px;top:690px;--r:-2deg"><div class="pill fz" style="font-size:150px;color:var(--wh)"><svg viewBox="0 0 200 60" preserveAspectRatio="none"><use href="#pp" fill="#FF721D"/></svg><span>Salon.</span></div></div>
+  <div class="el word" data-in="1.65" data-out="2.85" data-a="word" style="left:50px;top:690px;--r:2deg"><div class="pill fz" style="font-size:150px;color:var(--wh)"><svg viewBox="0 0 200 60" preserveAspectRatio="none"><use href="#pp" fill="#00DBA0"/></svg><span>Jardin.</span></div></div>
+  <div class="el word" data-in="2.85" data-out="99" data-a="word" style="left:50px;top:690px;--r:-2deg"><div class="pill fz" style="font-size:112px;color:var(--or);white-space:nowrap"><svg viewBox="0 0 200 60" preserveAspectRatio="none"><use href="#pp" fill="#E0FF20"/></svg><span>Parc d'à côté.</span></div></div>
+  <div class="el os" data-in="0.7" data-a="up" style="left:80px;top:1000px;font-size:56px;font-weight:600;color:var(--nr);display:flex;align-items:center;gap:22px">
+    <svg width="48" height="60" viewBox="0 0 24 30"><path d="M12 2C6.5 2 3 6 3 11c0 7 9 17 9 17s9-10 9-17c0-5-3.5-9-9-9z" fill="#FF721D"/><circle cx="12" cy="11" r="3.6" fill="#fff"/></svg>Lyon et alentours</div>
+  <div class="el os" data-in="0.95" data-a="up" style="left:80px;top:1110px;font-size:50px;font-weight:400;color:var(--nr);line-height:1.35">Vous avancez <b style="color:var(--or);font-weight:700">à votre rythme</b>,<br>je m'occupe du reste.</div>
+  <div class="el mask fleche" data-in="1.3" data-a="pop" style="left:690px;top:1330px;width:280px;height:264px;color:var(--tu)"></div>
+  <div class="el mask rond" data-in="1.45" data-a="pop" style="left:110px;top:1420px;width:90px;height:82px;color:var(--ci)"></div>
+  <div class="el mask rond" data-in="1.55" data-a="pop" style="left:230px;top:1470px;width:60px;height:55px;color:var(--or)"></div>
+</div>
+
+<!-- 4 : objectif -->
+<div class="scene" id="s4" style="background:var(--or)">
+  <div class="el fz" data-in="0.1" data-a="up" style="left:140px;top:330px;font-size:40px;color:var(--wh)">Votre objectif</div>
+  <div class="el fz" data-in="0.2" data-a="left" style="left:132px;top:395px;font-size:132px;color:var(--wh)">On le fixe</div>
+  <div class="el fz" data-in="0.45" data-a="left" style="left:132px;top:535px;font-size:132px;color:var(--ci)">ensemble.</div>
+  <div class="el" data-in="0.8" data-a="left" style="left:140px;top:740px"><div class="card"><i class="mask" style="-webkit-mask-image:url(heart.svg)"></i>Remise en forme</div></div>
+  <div class="el" data-in="1.0" data-a="left" style="left:140px;top:890px"><div class="card"><i class="mask eclair" style="color:var(--or)"></i>Perte de poids</div></div>
+  <div class="el" data-in="1.2" data-a="left" style="left:140px;top:1040px"><div class="card"><i class="mask logo"></i>Renforcement musculaire</div></div>
+  <div class="el" data-in="1.4" data-a="left" style="left:140px;top:1190px"><div class="card"><i class="mask" style="-webkit-mask-image:url(cible.svg);color:var(--or)"></i>Objectif individuel</div></div>
+  <div class="el os" data-in="1.8" data-a="up" style="left:140px;top:1370px;font-size:44px;font-weight:500;color:var(--wh);line-height:1.5">
+    <span style="color:var(--ci)">✓</span> Tout le matériel fourni<br>
+    <span style="color:var(--ci)">✓</span> Horaires flexibles &nbsp; <span style="color:var(--ci)">✓</span> Tous niveaux</div>
+</div>
+
+<!-- 5 : CTA -->
+<div class="scene" id="s5" style="background:var(--tu)">
+  <div class="pattern" style="color:var(--ci);opacity:.22"></div>
+  <div class="el" data-in="0.15" data-a="pop" style="left:340px;top:250px;width:400px;height:400px;border-radius:50%;background:var(--ci)"></div>
+  <div class="el photo" data-in="0.25" data-a="pop" style="left:360px;top:270px;width:360px;height:360px"></div>
+  <div class="el mask eclair" data-in="0.6" data-a="pop" style="left:770px;top:260px;width:110px;height:170px;color:var(--or);--r:12deg"></div>
+  <div class="el c fz" data-in="0.55" data-a="up" style="top:720px;font-size:110px;color:var(--wh)">Réservez votre</div>
+  <div class="el c" data-in="0.8" data-a="pop" style="top:850px"><div class="pill fz" style="font-size:80px;color:var(--tu);white-space:nowrap"><svg viewBox="0 0 200 60" preserveAspectRatio="none"><use href="#pp" fill="#fff"/></svg><span>séance découverte</span></div></div>
+  <div class="el c os" data-in="1.1" data-a="up" style="top:1035px;font-size:48px;font-weight:500;color:var(--wh);line-height:1.35">Bilan, séance complète et conseils<br>personnalisés pour démarrer.</div>
+  <div class="el c" data-in="1.4" data-a="pop" style="top:1200px"><div class="pill fz" style="font-size:104px;color:var(--wh);padding:22px 64px 30px"><svg viewBox="0 0 200 60" preserveAspectRatio="none"><use href="#pp" fill="#FF721D"/></svg><span>07 68 71 19 70</span></div></div>
+  <div class="el c os" data-in="1.7" data-a="fade" style="top:1400px;font-size:46px;font-weight:400;color:var(--wh)">Instagram : <b style="font-weight:700">@celian.coaching</b></div>
+  <div class="el c" data-in="1.9" data-a="fade" style="top:1500px;display:flex;justify-content:center"><div class="brand" style="color:var(--wh)"><i class="mask logo" style="color:var(--ci)"></i>CD COACHING</div></div>
+</div>
+
+<script>
+const SC=[['s1',0,3.6],['s2',3.6,7.15],['s3',7.15,11.0],['s4',11.0,14.8],['s5',14.8,19.7]];
+document.querySelectorAll('.pattern').forEach(p=>{for(let i=0;i<120;i++){const e=document.createElement('i');e.className='mask logo';p.appendChild(e)}});
+const ease=x=>1-Math.pow(1-x,3);
+const back=x=>{const c=1.7;x=x-1;return 1+(c+1)*x*x*x+c*x*x};
+const cl=x=>Math.max(0,Math.min(1,x));
+window.setTime=function(t){
+  for(const [id,a,b] of SC){
+    const s=document.getElementById(id);
+    if(t<a-0.001||t>b+0.35&&id!=='s5'){s.style.display='none';continue}
+    s.style.display='block';
+    const lt=t-a;
+    // entrée : volet depuis le bas ; sortie : la scène suivante recouvre
+    const z=SC.findIndex(x=>x[0]===id);s.style.zIndex=z;
+    const w=id==='s1'?1:ease(cl(lt/0.4));
+    s.style.clipPath=`inset(${(1-w)*100}% 0 0 0 round ${(1-w)*80}px)`;
+    s.querySelectorAll('.pattern').forEach(p=>p.style.transform=`rotate(-30deg) translateX(${-lt*30}px)`);
+    s.querySelectorAll('.el').forEach(e=>{
+      const i=+e.dataset.in+(id==='s1'?0:0.15),o=e.dataset.out?+e.dataset.out+0.15:null,an=e.dataset.a;
+      let p=cl((lt-i)/0.45),r=getComputedStyle(e).getPropertyValue('--r')||'0deg';
+      let op=p,tr='';
+      if(an==='fade'){op=ease(p)}
+      else if(an==='up'){tr=`translateY(${(1-ease(p))*60}px)`;op=ease(p)}
+      else if(an==='left'){tr=`translateX(${(1-ease(p))*-120}px)`;op=ease(p)}
+      else if(an==='pop'||an==='word'){const k=p>0?back(p):0;tr=`scale(${0.4+0.6*k}) rotate(${r})`;op=cl(p*2)}
+      if(o!==null&&lt>o){const q=cl((lt-o)/0.25);op*=1-q;tr+=` translateY(${-q*60}px)`}
+      const base=e.style.getPropertyValue('--op');
+      e.style.opacity=op;e.style.transform=tr;
+    });
+  }
+  // la photo de la scène 1 respire doucement
+  const ph=document.querySelector('#s1 .photo');ph.style.transform+=` scale(${1+0.02*Math.sin(t*2)})`;
+};
+setTime(0);
+</script></body></html>
