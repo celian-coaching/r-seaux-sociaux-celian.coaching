@@ -44,3 +44,29 @@ Note : le RVB du vert citron dans le PDF (224/225/32) ne correspond pas tout à 
 
 ## Carte de visite
 Page vide dans le PDF (pas encore faite).
+
+## Fichiers visuels (`visuels/`)
+
+À utiliser pour toutes les créations (stories, carrousels, couvertures, cartons).
+Fichiers d'origine fournis par Célian (WeTransfer du 2026-10-28), renommés sans accents.
+Les JPG en double des PNG et le PDF de la charte (identique) n'ont pas été gardés.
+
+| Fichier | Contenu |
+|---|---|
+| `logo_principal.png` | Haltère CD orange, fond transparent |
+| `logos_variations.png` | Haltère turquoise, citron, noir, blanc |
+| `ronds.png` | Ronds orange, turquoise, citron, noir, blanc |
+| `eclairs.png` / `eclairs_contours.png` | Éclairs pleins / en contour, 5 couleurs |
+| `fleches.png` / `fleches_contours.png` | Flèches ondulées pleines / en contour, 5 couleurs |
+| `surligneurs.png` | Traits « surligneur » orange, turquoise, citron |
+| `surligneurs_noir_blanc.png` | Traits blanc et noir |
+| `surligneurs_variante.png` | Traits jaune, orange, vert clair : teintes hors charte (#EBEF23, #ED7228, #74EC8D), à éviter |
+| `motif_logo_orange_fond_blanc.png` | Motif logos orange sur blanc |
+| `motif_logo_blanc_fond_orange.png` | Motif logos blancs sur orange |
+| `motif_logo_citron_fond_turquoise.png` | Motif logos citron sur turquoise |
+| `motif_logo_pictos_blanc_fond_orange.png` | Motif logos + pictos blancs sur orange |
+| `motif_logo_pictos_citron_fond_turquoise.png` | Motif logos + pictos citron sur turquoise |
+| `motif_logo_pictos_turquoise_fond_blanc.jpg` | Motif logos + pictos turquoise sur blanc |
+
+Les motifs font 5335 px de côté : on peut les recadrer en 1080x1920 (story) ou
+1080x1350 (carrousel) sans perte.
