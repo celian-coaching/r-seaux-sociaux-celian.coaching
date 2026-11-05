@@ -16,3 +16,9 @@ pastille tracée à la main, éclairs, flèches, ronds, et le logo secondaire (h
 Partie gauche laissée libre : la photo de profil LinkedIn s'y pose.
 
 Regénérer : `node linkedin/source/render.js linkedin` (texte dans `source/banniere.html`).
+
+Mélanges de couleurs sur la bannière orange :
+- `banniere-mix-1.png` : rond noir cerclé turquoise, logo orange, texte citron
+- `banniere-mix-2.png` : rond noir cerclé citron, logo blanc avec ombre orange, texte turquoise
+- `banniere-mix-3.png` : rond blanc cerclé noir, logo orange avec ombre turquoise, texte noir
+- `banniere-mix-4.png` : rond noir cerclé blanc, logo citron avec ombre turquoise, texte blanc
