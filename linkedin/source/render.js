@@ -11,6 +11,7 @@ const T={
  'mix-2':{bg:'#FF721D',fond:'orange',brand:'#fff',title:'#fff',pill:'#fff',pillTx:'#FF721D',sub:'#fff',hl:'#E0FF20',a1:'#E0FF20',a2:'#00DBA0',a3:'#E0FF20',ring:'#E0FF20',disc:'#1B1B1B',logo:'#fff',shadow:'#FF721D',logotx:'#00DBA0'},
  'mix-3':{bg:'#FF721D',fond:'orange',brand:'#fff',title:'#fff',pill:'#fff',pillTx:'#FF721D',sub:'#fff',hl:'#E0FF20',a1:'#E0FF20',a2:'#00DBA0',a3:'#E0FF20',ring:'#1B1B1B',disc:'#fff',logo:'#FF721D',shadow:'#00DBA0',logotx:'#1B1B1B'},
  'mix-4':{bg:'#FF721D',fond:'orange',brand:'#fff',title:'#fff',pill:'#fff',pillTx:'#FF721D',sub:'#fff',hl:'#E0FF20',a1:'#E0FF20',a2:'#00DBA0',a3:'#E0FF20',ring:'#fff',disc:'#1B1B1B',logo:'#E0FF20',shadow:'#00DBA0',logotx:'#fff'},
+ 'finale':{bg:'#FF721D',fond:'orange',brand:'#fff',title:'#fff',pill:'#fff',pillTx:'#FF721D',sub:'#fff',hl:'#E0FF20',a1:'#E0FF20',a2:'#00DBA0',a3:'#E0FF20',ring:'#1B1B1B',disc:'#fff',logo:'#FF721D',logotx:'#1B1B1B'},
  turquoise:{bg:'#00DBA0',brand:'#fff',title:'#fff',pill:'#E0FF20',pillTx:'#00A97B',sub:'#fff',hl:'#E0FF20',ring:'#fff',disc:'#FF721D',logo:'#E0FF20',a1:'#FF721D',a2:'#fff',a3:'#FF721D'},
  blanc:    {bg:'#FFFFFF',brand:'#FF721D',title:'#FF721D',pill:'#00DBA0',pillTx:'#fff',sub:'#1B1B1B',hl:'#FF721D',ring:'#00DBA0',disc:'#FF721D',logo:'#E0FF20',a1:'#E0FF20',a2:'#FF721D',a3:'#00DBA0'},
 };
