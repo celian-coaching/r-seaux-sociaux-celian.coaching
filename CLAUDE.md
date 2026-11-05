@@ -6,6 +6,8 @@ Dépôt de travail Instagram de Célian, coach sportif à domicile à Lyon.
   (le copier dans `~/.claude/instagram/voice.md` en début de session, avec `log.md`).
 - Scripts validés : `.claude/instagram/reels/`. Historique : `.claude/instagram/log.md`.
 - Suivi tournage / publication : `.claude/instagram/suivi.md`.
+- Charte graphique CD Coaching (couleurs, polices, logos, motifs, pictos) : `.claude/instagram/charte/`.
+- LinkedIn (bannières et sources) : `linkedin/`.
 
 ## Façon de travailler avec Célian
 
