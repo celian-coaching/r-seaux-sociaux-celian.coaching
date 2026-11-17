@@ -14,3 +14,4 @@
 - 2026-10-13 · reel · #22 Contrarian Flip · "Les petits poids suffisent plus." · reels/13-charges-lourdes.md
 - 2026-10-13 · reel · #22 Contrarian Flip · "Le problème, c'est peut-être ta nuit." · reels/14-sommeil-faim.md
 - 2026-10-13 · reel · #20 Permission · "T'as pas besoin de « tonifier »." · reels/15-tonus-existe-pas.md
+- 2026-11-17 · reel · format questions/réponses en mouvement · "1/5 · T'ES QUI, TOI ?" · présentation v2, 60 s · reels/00-presentation-5-questions.md
