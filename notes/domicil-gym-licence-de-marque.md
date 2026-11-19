@@ -2,6 +2,8 @@
 
 Dernière mise à jour : 19/11/2026
 
+**Mon statut** : micro-entreprise en BNC. Cotisations Urssaf de 25,8 % du CA (25,6 % + 0,2 % de formation professionnelle, taux 2026). ACRE demandée, réponse en attente.
+
 ## Historique
 - **10/11** : appel avec le coach franchisé Domicil'Gym de ma zone, qui a trop de clients.
 - **12/11** : café avec lui, réponses ci-dessous.
@@ -125,27 +127,45 @@ Charges fixes par mois, pendant les 3 premières années :
 | Logiciels (Canva…) | ≈ 15 € |
 | **Total** | **≈ 820 €/mois** |
 
-Ce qui reste sur une séance à 70 € : 70 − 4,20 (redevance de 6 %) − 18,40 (cotisations Urssaf ≈ 26,3 %) − 5 (essence et parking) ≈ **42 €**.
+Ce qui reste sur une séance à 70 € : 70 − 4,20 (redevance de 6 %) − 18,06 (cotisations Urssaf BNC, 25,8 %) − 5 (essence et parking) ≈ **42,70 €**.
+En micro-entreprise, les frais ne se déduisent pas : les cotisations sont calculées sur tout le CA.
 Un client régulier, c'est 1 séance par semaine sur 44 semaines par an ≈ 3,7 séances par mois ≈ **155 €/mois**.
 
 | Objectif | Avec Domicil'Gym | Seul (avec SAP) |
 |---|---|---|
-| Couvrir les frais (0 € pour moi) | **6 clients réguliers** | 3 clients |
+| Couvrir les frais (0 € pour moi) | **≈ 20 séances/mois, soit 5 à 6 clients réguliers** | ≈ 8 séances/mois, soit 2 à 3 clients |
 | Me verser 1 500 €/mois | **15 clients réguliers** | 11 clients |
 
-Pas compté : l'impôt sur le revenu, le loyer et la vie perso, la mutuelle. L'ACRE (si j'y ai droit) divise environ par deux les cotisations la 1re année.
+### Séances par mois pour tout rembourser (micro-entreprise BNC, séance à 70 €)
+| Ce que je rembourse | Frais par mois | Séances par mois | Par semaine |
+|---|---|---|---|
+| Seulement Domicil'Gym (droit d'entrée, site, formation, séminaires) | ≈ 450 € | **≈ 11** | ≈ 2,5 |
+| Tous mes frais | ≈ 820 € | **≈ 20** | ≈ 4,5 |
+
+- **Impôt sur le revenu** : ça ne change presque rien à ce niveau-là.
+  - Avec le versement libératoire (2,2 % du CA), il me reste ≈ 41,20 € par séance, donc toujours ≈ 20 séances par mois.
+  - Au barème classique (CA − 34 % d'abattement), environ 16 000 € de CA par an donne ≈ 10 600 € imposables : quasiment pas d'impôt, si je suis seul et sans autre revenu.
+- **ACRE (en attente)** : si je l'obtiens, mes cotisations baissent la 1re année. Si elle les divise par deux (taux à vérifier), il me faut ≈ 16 séances par mois au lieu de 20 en 2027.
+- **À 50 € la séance** (sans le crédit d'impôt du SAP) : il me reste ≈ 28,90 € par séance, donc ≈ 28 séances par mois pour tout couvrir (≈ 16 pour Domicil'Gym seul).
+
+Pas compté : le loyer et la vie perso, la mutuelle.
 
 ## Scénario 2027-2029 : 20 000 €, puis 30 000 €, puis 40 000 € de CA
-Hypothèses : séance à 70 €, frais fixes ≈ 820 €/mois (CFE gratuite en 2027), redevance de 6 %, cotisations ≈ 26,3 %, essence et parking ≈ 5 € par séance.
+Hypothèses : séance à 70 €, frais fixes ≈ 820 €/mois (CFE gratuite en 2027), redevance de 6 %, cotisations BNC de 25,8 %, essence et parking ≈ 5 € par séance. Impôt sur le revenu non compris (voir plus bas).
 
 | Année | CA | Séances/semaine | Ce qui me reste (Domicil'Gym) | Par mois | Seul, même CA |
 |---|---|---|---|---|---|
-| 2027 | 20 000 € | ≈ 6,5 | ≈ 2 600 € | ≈ 215 € | ≈ 765 €/mois |
-| 2028 | 30 000 € | ≈ 10 | ≈ 8 300 € | ≈ 695 € | ≈ 1 295 €/mois |
-| 2029 | 40 000 € | ≈ 13 | ≈ 14 400 € | ≈ 1 200 € | ≈ 1 850 €/mois |
-| **3 ans** | 90 000 € | | **≈ 25 300 €** | ≈ 700 € en moyenne | ≈ 46 900 € (≈ 1 300 €/mois) |
+| 2027 | 20 000 € | ≈ 6,5 | ≈ 2 700 € | ≈ 225 € | ≈ 770 €/mois |
+| 2028 | 30 000 € | ≈ 10 | ≈ 8 500 € | ≈ 705 € | ≈ 1 305 €/mois |
+| 2029 | 40 000 € | ≈ 13 | ≈ 14 600 € | ≈ 1 215 € | ≈ 1 865 €/mois |
+| **3 ans** | 90 000 € | | **≈ 25 700 €** | ≈ 715 € en moyenne | ≈ 47 300 € (≈ 1 315 €/mois) |
 
 - C'est rentable (jamais dans le rouge), mais 2027 ne permet pas d'en vivre.
-- À CA égal, la franchise coûte ≈ 21 500 € sur 3 ans. Elle vaut le coup seulement si, sans elle, je ferais au moins ≈ 11 000 € de CA en moins par an (≈ 3 à 4 clients réguliers).
-- Avec l'ACRE en 2027, il me resterait ≈ 5 200 € (≈ 435 €/mois).
+- À CA égal, la franchise coûte ≈ 21 600 € sur 3 ans. Elle vaut le coup seulement si, sans elle, je ferais au moins ≈ 11 000 € de CA en moins par an (≈ 3 à 4 clients réguliers).
+- **ACRE (en attente)** : si elle divise les cotisations par deux en 2027 (taux à vérifier), il me resterait ≈ 5 250 € (≈ 440 €/mois).
+- **Impôt sur le revenu** (seul, sans autre revenu, estimation) :
+  - avec le versement libératoire de 2,2 % : ≈ 440 € en 2027, 660 € en 2028, 880 € en 2029 ;
+  - au barème classique : ≈ 200 €, puis 900 €, puis 1 600 € ;
+  - le versement libératoire devient plus avantageux à partir de 2028. Conditions : revenu fiscal de référence sous ≈ 29 300 € par part, et demande à faire avant le 30 septembre de l'année d'avant.
+- **TVA** : en 2029, 40 000 € de CA dépasse le seuil de franchise de TVA (≈ 37 500 € pour les services, à vérifier). Il faudrait alors facturer la TVA.
 - À vérifier avec France Travail : le maintien de l'ARE (ou l'ARCE) pendant le démarrage.
