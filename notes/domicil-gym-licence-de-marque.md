@@ -88,7 +88,8 @@ Seuil de rentabilité : environ 3,5 clients réguliers sur toute l'année apport
 
 ## Questions pour Pierre
 - [x] Le plafond de redevance à 55 000 € existe vraiment ? → oui
-- [x] Si j'arrête, je garde mes clients ? → oui Il y a une clause de non-concurrence (durée, zone) ?
+- [x] Si j'arrête, je garde mes clients ? → oui
+- [ ] Il y a une clause de non-concurrence (durée, zone) ?
 - [x] Combien de demandes de clients arrivent par mois sur notre zone, sur toute l'année ? → environ 3 par an, plus ceux d'Aurélien (nombre inconnu)
 - [x] Qu'est-ce qui garantit que les clients de la zone me seront vraiment transmis ? C'est écrit dans le contrat ? → une clause dans le contrat d'Aurélien (à lire)
 - [x] La formation, c'est 4 ou 8 jours ? → 7 jours (4 de formation et 3 de certifications)
