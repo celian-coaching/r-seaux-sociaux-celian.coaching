@@ -29,6 +29,11 @@ Dernière mise à jour : 19/11/2026
 - **Formation** : 7 jours, dont 4 jours d'apprentissage et 3 jours de certifications.
 - **Séminaires** : prix inconnu, pas obligatoires (selon Aurélien).
 - **SAP** : il faut attendre mon agrément. Une fois que je l'ai, l'avance immédiate ira plus vite chez eux, parce que les logiciels sont déjà prêts.
+- **Si j'arrête** : je garde mes clients.
+- **Frais mensuels obligatoires** : 95 € + 45 € par mois pour l'accès au site et la maintenance, soit 140 €/mois (≈ 1 680 €/an). À confirmer : HT ou TTC ?
+- **Matériel** : 3 000 € de matériel compris dans les 8 800 €. Le contenu n'est pas encore précisé.
+- **Formation** : à Toulouse, trajet et logement à ma charge.
+- **Zone** : la même que celle d'Aurélien (le périmètre exact est à lui demander). Il n'y a plus de zone libre sur Lyon, donc pas de franchise en solo possible : avec Domicil'Gym, c'est forcément en licence de marque.
 - **Pas encore reçus** : le DIP et la date du prochain week-end de présentation.
 
 ## Infos de l'appel du 10/11 (à reconfirmer)
@@ -60,13 +65,34 @@ Exemple avec un CA de 25 000 €, puis 35 000 €, puis 45 000 € :
 
 **Attention** : ma demande de SAP est en cours de mon côté. Si je l'obtiens seul, la franchise perd une grosse partie de son intérêt.
 
+## Coût mis à jour (19/11)
+| Poste | Par an |
+|---|---|
+| Droit d'entrée (244 €/mois sur 3 ans) | ≈ 2 930 € |
+| Site et maintenance (140 €/mois) | ≈ 1 680 € |
+| Redevance de 6 % (CA moyen de 35 000 €) | ≈ 2 100 € |
+| Formation à Toulouse (trajet, logement), répartie sur 3 ans | ≈ 300 € |
+| **Total** | **≈ 7 000 €/an, soit ≈ 21 000 € sur 3 ans** |
+
+Seuil de rentabilité : environ 3,5 clients réguliers sur toute l'année apportés par Domicil'Gym ou Aurélien. 3 clients par an via Domicil'Gym ne suffisent pas, **tout dépend d'Aurélien**.
+
+## Questions pour Aurélien
+- [ ] Combien de demandes tu reçois par an sur la zone ? Tu peux me montrer tes chiffres de l'an dernier ?
+- [ ] Combien de clients tu penses m'envoyer la 1re année ?
+- [ ] Tu peux me montrer la clause qui t'oblige à m'envoyer des clients ?
+- [ ] Quel est le périmètre exact de la zone ? Comment on se répartit les clients ?
+- [ ] Si toi tu quittes Domicil'Gym, il se passe quoi pour moi ?
+- [ ] Il y a une clause de non-concurrence (je garde mes clients, mais est-ce que je peux continuer à coacher à Lyon) ?
+- [ ] Les 140 €/mois, c'est HT ou TTC ? Ça continue après les 3 ans ?
+- [ ] Les 3 000 € de matériel, c'est quoi exactement ?
+
 ## Questions pour Pierre
 - [x] Le plafond de redevance à 55 000 € existe vraiment ? → oui
-- [ ] Si j'arrête, je garde mes clients ? Il y a une clause de non-concurrence (durée, zone) ?
+- [x] Si j'arrête, je garde mes clients ? → oui Il y a une clause de non-concurrence (durée, zone) ?
 - [x] Combien de demandes de clients arrivent par mois sur notre zone, sur toute l'année ? → environ 3 par an, plus ceux d'Aurélien (nombre inconnu)
 - [x] Qu'est-ce qui garantit que les clients de la zone me seront vraiment transmis ? C'est écrit dans le contrat ? → une clause dans le contrat d'Aurélien (à lire)
 - [x] La formation, c'est 4 ou 8 jours ? → 7 jours (4 de formation et 3 de certifications)
-- [ ] Le trajet et le logement sont à ma charge ?
+- [x] Le trajet et le logement sont à ma charge ? → oui, à Toulouse
 - [ ] Combien coûtent les séminaires ? Ils sont obligatoires ?
 - [x] La franchise peut accélérer mon dossier SAP ? → non pour l'agrément, oui pour l'avance immédiate une fois l'agrément obtenu
 - [ ] Vous pouvez m'envoyer le DIP et le contrat type ? (Il doit être remis au moins 20 jours avant la signature.)
