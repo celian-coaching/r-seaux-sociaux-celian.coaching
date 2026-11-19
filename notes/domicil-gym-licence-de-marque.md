@@ -134,3 +134,18 @@ Un client régulier, c'est 1 séance par semaine sur 44 semaines par an ≈ 3,7 
 | Me verser 1 500 €/mois | **15 clients réguliers** | 11 clients |
 
 Pas compté : l'impôt sur le revenu, le loyer et la vie perso, la mutuelle. L'ACRE (si j'y ai droit) divise environ par deux les cotisations la 1re année.
+
+## Scénario 2027-2029 : 20 000 €, puis 30 000 €, puis 40 000 € de CA
+Hypothèses : séance à 70 €, frais fixes ≈ 820 €/mois (CFE gratuite en 2027), redevance de 6 %, cotisations ≈ 26,3 %, essence et parking ≈ 5 € par séance.
+
+| Année | CA | Séances/semaine | Ce qui me reste (Domicil'Gym) | Par mois | Seul, même CA |
+|---|---|---|---|---|---|
+| 2027 | 20 000 € | ≈ 6,5 | ≈ 2 600 € | ≈ 215 € | ≈ 765 €/mois |
+| 2028 | 30 000 € | ≈ 10 | ≈ 8 300 € | ≈ 695 € | ≈ 1 295 €/mois |
+| 2029 | 40 000 € | ≈ 13 | ≈ 14 400 € | ≈ 1 200 € | ≈ 1 850 €/mois |
+| **3 ans** | 90 000 € | | **≈ 25 300 €** | ≈ 700 € en moyenne | ≈ 46 900 € (≈ 1 300 €/mois) |
+
+- C'est rentable (jamais dans le rouge), mais 2027 ne permet pas d'en vivre.
+- À CA égal, la franchise coûte ≈ 21 500 € sur 3 ans. Elle vaut le coup seulement si, sans elle, je ferais au moins ≈ 11 000 € de CA en moins par an (≈ 3 à 4 clients réguliers).
+- Avec l'ACRE en 2027, il me resterait ≈ 5 200 € (≈ 435 €/mois).
+- À vérifier avec France Travail : le maintien de l'ARE (ou l'ARCE) pendant le démarrage.
