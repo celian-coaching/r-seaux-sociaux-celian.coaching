@@ -104,3 +104,33 @@ Seuil de rentabilité : environ 3,5 clients réguliers sur toute l'année apport
 ## Ma règle de décision
 - **Je fonce si** : on me montre des chiffres concrets de demandes sur la zone (au moins 2 à 3 clients réguliers dès le départ), je garde mes clients si j'arrête, et il n'y a pas de clause de non-concurrence bloquante.
 - **Sinon** : j'attends la réponse SAP avant de décider.
+
+## Budget complet (estimation du 19/11, à 70 € la séance)
+Charges fixes par mois, pendant les 3 premières années :
+
+| Poste | Par mois |
+|---|---|
+| Droit d'entrée Domicil'Gym (8 800 € ÷ 36) | 244 € |
+| Site et maintenance Domicil'Gym | 140 € |
+| Formation à Toulouse (trajet, logement, repas ≈ 900 € ÷ 36) | 25 € |
+| Séminaires (estimation, ≈ 500 €/an) | 40 € |
+| Voiture (5 000 € amortis sur 3 ans) | 139 € |
+| Assurance auto avec usage pro | ≈ 80 € |
+| Entretien, pneus, contrôle technique | ≈ 40 € |
+| RC pro | ≈ 20 € |
+| Téléphone (part pro) | ≈ 20 € |
+| Compte bancaire pro | ≈ 10 € |
+| CFE (gratuite la 1re année) | ≈ 25 € |
+| Petit matériel, tenue | ≈ 20 € |
+| Logiciels (Canva…) | ≈ 15 € |
+| **Total** | **≈ 820 €/mois** |
+
+Ce qui reste sur une séance à 70 € : 70 − 4,20 (redevance de 6 %) − 18,40 (cotisations Urssaf ≈ 26,3 %) − 5 (essence et parking) ≈ **42 €**.
+Un client régulier, c'est 1 séance par semaine sur 44 semaines par an ≈ 3,7 séances par mois ≈ **155 €/mois**.
+
+| Objectif | Avec Domicil'Gym | Seul (avec SAP) |
+|---|---|---|
+| Couvrir les frais (0 € pour moi) | **6 clients réguliers** | 3 clients |
+| Me verser 1 500 €/mois | **15 clients réguliers** | 11 clients |
+
+Pas compté : l'impôt sur le revenu, le loyer et la vie perso, la mutuelle. L'ACRE (si j'y ai droit) divise environ par deux les cotisations la 1re année.
