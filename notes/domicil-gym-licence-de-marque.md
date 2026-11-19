@@ -30,7 +30,7 @@ Dernière mise à jour : 19/11/2026
 - **Séminaires** : prix inconnu, pas obligatoires (selon Aurélien).
 - **SAP** : il faut attendre mon agrément. Une fois que je l'ai, l'avance immédiate ira plus vite chez eux, parce que les logiciels sont déjà prêts.
 - **Si j'arrête** : je garde mes clients.
-- **Frais mensuels obligatoires** : 95 € + 45 € par mois pour l'accès au site et la maintenance, soit 140 €/mois (≈ 1 680 €/an). À confirmer : HT ou TTC ?
+- **Frais mensuels obligatoires** : 95 € + 45 € par mois pour l'accès au site et la maintenance, soit 140 €/mois (≈ 1 680 €/an). Ces frais continuent après les 3 ans, mais les 8 800 € ne sont pas à repayer. À confirmer : HT ou TTC ?
 - **Matériel** : 3 000 € de matériel compris dans les 8 800 €. Le contenu n'est pas encore précisé.
 - **Formation** : à Toulouse, trajet et logement à ma charge.
 - **Zone** : la même que celle d'Aurélien (le périmètre exact est à lui demander). Il n'y a plus de zone libre sur Lyon, donc pas de franchise en solo possible : avec Domicil'Gym, c'est forcément en licence de marque.
@@ -74,6 +74,8 @@ Exemple avec un CA de 25 000 €, puis 35 000 €, puis 45 000 € :
 | Formation à Toulouse (trajet, logement), répartie sur 3 ans | ≈ 300 € |
 | **Total** | **≈ 7 000 €/an, soit ≈ 21 000 € sur 3 ans** |
 
+**Après les 3 ans** : seulement 140 €/mois + 6 % du CA, soit ≈ 3 800 à 5 000 €/an selon le CA (la redevance est plafonnée à 3 300 €).
+
 Seuil de rentabilité : environ 3,5 clients réguliers sur toute l'année apportés par Domicil'Gym ou Aurélien. 3 clients par an via Domicil'Gym ne suffisent pas, **tout dépend d'Aurélien**.
 
 ## Questions pour Aurélien
@@ -83,7 +85,7 @@ Seuil de rentabilité : environ 3,5 clients réguliers sur toute l'année apport
 - [ ] Quel est le périmètre exact de la zone ? Comment on se répartit les clients ?
 - [ ] Si toi tu quittes Domicil'Gym, il se passe quoi pour moi ?
 - [ ] Il y a une clause de non-concurrence (je garde mes clients, mais est-ce que je peux continuer à coacher à Lyon) ?
-- [ ] Les 140 €/mois, c'est HT ou TTC ? Ça continue après les 3 ans ?
+- [ ] Les 140 €/mois, c'est HT ou TTC ? (Ils continuent après les 3 ans : confirmé.)
 - [ ] Les 3 000 € de matériel, c'est quoi exactement ?
 
 ## Questions pour Pierre
