@@ -22,7 +22,7 @@ Dernière mise à jour : 19/11/2026
 
 ## Réponses de Pierre (appel du 19/11)
 - **Le coach de ma zone** s'appelle Aurélien.
-- **Clients** : environ 3 demandes par mois grâce à la communication Domicil'Gym (à confirmer, j'avais d'abord compris « par an »), plus ceux qu'Aurélien m'enverra.
+- **Clients** : environ **3 clients par an** grâce à la communication Domicil'Gym (confirmé, c'est par an et pas par mois), plus ceux qu'Aurélien m'enverra (nombre inconnu).
 - **Garantie** : c'est écrit dans les papiers. Aurélien a une clause qui l'oblige à m'envoyer des clients et à m'accompagner.
 - **Plafond de redevance** : confirmé, à 55 000 € de CA par an.
 - **Droit d'entrée de 8 800 €** : il comprend la formation, l'appli (facturation, suivi client…) et du matériel. Il est payable sur 3 ans, soit environ 244 €/mois.
@@ -56,12 +56,14 @@ Exemple avec un CA de 25 000 €, puis 35 000 €, puis 45 000 € :
 
 **Seuil de rentabilité** : Domicil'Gym doit me rapporter plus de 5 500 €/an. Ça fait environ 110 séances à 50 €, soit **2 à 3 séances par semaine qui viennent d'eux**, ou un tarif plus élevé grâce au SAP.
 
+**Mise à jour du 19/11** : 3 clients par an via Domicil'Gym, ça ne suffit pas pour être rentable. Un client régulier rapporte environ 2 000 €/an (1 séance/semaine à 50 €), donc 3 clients font environ 6 000 €/an au mieux s'ils restent toute l'année. Ça couvre à peine les 5 500 €/an. **La rentabilité dépend surtout du nombre de clients qu'Aurélien m'enverra** : c'est à chiffrer avec lui.
+
 **Attention** : ma demande de SAP est en cours de mon côté. Si je l'obtiens seul, la franchise perd une grosse partie de son intérêt.
 
 ## Questions pour Pierre
 - [x] Le plafond de redevance à 55 000 € existe vraiment ? → oui
 - [ ] Si j'arrête, je garde mes clients ? Il y a une clause de non-concurrence (durée, zone) ?
-- [x] Combien de demandes de clients arrivent par mois sur notre zone, sur toute l'année ? → environ 3 par mois, plus ceux d'Aurélien
+- [x] Combien de demandes de clients arrivent par mois sur notre zone, sur toute l'année ? → environ 3 par an, plus ceux d'Aurélien (nombre inconnu)
 - [x] Qu'est-ce qui garantit que les clients de la zone me seront vraiment transmis ? C'est écrit dans le contrat ? → une clause dans le contrat d'Aurélien (à lire)
 - [x] La formation, c'est 4 ou 8 jours ? → 7 jours (4 de formation et 3 de certifications)
 - [ ] Le trajet et le logement sont à ma charge ?
