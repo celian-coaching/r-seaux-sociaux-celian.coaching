@@ -1,11 +1,12 @@
 # Domicil'Gym : proposition de licence de marque
 
-Dernière mise à jour : 12/11/2026
+Dernière mise à jour : 19/11/2026
 
 ## Historique
 - **10/11** : appel avec le coach franchisé Domicil'Gym de ma zone, qui a trop de clients.
 - **12/11** : café avec lui, réponses ci-dessous.
-- **À faire** : appeler Pierre (Domicil'Gym), faire le week-end de présentation en visio (gratuit, sans engagement), demander le DIP.
+- **19/11** : appel avec Pierre (Domicil'Gym), réponses ci-dessous.
+- **À faire** : lire tout ce qu'il a envoyé sur ma page Cerca, demander le DIP, trouver la date du prochain week-end de présentation.
 
 ## Ce qu'on sait (réponses du café du 12/11)
 - **Contrat** : signé avec Domicil'Gym directement. Je suis coach Domicil'Gym à part entière, en licence de marque.
@@ -18,6 +19,17 @@ Dernière mise à jour : 12/11/2026
 - **Outils numériques** : gratuits. Agenda, facturation automatique, bibliothèque d'exercices. Je les ai vus, c'est très complet.
 - **Ma marque** : je garde celian.coaching. Ils peuvent demander le t-shirt Domicil'Gym et un tag sur mes posts.
 - **Volume de clients** : pas de chiffre donné. Période creuse en ce moment, ça varie selon les moments.
+
+## Réponses de Pierre (appel du 19/11)
+- **Le coach de ma zone** s'appelle Aurélien.
+- **Clients** : environ 3 demandes par mois grâce à la communication Domicil'Gym (à confirmer, j'avais d'abord compris « par an »), plus ceux qu'Aurélien m'enverra.
+- **Garantie** : c'est écrit dans les papiers. Aurélien a une clause qui l'oblige à m'envoyer des clients et à m'accompagner.
+- **Plafond de redevance** : confirmé, à 55 000 € de CA par an.
+- **Droit d'entrée de 8 800 €** : il comprend la formation, l'appli (facturation, suivi client…) et du matériel. Il est payable sur 3 ans, soit environ 244 €/mois.
+- **Formation** : 7 jours, dont 4 jours d'apprentissage et 3 jours de certifications.
+- **Séminaires** : prix inconnu, pas obligatoires (selon Aurélien).
+- **SAP** : il faut attendre mon agrément. Une fois que je l'ai, l'avance immédiate ira plus vite chez eux, parce que les logiciels sont déjà prêts.
+- **Pas encore reçus** : le DIP et la date du prochain week-end de présentation.
 
 ## Infos de l'appel du 10/11 (à reconfirmer)
 - Plafond de redevance à 55 000 € de CA.
@@ -47,13 +59,14 @@ Exemple avec un CA de 25 000 €, puis 35 000 €, puis 45 000 € :
 **Attention** : ma demande de SAP est en cours de mon côté. Si je l'obtiens seul, la franchise perd une grosse partie de son intérêt.
 
 ## Questions pour Pierre
-- [ ] Le plafond de redevance à 55 000 € existe vraiment ?
+- [x] Le plafond de redevance à 55 000 € existe vraiment ? → oui
 - [ ] Si j'arrête, je garde mes clients ? Il y a une clause de non-concurrence (durée, zone) ?
-- [ ] Combien de demandes de clients arrivent par mois sur notre zone, sur toute l'année ?
-- [ ] Qu'est-ce qui garantit que les clients de la zone me seront vraiment transmis ? C'est écrit dans le contrat ?
-- [ ] La formation, c'est 4 ou 8 jours ? Le trajet et le logement sont à ma charge ?
+- [x] Combien de demandes de clients arrivent par mois sur notre zone, sur toute l'année ? → environ 3 par mois, plus ceux d'Aurélien
+- [x] Qu'est-ce qui garantit que les clients de la zone me seront vraiment transmis ? C'est écrit dans le contrat ? → une clause dans le contrat d'Aurélien (à lire)
+- [x] La formation, c'est 4 ou 8 jours ? → 7 jours (4 de formation et 3 de certifications)
+- [ ] Le trajet et le logement sont à ma charge ?
 - [ ] Combien coûtent les séminaires ? Ils sont obligatoires ?
-- [ ] La franchise peut accélérer mon dossier SAP ?
+- [x] La franchise peut accélérer mon dossier SAP ? → non pour l'agrément, oui pour l'avance immédiate une fois l'agrément obtenu
 - [ ] Vous pouvez m'envoyer le DIP et le contrat type ? (Il doit être remis au moins 20 jours avant la signature.)
 - [ ] Je peux avoir le contact d'un autre coach en licence de marque ?
 
