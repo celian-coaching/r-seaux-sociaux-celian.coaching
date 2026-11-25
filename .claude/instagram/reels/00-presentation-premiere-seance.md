@@ -4,7 +4,7 @@
 (`00-presentation-5-questions.md`). Rôle : montrer concrètement comment se passe
 une première séance, ce que les deux autres ne disent pas.
 Format : voix off sur un carnet filmé du dessus + plans de toi seul, étapes
-numérotées 1 → 4. ~38 s à 150 mots/min. CTA : DM « GO ».
+numérotées 1 → 4. ~40 s à 150 mots/min. CTA : message ou lien en bio.
 Rien sur les prix, le matériel ou l'engagement tant que ce n'est pas confirmé.
 
 Version tournée seul (pas de client à filmer) : un carnet filmé du dessus où tu
@@ -17,7 +17,7 @@ Version tournée seul (pas de client à filmer) : un carnet filmé du dessus où
 | 0:12-0:20 | Ensuite, je regarde comment tu bouges. Un squat, un peu d'équilibre, tes épaules. Ça me permet de savoir d'où on part. | 2. JE REGARDE COMMENT TU BOUGES | Toi seul, de profil : un squat lent, un équilibre sur un pied, une rotation d'épaules (1 plan court chacun) |
 | 0:20-0:28 | Après, on fait une vraie séance. Des mouvements simples, adaptés à ce que j'ai vu. Et je te corrige au fur et à mesure. | 3. ON S'ENTRAÎNE | Toi sur le tapis : 2 plans courts d'exercices, puis face cam tu montres un placement (main sur le bas du dos, « dos droit ») |
 | 0:28-0:33 | À la fin, je te dis ce que je te propose pour la suite. Et c'est toi qui décides. | 4. TU DÉCIDES | Retour carnet : tu écris « 4. Tu décides », tu poses le stylo |
-| 0:33-0:38 | Tu veux la faire, cette première séance ? Écris-moi GO en message. | ÉCRIS-MOI « GO » EN MESSAGE | Face cam : tu pointes le texte du doigt |
+| 0:33-0:40 | Tu veux la faire, cette première séance ? Envoie-moi un message ou clique sur le lien dans ma bio. | ENVOIE-MOI UN MESSAGE · LIEN EN BIO | Face cam : tu pointes le texte du doigt |
 
 Si un proche accepte un jour de jouer le client, on peut refaire les plans 1 à 4 avec lui.
 
@@ -43,7 +43,7 @@ Et je te corrige au fur et à mesure.
 Et c'est toi qui décides.
 
 Tu veux la faire, cette première séance ?
-Écris-moi GO en message.
+Envoie-moi un message ou clique sur le lien dans ma bio.
 ```
 
 ## Légende
@@ -51,7 +51,7 @@ Tu veux la faire, cette première séance ?
 ```
 Ta première séance avec moi, étape par étape : on discute, je regarde comment tu bouges, on s'entraîne, et après c'est toi qui décides.
 
-Coach sportif à domicile à Lyon et autour. Pour réserver la tienne, écris-moi GO en message.
+Coach sportif à domicile à Lyon et autour. Pour réserver la tienne, envoie-moi un message ou clique sur le lien dans ma bio.
 
 #coachsportiflyon #coachadomicile #remiseenforme
 ```
