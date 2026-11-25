@@ -2,7 +2,8 @@
 
 Dépôt de travail Instagram de Célian, coach sportif à domicile à Lyon.
 
-- Skills Instagram : `.claude/skills/ig-*`. Profil de voix : `.claude/instagram/voice.md`
+- Skills Instagram : `.claude/skills/ig-*`. Skill `find-skills` (vercel-labs/skills) pour chercher
+  d'autres skills. Profil de voix : `.claude/instagram/voice.md`
   (le copier dans `~/.claude/instagram/voice.md` en début de session, avec `log.md`).
 - Scripts validés : `.claude/instagram/reels/`. Historique : `.claude/instagram/log.md`.
 - Suivi tournage / publication : `.claude/instagram/suivi.md`.
