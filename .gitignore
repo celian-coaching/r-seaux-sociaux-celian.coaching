@@ -1,0 +1,7 @@
+# short-editing : fichiers générés à l'installation et aux montages
+.claude/skills/short-editing/.runtime/
+.claude/skills/short-editing/engine/node_modules/
+.claude/skills/short-editing/assets/music/*.mp3
+.claude/skills/short-editing/assets/icons/*.png
+.claude/skills/short-editing/assets/icons/glyph/
+video-agent/

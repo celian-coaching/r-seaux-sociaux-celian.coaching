@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "skills": {
+    "short-editing": {
+      "source": "melvynx/video-agent-skills",
+      "commit": "f4542923f7f796a1fa0e544cbfc1109d5eec87d8",
+      "sourceType": "github",
+      "skillPath": "skills/short-editing/SKILL.md",
+      "computedHash": "9223b6b01d44ea5531b60d6643de67445a9dec60105327d09af1747c30ac4e1c"
+    }
+  }
+}
