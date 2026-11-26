@@ -15,7 +15,7 @@ Version tournée seul (pas de client à filmer) : un carnet filmé du dessus où
 | 0:00-0:04 | Ta première séance avec moi. Voilà comment ça se passe. | TA 1RE SÉANCE AVEC MOI | Vu du dessus : carnet ouvert, tu écris « TA 1RE SÉANCE » au feutre |
 | 0:04-0:12 | D'abord, on s'assoit et on discute. Tes objectifs, ton niveau, ton emploi du temps. Et les douleurs que t'as déjà eues. | 1. ON DISCUTE | Carnet : tu écris « 1. On discute » puis la liste objectifs / niveau / emploi du temps / douleurs |
 | 0:12-0:20 | Ensuite, je regarde comment tu bouges. Un squat, un peu d'équilibre, tes épaules. Ça me permet de savoir d'où on part. | 2. JE REGARDE COMMENT TU BOUGES | Toi seul, de profil : un squat lent, un équilibre sur un pied, une rotation d'épaules (1 plan court chacun) |
-| 0:20-0:28 | Après, on fait une vraie séance. Des mouvements simples, adaptés à ce que j'ai vu. Et je te corrige au fur et à mesure. | 3. ON S'ENTRAÎNE | Toi sur le tapis : 2 plans courts d'exercices, puis face cam tu montres un placement (main sur le bas du dos, « dos droit ») |
+| 0:20-0:28 | Après, on fait une vraie séance. Des mouvements simples, adaptés à ce que j'ai vu. Et je te corrige au fur et à mesure. | 3. ON S'ENTRAÎNE | Toi sur le tapis, filmé de côté : 3 plans courts d'exercices (pont fessier, pompes sur les genoux, bird dog) |
 | 0:28-0:33 | À la fin, je te dis ce que je te propose pour la suite. Et c'est toi qui décides. | 4. TU DÉCIDES | Retour carnet : tu écris « 4. Tu décides », tu poses le stylo |
 | 0:33-0:40 | Tu veux la faire, cette première séance ? Envoie-moi un message ou clique sur le lien dans ma bio. | ENVOIE-MOI UN MESSAGE · LIEN EN BIO | Face cam : tu pointes le texte du doigt |
 
